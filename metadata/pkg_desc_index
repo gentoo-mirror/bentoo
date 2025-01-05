@@ -27,7 +27,6 @@ mail-client/thunderbird 133.0: Thunderbird Mail Client
 mail-client/thunderbird-bin 133.0: Thunderbird Mail Client
 mail-mta/protonmail-bridge 3.16.0: Serves Proton Mail to IMAP/SMTP clients
 mail-mta/protonmail-bridge-bin 3.16.0: The Bridge is an application that runs on your computer in the background and seamlessly encrypts and decrypts your mail as it enters and leaves your computer.
-media-gfx/gimp 3.0.0_rc2: GNU Image Manipulation Program
 media-gfx/imagemagick 7.1.1.39: A collection of tools and libraries for many image formats
 media-libs/mesa 25.0_pre20241224: OpenGL-like graphic library for Linux
 media-libs/vulkan-layers 1.4.304_p202411223: Vulkan Validation Layers
