@@ -61,6 +61,14 @@ app-emulation/virtualbox-kvm:udev - Controls installation of special USB udev ru
 app-emulation/virtualbox-kvm:vboxwebsrv - Build and install the VirtualBox webservice
 app-emulation/virtualbox-kvm:vde - Support for VDE networking via net-misc/vde
 app-emulation/virtualbox-kvm:vmmraw - Enable 32-bit support on a 64-bit kernel.
+app-misc/fastfetch:chafa - Enables text/graphics renderer with media-gfx/chafa
+app-misc/fastfetch:ddcutil - Use app-misc/ddcutil to query monitor settings
+app-misc/fastfetch:drm - Enables support for X.org's x11-libs/libdrm
+app-misc/fastfetch:elf - Use libelf to extract strings from binaries
+app-misc/fastfetch:osmesa - Enables offscreen rendering support from media-libs/mesa
+app-misc/fastfetch:vulkan - Enables reading GPU via media-libs/vulkan-loader
+app-misc/fastfetch:xfce - Enables support for XFCE config
+app-misc/fastfetch:xrandr - Enables support for Xrandr
 app-office/freeoffice:pax_kernel - Triggers a paxmarking of the binary
 app-office/libreoffice:base - Enable full support for LibreOffice Base databases (involves additional bundled libs)
 app-office/libreoffice:clang - Use Clang compiler instead of GCC
@@ -242,6 +250,10 @@ media-video/vlc:vpx - Enable the decoder(s) from the WebM VP8 / VP9 Codec SDK
 media-video/vlc:x265 - Support X265 Encoder
 media-video/vlc:zeroconf - Enable support for zero-configuration networking via avahi
 media-video/vlc:zvbi - Enable support for teletext subtitles via the zvbi library
+net-im/telegram-desktop:enchant - Use the app-text/enchant spell-checking backend instead of app-text/hunspell
+net-im/telegram-desktop:fonts - Use builtin patched copy of open-sans fonts (overrides fontconfig)
+net-im/telegram-desktop:libdispatch - Use dev-libs/libdispatch to speed up concurrent code execution
+net-im/telegram-desktop:qt6 - Build with Qt6 support
 net-libs/nodejs:corepack - Enable the experimental corepack package management tool
 net-libs/nodejs:inspector - Enable V8 inspector
 net-libs/nodejs:npm - Enable NPM package manager
