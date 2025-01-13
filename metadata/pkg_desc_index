@@ -35,7 +35,7 @@ media-libs/vulkan-loader 1.4.304_p20241223: Vulkan Installable Client Driver (IC
 media-video/ffmpeg 7.1: Complete solution to record/convert/stream audio and video. Includes libavcodec
 media-video/vlc 4.0.0_pre20241221: Media player and framework with support for most multimedia files and streaming
 net-ftp/filezilla-pro 3.68.1: Commercial verison of FileZilla
-net-im/discord-canary-bin 0.0.555: All-in-one voice and text chat
+net-im/discord-canary-bin 0.0.559: All-in-one voice and text chat
 net-im/signal-desktop-bin 7.37.0: Allows you to send and receive messages of Signal Messenger on your computer
 net-im/telegram-desktop 5.10.3: Official desktop client for Telegram
 net-libs/nodejs 23.6.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
