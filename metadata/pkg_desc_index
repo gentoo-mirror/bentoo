@@ -8,11 +8,10 @@ app-emulation/virtualbox-kvm 7.0.22_pre20240828: Family of powerful x86 virtuali
 app-misc/fastfetch 2.34.0: Fast neofetch-like system information tool
 app-office/freeoffice 1222: A complete, free Microsoft Office-compatible alternative office suite
 app-office/joplin-desktop 3.2.11: Secure note taking and to-do app with synchronization capabilities
-app-office/libreoffice 24.8.4 25.2.0.2: A full office productivity suite
-app-office/libreoffice-l10n 24.8.4 25.2.0.2: Translations for the Libreoffice suite
+app-office/libreoffice 24.8.4.2 25.2.0.2: A full office productivity suite
+app-office/libreoffice-l10n 24.8.4.2 25.2.0.2: Translations for the Libreoffice suite
 app-office/openoffice-bin 4.1.15: Apache OpenOffice productivity suite
 app-text/mupdf 1.25.2: A lightweight PDF viewer and toolkit written in portable C
-dev-db/mongodb-compass 1.45.0: The MongoDB GUI
 dev-libs/openssl 3.4.0: Robust, full-featured Open Source Toolkit for the Transport Layer Security (TLS)
 dev-util/glslang 1.4.304.0_p20250116: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
 dev-util/intel_clc 25.0_pre20250118: intel_clc tool used for building OpenCL C to SPIR-V
