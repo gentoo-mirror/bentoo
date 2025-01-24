@@ -21,74 +21,74 @@ dev-util/volk 1.4.304.0_p20250117: Meta loader for Vulkan API
 dev-util/vulkan-headers 1.4.305_p20250117: Vulkan Header files and API registry
 dev-util/vulkan-tools 1.4.305_p2020117: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
 dev-util/vulkan-utility-libraries 1.4.305_p20250117: Share code across various Vulkan repositories
-kde-plasma/bluedevil 6.2.90: Bluetooth stack for KDE Plasma
-kde-plasma/breeze 6.2.90: Breeze visual style for the Plasma desktop
-kde-plasma/breeze-grub 6.2.90: Breeze theme for GRUB
-kde-plasma/breeze-gtk 6.2.90: Official GTK+ port of Plasma's Breeze widget style
-kde-plasma/breeze-plymouth 6.2.90: Breeze theme for Plymouth
-kde-plasma/discover 6.2.90: KDE Plasma resources management GUI
-kde-plasma/drkonqi 6.2.90: Plasma crash handler, gives the user feedback if a program crashed
-kde-plasma/flatpak-kcm 6.2.90: Flatpak Permissions Management KCM
-kde-plasma/kactivitymanagerd 6.2.90: System service to manage user's activities, track the usage patterns etc.
-kde-plasma/kde-cli-tools 6.2.90: Tools based on KDE Frameworks 6 to better interact with the system
-kde-plasma/kde-cli-tools-common 6.2.90: Common files for kde-cli-tools
-kde-plasma/kde-gtk-config 6.2.90: Syncs KDE Plasma theme settings to GTK applications
-kde-plasma/kdecoration 6.2.90: Plugin based library to create window decorations
-kde-plasma/kdeplasma-addons 6.2.90: Extra Plasma applets and engines
-kde-plasma/kdesu-gui 6.2.90: Graphical frontend for KDE Frameworks' kdesu
-kde-plasma/keditfiletype 6.2.90: File Type Editor
-kde-plasma/kgamma 6.2.90: Screen gamma values kcontrol module
-kde-plasma/kglobalacceld 6.2.90: Daemon providing Global Keyboard Shortcut (Accelerator) functionality
-kde-plasma/kinfocenter 6.2.90: Utility providing information about the computer hardware
-kde-plasma/kmenuedit 6.2.90: KDE Plasma menu editor
-kde-plasma/kpipewire 6.2.90: Components relating to Flatpak pipewire use in Plasma
-kde-plasma/krdp 6.2.90: Library and examples for creating an RDP server
-kde-plasma/kscreen 6.2.90: KDE Plasma screen management
-kde-plasma/kscreenlocker 6.2.90: Library and components for secure lock screen architecture
-kde-plasma/ksshaskpass 6.2.90: Implementation of ssh-askpass with KDE Wallet integration
-kde-plasma/ksystemstats 6.2.90: Plugin-based system monitoring daemon
-kde-plasma/kwallet-pam 6.2.90: PAM module to not enter KWallet password again after login
-kde-plasma/kwayland 6.2.90: Qt-style API to interact with the wayland-client API
-kde-plasma/kwayland-integration 6.2.90: Provides KWindowSystem integration plugin for Wayland
-kde-plasma/kwin 6.2.90: Flexible, composited Window Manager for windowing systems on Linux
-kde-plasma/kwrited 6.2.90: KDE Plasma daemon listening for wall and write messages
-kde-plasma/layer-shell-qt 6.2.90: Qt component to allow applications make use of Wayland wl-layer-shell protocol
-kde-plasma/libkscreen 6.2.90: Plasma screen management library
-kde-plasma/libksysguard 6.2.90: Task management and system monitoring library
-kde-plasma/libplasma 6.2.90: Plasma library and runtime components based upon KF6 and Qt6
-kde-plasma/milou 6.2.90: Dedicated search application built on top of Baloo
-kde-plasma/ocean-sound-theme 6.2.90: Ocean Sound Theme for Plasma
-kde-plasma/oxygen 6.2.90: Oxygen visual style for the Plasma desktop
-kde-plasma/oxygen-sounds 6.2.90: Oxygen sound theme for the Plasma desktop
-kde-plasma/plasma-activities 6.2.90: Core components for KDE's Activities System
-kde-plasma/plasma-activities-stats 6.2.90: Library for accessing usage data collected by the activities system
-kde-plasma/plasma-browser-integration 6.2.90: Integrate Chrome/Firefox better into Plasma through browser extensions
-kde-plasma/plasma-desktop 6.2.90: KDE Plasma desktop
-kde-plasma/plasma-disks 6.2.90: Monitors S.M.A.R.T. capable devices for imminent failure
-kde-plasma/plasma-firewall 6.2.90: Plasma frontend for Firewalld or UFW
-kde-plasma/plasma-integration 6.2.90: Qt Platform Theme integration plugins for the Plasma workspaces
-kde-plasma/plasma-login-sessions 6.2.90: KDE Plasma login sessions
-kde-plasma/plasma-meta 6.2.90: Merge this to pull in all Plasma 6 packages
+kde-plasma/bluedevil 6.2.91: Bluetooth stack for KDE Plasma
+kde-plasma/breeze 6.2.91: Breeze visual style for the Plasma desktop
+kde-plasma/breeze-grub 6.2.91: Breeze theme for GRUB
+kde-plasma/breeze-gtk 6.2.91: Official GTK+ port of Plasma's Breeze widget style
+kde-plasma/breeze-plymouth 6.2.91: Breeze theme for Plymouth
+kde-plasma/discover 6.2.91: KDE Plasma resources management GUI
+kde-plasma/drkonqi 6.2.91: Plasma crash handler, gives the user feedback if a program crashed
+kde-plasma/flatpak-kcm 6.2.91: Flatpak Permissions Management KCM
+kde-plasma/kactivitymanagerd 6.2.91: System service to manage user's activities, track the usage patterns etc.
+kde-plasma/kde-cli-tools 6.2.91: Tools based on KDE Frameworks 6 to better interact with the system
+kde-plasma/kde-cli-tools-common 6.2.91: Common files for kde-cli-tools
+kde-plasma/kde-gtk-config 6.2.91: Syncs KDE Plasma theme settings to GTK applications
+kde-plasma/kdecoration 6.2.91: Plugin based library to create window decorations
+kde-plasma/kdeplasma-addons 6.2.91: Extra Plasma applets and engines
+kde-plasma/kdesu-gui 6.2.91: Graphical frontend for KDE Frameworks' kdesu
+kde-plasma/keditfiletype 6.2.91: File Type Editor
+kde-plasma/kgamma 6.2.91: Screen gamma values kcontrol module
+kde-plasma/kglobalacceld 6.2.91: Daemon providing Global Keyboard Shortcut (Accelerator) functionality
+kde-plasma/kinfocenter 6.2.91: Utility providing information about the computer hardware
+kde-plasma/kmenuedit 6.2.91: KDE Plasma menu editor
+kde-plasma/kpipewire 6.2.91: Components relating to Flatpak pipewire use in Plasma
+kde-plasma/krdp 6.2.91: Library and examples for creating an RDP server
+kde-plasma/kscreen 6.2.91: KDE Plasma screen management
+kde-plasma/kscreenlocker 6.2.91: Library and components for secure lock screen architecture
+kde-plasma/ksshaskpass 6.2.91: Implementation of ssh-askpass with KDE Wallet integration
+kde-plasma/ksystemstats 6.2.91: Plugin-based system monitoring daemon
+kde-plasma/kwallet-pam 6.2.91: PAM module to not enter KWallet password again after login
+kde-plasma/kwayland 6.2.91: Qt-style API to interact with the wayland-client API
+kde-plasma/kwayland-integration 6.2.91: Provides KWindowSystem integration plugin for Wayland
+kde-plasma/kwin 6.2.91: Flexible, composited Window Manager for windowing systems on Linux
+kde-plasma/kwrited 6.2.91: KDE Plasma daemon listening for wall and write messages
+kde-plasma/layer-shell-qt 6.2.91: Qt component to allow applications make use of Wayland wl-layer-shell protocol
+kde-plasma/libkscreen 6.2.91: Plasma screen management library
+kde-plasma/libksysguard 6.2.91: Task management and system monitoring library
+kde-plasma/libplasma 6.2.91: Plasma library and runtime components based upon KF6 and Qt6
+kde-plasma/milou 6.2.91: Dedicated search application built on top of Baloo
+kde-plasma/ocean-sound-theme 6.2.91: Ocean Sound Theme for Plasma
+kde-plasma/oxygen 6.2.91: Oxygen visual style for the Plasma desktop
+kde-plasma/oxygen-sounds 6.2.91: Oxygen sound theme for the Plasma desktop
+kde-plasma/plasma-activities 6.2.91: Core components for KDE's Activities System
+kde-plasma/plasma-activities-stats 6.2.91: Library for accessing usage data collected by the activities system
+kde-plasma/plasma-browser-integration 6.2.91: Integrate Chrome/Firefox better into Plasma through browser extensions
+kde-plasma/plasma-desktop 6.2.91: KDE Plasma desktop
+kde-plasma/plasma-disks 6.2.91: Monitors S.M.A.R.T. capable devices for imminent failure
+kde-plasma/plasma-firewall 6.2.91: Plasma frontend for Firewalld or UFW
+kde-plasma/plasma-integration 6.2.91: Qt Platform Theme integration plugins for the Plasma workspaces
+kde-plasma/plasma-login-sessions 6.2.91: KDE Plasma login sessions
+kde-plasma/plasma-meta 6.2.91: Merge this to pull in all Plasma 6 packages
 kde-plasma/plasma-mimeapps-list 1: Gentoo curated mimeapps list for KDE Plasma
-kde-plasma/plasma-nm 6.2.90: KDE Plasma applet for NetworkManager
-kde-plasma/plasma-pa 6.2.90: Plasma applet for audio volume management using PulseAudio
-kde-plasma/plasma-sdk 6.2.90: Useful applications for Plasma development
-kde-plasma/plasma-systemmonitor 6.2.90: Monitor system sensors, process information and other system resources
-kde-plasma/plasma-thunderbolt 6.2.90: Plasma integration for controlling Thunderbolt devices
-kde-plasma/plasma-vault 6.2.90: Plasma applet and services for creating encrypted vaults
-kde-plasma/plasma-welcome 6.2.90: Friendly onboarding wizard for Plasma
-kde-plasma/plasma-workspace 6.2.90: KDE Plasma workspace
-kde-plasma/plasma-workspace-wallpapers 6.2.90: Wallpapers for the Plasma workspace
-kde-plasma/plasma5support 6.2.90: Support components for porting from KF5/Qt5 to KF6/Qt6
-kde-plasma/plymouth-kcm 6.2.90: KDE Plasma control module for Plymouth
-kde-plasma/polkit-kde-agent 6.2.90: PolKit agent module for KDE Plasma
-kde-plasma/powerdevil 6.2.90: Power management for KDE Plasma Shell
-kde-plasma/print-manager 6.2.90: Manage CUPS print jobs and printers in Plasma
-kde-plasma/qqc2-breeze-style 6.2.90: Breeze inspired QQC2 Style
-kde-plasma/sddm-kcm 6.2.90: KDE Plasma control module for SDDM
-kde-plasma/systemsettings 6.2.90: Control Center to configure KDE Plasma desktop
-kde-plasma/wacomtablet 6.2.90: Wacom system settings module that supports different button/pen layout profiles
-kde-plasma/xdg-desktop-portal-kde 6.2.90: Backend implementation for xdg-desktop-portal that is using Qt/KDE Frameworks
+kde-plasma/plasma-nm 6.2.91: KDE Plasma applet for NetworkManager
+kde-plasma/plasma-pa 6.2.91: Plasma applet for audio volume management using PulseAudio
+kde-plasma/plasma-sdk 6.2.91: Useful applications for Plasma development
+kde-plasma/plasma-systemmonitor 6.2.91: Monitor system sensors, process information and other system resources
+kde-plasma/plasma-thunderbolt 6.2.91: Plasma integration for controlling Thunderbolt devices
+kde-plasma/plasma-vault 6.2.91: Plasma applet and services for creating encrypted vaults
+kde-plasma/plasma-welcome 6.2.91: Friendly onboarding wizard for Plasma
+kde-plasma/plasma-workspace 6.2.91: KDE Plasma workspace
+kde-plasma/plasma-workspace-wallpapers 6.2.91: Wallpapers for the Plasma workspace
+kde-plasma/plasma5support 6.2.91: Support components for porting from KF5/Qt5 to KF6/Qt6
+kde-plasma/plymouth-kcm 6.2.91: KDE Plasma control module for Plymouth
+kde-plasma/polkit-kde-agent 6.2.91: PolKit agent module for KDE Plasma
+kde-plasma/powerdevil 6.2.91: Power management for KDE Plasma Shell
+kde-plasma/print-manager 6.2.91: Manage CUPS print jobs and printers in Plasma
+kde-plasma/qqc2-breeze-style 6.2.91: Breeze inspired QQC2 Style
+kde-plasma/sddm-kcm 6.2.91: KDE Plasma control module for SDDM
+kde-plasma/systemsettings 6.2.91: Control Center to configure KDE Plasma desktop
+kde-plasma/wacomtablet 6.2.91: Wacom system settings module that supports different button/pen layout profiles
+kde-plasma/xdg-desktop-portal-kde 6.2.91: Backend implementation for xdg-desktop-portal that is using Qt/KDE Frameworks
 mail-client/betterbird-bin 128.6: Betterbird is a fine-tuned version of Mozilla Thunderbird.
 mail-client/protonmail-bin 1.6.1: Official Beta Proton Mail Linux app
 mail-client/thunderbird 133.0: Thunderbird Mail Client
