@@ -345,3 +345,8 @@ www-client/librewolf:system-python-libs - Use system's python site instead of bu
 www-client/librewolf:system-webp - Use the system-wide media-libs/libwebp instead of bundled
 www-client/librewolf:wasm - Sandbox certain third-party libraries through WebAssembly using RLBox
 www-client/librewolf:wifi - Enable necko-wifi for NetworkManager integration, and access point MAC address scanning for better precision with opt-in geolocation services
+x11-drivers/nvidia-drivers:kernel-open - Use the open source variant of the drivers (Turing/Ampere+ GPUs only, aka GTX 1650+ -- recommended with >=560.xx drivers if usable)
+x11-drivers/nvidia-drivers:persistenced - Install the persistence daemon for keeping devices state when unused (e.g. for headless)
+x11-drivers/nvidia-drivers:powerd - Install the NVIDIA dynamic boost support daemon (only useful with specific laptops, ignore if unsure)
+x11-drivers/nvidia-drivers:static-libs - Install the XNVCtrl static library for accessing sensors and other features
+x11-drivers/nvidia-drivers:tools - Install additional tools such as nvidia-settings

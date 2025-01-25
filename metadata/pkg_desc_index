@@ -118,3 +118,4 @@ sys-libs/libnvidia-container 1.17.4: NVIDIA container runtime library
 www-client/brave-bin 1.74.50: Web browser that blocks ads and trackers by default
 www-client/librewolf 134.0.2_p1: LibreWolf Web Browser
 www-client/torbrowser-bin 14.0.2: The Tor Browser
+x11-drivers/nvidia-drivers 565.77 570.86.10: NVIDIA Accelerated Graphics Driver
