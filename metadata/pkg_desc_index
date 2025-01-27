@@ -3,11 +3,10 @@ app-containers/pods 2.1.2: Keep track of your podman containers
 app-emulation/virtualbox 7.1.6: Family of powerful x86 virtualization products for enterprise and home use
 app-emulation/virtualbox-kvm 7.1.4_pre20241220: Family of powerful x86 virtualization products for enterprise and home use
 app-office/freeoffice 1222: A complete, free Microsoft Office-compatible alternative office suite
-app-office/joplin-desktop 3.2.12: Secure note taking and to-do app with synchronization capabilities
 app-office/libreoffice 24.8.4.2 25.2.0.3: A full office productivity suite
 app-office/libreoffice-l10n 24.8.4.2 25.2.0.3: Translations for the Libreoffice suite
 app-office/openoffice-bin 4.1.15: Apache OpenOffice productivity suite
-app-text/mupdf 1.25.3: A lightweight PDF viewer and toolkit written in portable C
+app-text/mupdf 1.25.4: A lightweight PDF viewer and toolkit written in portable C
 dev-libs/openssl 3.4.0: Robust, full-featured Open Source Toolkit for the Transport Layer Security (TLS)
 dev-util/glslang 1.4.304.0_p20250123: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
 dev-util/intel_clc 25.0_pre20250125: intel_clc tool used for building OpenCL C to SPIR-V
@@ -99,7 +98,7 @@ media-video/ffmpeg 7.1: Complete solution to record/convert/stream audio and vid
 media-video/obs-studio 31.0.1: Software for Recording and Streaming Live Video Content
 media-video/vlc 4.0.0_pre20241221: Media player and framework with support for most multimedia files and streaming
 net-ftp/filezilla-pro 3.68.1: Commercial verison of FileZilla
-net-im/telegram-desktop 5.10.5: Official desktop client for Telegram
+net-im/telegram-desktop 5.10.6: Official desktop client for Telegram
 net-libs/nodejs 23.6.1: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-misc/networkmanager 1.51.4: A set of co-operative tools that make networking simple and straightforward
 net-misc/onionshare 2.6.2: Securely and anonymously share files of any size behind a TOR hidden service.
