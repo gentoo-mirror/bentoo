@@ -98,6 +98,7 @@ media-video/ffmpeg 7.1: Complete solution to record/convert/stream audio and vid
 media-video/obs-studio 31.0.1: Software for Recording and Streaming Live Video Content
 media-video/vlc 4.0.0_pre20241221: Media player and framework with support for most multimedia files and streaming
 net-ftp/filezilla-pro 3.68.1: Commercial verison of FileZilla
+net-im/discord 0.0.82: All-in-one voice and text chat for gamers
 net-im/telegram-desktop 5.10.6: Official desktop client for Telegram
 net-libs/nodejs 23.6.1: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-misc/networkmanager 1.51.4: A set of co-operative tools that make networking simple and straightforward
@@ -105,7 +106,6 @@ net-misc/onionshare 2.6.2: Securely and anonymously share files of any size behi
 net-misc/postman-bin 11.29.5: API platform for building and using APIs
 net-misc/rsync 3.4.1: File transfer program to keep remote files into sync
 net-p2p/bisq-bin 1.9.18: The decentralized bitcoin exchange (non-atomic, with arbitration)
-net-p2p/qbittorrent 5.0.3: BitTorrent client in C++ and Qt
 net-wireless/wpa_supplicant 2.11: IEEE 802.1X/WPA supplicant for secure wireless transfers
 sys-apps/bentoo-utils 0.1.9-r1: Utility for managing Git operations for the Bentoo project
 sys-apps/busybox 1.37.0: Utilities for rescue and embedded systems
