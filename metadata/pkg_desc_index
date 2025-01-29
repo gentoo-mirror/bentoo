@@ -1,6 +1,6 @@
 app-admin/bitwarden-desktop-bin 2025.1.3: Bitwarden password manager desktop client
 app-containers/pods 2.1.2: Keep track of your podman containers
-app-emulation/virtualbox 7.1.6: Family of powerful x86 virtualization products for enterprise and home use
+app-emulation/virtualbox 7.1.6a: Family of powerful x86 virtualization products for enterprise and home use
 app-emulation/virtualbox-kvm 7.1.4_pre20241220: Family of powerful x86 virtualization products for enterprise and home use
 app-office/freeoffice 1222: A complete, free Microsoft Office-compatible alternative office suite
 app-office/libreoffice 24.8.4.2 25.2.0.3: A full office productivity suite
