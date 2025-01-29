@@ -90,7 +90,7 @@ mail-client/thunderbird 133.0: Thunderbird Mail Client
 mail-client/thunderbird-bin 133.0: Thunderbird Mail Client
 mail-mta/protonmail-bridge 3.16.0: Serves Proton Mail to IMAP/SMTP clients
 mail-mta/protonmail-bridge-bin 3.16.0: The Bridge is an application that runs on your computer in the background and seamlessly encrypts and decrypts your mail as it enters and leaves your computer.
-media-gfx/imagemagick 7.1.1.43: A collection of tools and libraries for many image formats
+media-gfx/imagemagick 7.1.1.39: A collection of tools and libraries for many image formats
 media-libs/mesa 25.0_pre20250125: OpenGL-like graphic library for Linux
 media-libs/vulkan-layers 1.4.306_p20250124: Vulkan Validation Layers
 media-libs/vulkan-loader 1.4.306_p20250124: Vulkan Installable Client Driver (ICD) Loader
@@ -99,11 +99,11 @@ media-video/obs-studio 31.0.1: Software for Recording and Streaming Live Video C
 media-video/vlc 4.0.0_pre20241221: Media player and framework with support for most multimedia files and streaming
 net-ftp/filezilla-pro 3.68.1: Commercial verison of FileZilla
 net-im/discord 0.0.82: All-in-one voice and text chat for gamers
-net-im/telegram-desktop 5.10.6: Official desktop client for Telegram
+net-im/telegram-desktop 5.10.7: Official desktop client for Telegram
 net-libs/nodejs 23.6.1: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-misc/networkmanager 1.51.4: A set of co-operative tools that make networking simple and straightforward
 net-misc/onionshare 2.6.2: Securely and anonymously share files of any size behind a TOR hidden service.
-net-misc/postman-bin 11.29.5: API platform for building and using APIs
+net-misc/postman-bin 11.30.1: API platform for building and using APIs
 net-misc/rsync 3.4.1: File transfer program to keep remote files into sync
 net-p2p/bisq-bin 1.9.18: The decentralized bitcoin exchange (non-atomic, with arbitration)
 net-wireless/wpa_supplicant 2.11: IEEE 802.1X/WPA supplicant for secure wireless transfers
