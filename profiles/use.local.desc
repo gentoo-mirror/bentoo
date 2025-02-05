@@ -40,6 +40,12 @@ dev-libs/openssl:sslv3 - Support for the old/insecure SSLv3 protocol -- note: no
 dev-libs/openssl:tls-compression - Enable support for discouraged TLS compression
 dev-libs/openssl:tls-heartbeat - Enable the Heartbeat Extension in TLS and DTLS
 dev-libs/openssl:weak-ssl-ciphers - Build support for SSL/TLS ciphers that are considered "weak"
+dev-util/nvidia-cuda-toolkit:debugger - Install the CUDA debugger
+dev-util/nvidia-cuda-toolkit:nsight - Install profiling and optimizing tools (nsight-compute, nsight-systems)
+dev-util/nvidia-cuda-toolkit:profiler - Install the NVIDIA CUDA profiler (nvprof) and the related libraries
+dev-util/nvidia-cuda-toolkit:rdma - Enable infiniband support via sys-cluster/rdma-core
+dev-util/nvidia-cuda-toolkit:sanitizer - Install compute-sanitizer tool
+dev-util/nvidia-cuda-toolkit:vis-profiler - Install the NVIDIA CUDA visual profiler (nvvp)
 dev-util/vulkan-tools:cube - Build the cube/cubepp demos
 mail-client/thunderbird:clang - Use Clang compiler instead of GCC
 mail-client/thunderbird:eme-free - Disable EME (DRM plugin) capability at build time
@@ -268,6 +274,21 @@ sys-apps/busybox:mdev - Create the appropriate symlink in /sbin and install mdev
 sys-apps/busybox:sep-usr - Support a separate /usr without needing an initramfs by booting with init=/ginit
 sys-apps/busybox:static - Make the system rescue shell (/bin/bb) static so you can recover even when glibc is broken
 sys-apps/busybox:systemd - Support systemd
+sys-apps/fwupd:amdgpu - Build and install AMD dGPU (Navi3x and above) plugin
+sys-apps/fwupd:amt - Build and install Intel AMT plugin
+sys-apps/fwupd:archive - Use app-arch/libarchive for archives support
+sys-apps/fwupd:cbor - Enable CBOR support for coSWID and uSWID via dev-libs/libcbor
+sys-apps/fwupd:fastboot - Build and install fastboot plugin
+sys-apps/fwupd:flashrom - Enable flashrom plugin via sys-apps/flashrom
+sys-apps/fwupd:gusb - Enable dev-libs/libgusb support
+sys-apps/fwupd:logitech - Build and install Logitech bulk controller plugin
+sys-apps/fwupd:modemmanager - Build and install Modem Manager plugin
+sys-apps/fwupd:nvme - Build and install NVMe plugin
+sys-apps/fwupd:spi - Install Intel-SPI plugin
+sys-apps/fwupd:synaptics - Install synaptics plugin
+sys-apps/fwupd:test-full - Enable tests known not to play nicely with the sandbox
+sys-apps/fwupd:tpm - Install Trusted Platform Module plugin
+sys-apps/fwupd:uefi - Enable UEFI support
 sys-apps/shadow:su - build the su program
 www-client/librewolf:clang - Use Clang compiler instead of GCC
 www-client/librewolf:eme-free - Disable EME (DRM plugin) capability at build time

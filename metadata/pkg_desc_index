@@ -10,13 +10,14 @@ app-text/mupdf 1.25.4: A lightweight PDF viewer and toolkit written in portable 
 dev-libs/openssl 3.4.0: Robust, full-featured Open Source Toolkit for the Transport Layer Security (TLS)
 dev-util/glslang 1.4.304.0_p20250123: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
 dev-util/intel_clc 25.0_pre20250125: intel_clc tool used for building OpenCL C to SPIR-V
+dev-util/nvidia-cuda-toolkit 12.8.0: NVIDIA CUDA Toolkit (compiler and friends)
 dev-util/spirv-headers 1.4.304.0_p20250116: Machine-readable files for the SPIR-V Registry
 dev-util/spirv-tools 1.4.304.0_p20250124: Provides an API and commands for processing SPIR-V modules
 dev-util/volk 1.4.306.0_p20250124: Meta loader for Vulkan API
 dev-util/vulkan-headers 1.4.306_p20250124: Vulkan Header files and API registry
 dev-util/vulkan-tools 1.4.306_p2020124: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
 dev-util/vulkan-utility-libraries 1.4.306_p20250124: Share code across various Vulkan repositories
-mail-client/betterbird-bin 128.6.1: Betterbird is a fine-tuned version of Mozilla Thunderbird.
+mail-client/betterbird-bin 128.7.0: Betterbird is a fine-tuned version of Mozilla Thunderbird.
 mail-client/protonmail-bin 1.6.1: Official Beta Proton Mail Linux app
 mail-client/thunderbird 133.0: Thunderbird Mail Client
 mail-client/thunderbird-bin 133.0: Thunderbird Mail Client
@@ -32,21 +33,22 @@ media-video/vlc 4.0.0_pre20241221: Media player and framework with support for m
 net-ftp/filezilla-pro 3.68.1: Commercial verison of FileZilla
 net-im/discord 0.0.84: All-in-one voice and text chat for gamers
 net-im/telegram-desktop 5.10.7: Official desktop client for Telegram
-net-libs/nodejs 23.6.1: A JavaScript runtime built on Chrome's V8 JavaScript engine
+net-libs/nodejs 23.7.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-misc/networkmanager 1.51.4: A set of co-operative tools that make networking simple and straightforward
 net-misc/onionshare 2.6.2: Securely and anonymously share files of any size behind a TOR hidden service.
-net-misc/postman-bin 11.30.1: API platform for building and using APIs
+net-misc/postman-bin 11.31.0: API platform for building and using APIs
 net-misc/rsync 3.4.1: File transfer program to keep remote files into sync
 net-p2p/bisq-bin 1.9.18: The decentralized bitcoin exchange (non-atomic, with arbitration)
 net-wireless/wpa_supplicant 2.11: IEEE 802.1X/WPA supplicant for secure wireless transfers
 sys-apps/bentoo-utils 0.1.9-r1: Utility for managing Git operations for the Bentoo project
 sys-apps/busybox 1.37.0: Utilities for rescue and embedded systems
 sys-apps/flatpak 1.16.0: Linux application sandboxing and distribution framework
+sys-apps/fwupd 2.0.5: Aims to make updating firmware on Linux automatic, safe and reliable
 sys-apps/shadow 4.16.0: Utilities to deal with user accounts
 sys-boot/etcher-bin 1.19.25: Flash OS images to SD cards & USB drives, safely and easily.
 sys-boot/plymouth-openrc-plugin 0.3.0-r2: Plymouth plugin for OpenRC
 sys-libs/libnvidia-container 1.17.4: NVIDIA container runtime library
-www-client/brave-bin 1.74.50: Web browser that blocks ads and trackers by default
+www-client/brave-bin 1.74.51: Web browser that blocks ads and trackers by default
 www-client/librewolf 134.0.2_p1: LibreWolf Web Browser
 www-client/torbrowser-bin 14.0.2: The Tor Browser
 x11-drivers/nvidia-drivers 565.77: NVIDIA Accelerated Graphics Driver
