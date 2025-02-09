@@ -17,6 +17,9 @@ dev-util/volk 1.4.308.0_p20250207: Meta loader for Vulkan API
 dev-util/vulkan-headers 1.4.307 1.4.307_p20250204: Vulkan Header files and API registry
 dev-util/vulkan-tools 1.4.307_p2020205: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
 dev-util/vulkan-utility-libraries 1.4.307_p20250131: Share code across various Vulkan repositories
+kde-plasma/breeze 6.2.5-r1: Breeze visual style for the Plasma desktop
+kde-plasma/oxygen 6.2.5-r1: Oxygen visual style for the Plasma desktop
+kde-plasma/plasma-integration 6.2.5-r1: Qt Platform Theme integration plugins for the Plasma workspaces
 mail-client/betterbird-bin 128.7.0: Betterbird is a fine-tuned version of Mozilla Thunderbird.
 mail-client/protonmail-bin 1.6.1: Official Beta Proton Mail Linux app
 mail-client/thunderbird 135.0: Thunderbird Mail Client
