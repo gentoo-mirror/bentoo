@@ -23,6 +23,7 @@ mail-client/protonmail-bin 1.6.1: Official Beta Proton Mail Linux app
 mail-client/thunderbird 135.0: Thunderbird Mail Client
 mail-client/thunderbird-bin 135.0: Thunderbird Mail Client
 mail-mta/protonmail-bridge 3.17.0: Serves Proton Mail to IMAP/SMTP clients
+media-gfx/gimp 3.0.0_rc3: GNU Image Manipulation Program
 media-gfx/imagemagick 7.1.1.43: A collection of tools and libraries for many image formats
 media-libs/mesa 25.0.0_rc2_p20250207: OpenGL-like graphic library for Linux
 media-libs/vulkan-layers 1.4.307_p20250130 1.4.307_p20250201: Vulkan Validation Layers
@@ -40,7 +41,7 @@ net-p2p/bisq-bin 1.9.18: The decentralized bitcoin exchange (non-atomic, with ar
 net-wireless/wpa_supplicant 2.11: IEEE 802.1X/WPA supplicant for secure wireless transfers
 sys-apps/bentoo-utils 0.1.9-r1: Utility for managing Git operations for the Bentoo project
 sys-apps/busybox 1.37.0: Utilities for rescue and embedded systems
-sys-apps/fwupd 2.0.5: Aims to make updating firmware on Linux automatic, safe and reliable
+sys-apps/fwupd 2.0.6: Aims to make updating firmware on Linux automatic, safe and reliable
 sys-apps/shadow 4.17.2: Utilities to deal with user accounts
 sys-apps/sysvinit 3.14: /sbin/init - parent of all processes
 sys-boot/etcher-bin 1.19.25: Flash OS images to SD cards & USB drives, safely and easily.
