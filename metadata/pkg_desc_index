@@ -1,4 +1,4 @@
-app-admin/bitwarden-desktop-bin 2025.1.4: Bitwarden password manager desktop client
+app-admin/bitwarden-desktop-bin 2025.2.0: Bitwarden password manager desktop client
 app-containers/pods 2.1.2: Keep track of your podman containers
 app-emulation/virtualbox 7.1.6a: Family of powerful x86 virtualization products for enterprise and home use
 app-emulation/virtualbox-kvm 7.1.4_pre20241220: Family of powerful x86 virtualization products for enterprise and home use
@@ -8,7 +8,9 @@ app-office/libreoffice-l10n 24.8.5.1 25.2.0.3: Translations for the Libreoffice 
 app-office/onlyoffice-bin 8.3.0: Onlyoffice is an office productivity suite (binary version)
 app-office/openoffice-bin 4.1.15: Apache OpenOffice productivity suite
 app-text/mupdf 1.25.4: A lightweight PDF viewer and toolkit written in portable C
+dev-lang/go 1.24.0: A concurrent garbage collected and typesafe programming language
 dev-libs/openssl 3.4.0: Robust, full-featured Open Source Toolkit for the Transport Layer Security (TLS)
+dev-libs/wayland-protocols 1.41: Wayland protocol files
 dev-util/glslang 1.4.304.1_p20250213: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
 dev-util/mesa_clc 25.0.0_rc3_p20250216: mesa_clc tool used for building OpenCL C to SPIR-V
 dev-util/nvidia-cuda-toolkit 12.8.0: NVIDIA CUDA Toolkit (compiler and friends)
@@ -32,10 +34,11 @@ media-video/ffmpeg 7.1: Complete solution to record/convert/stream audio and vid
 media-video/obs-studio 31.0.1: Software for Recording and Streaming Live Video Content
 media-video/vlc 3.0.21_p20250212: Media player and framework with support for most multimedia files and streaming
 net-ftp/filezilla-pro 3.68.1: Commercial verison of FileZilla
-net-libs/nodejs 23.7.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
+net-im/telegram-desktop 5.11.1: Official desktop client for Telegram
+net-libs/nodejs 23.8.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-misc/networkmanager 1.51.4: A set of co-operative tools that make networking simple and straightforward
 net-misc/onionshare 2.6.2: Securely and anonymously share files of any size behind a TOR hidden service.
-net-misc/postman-bin 11.31.3: API platform for building and using APIs
+net-misc/postman-bin 11.33.0: API platform for building and using APIs
 net-misc/rsync 3.4.1: File transfer program to keep remote files into sync
 net-p2p/bisq-bin 1.9.18: The decentralized bitcoin exchange (non-atomic, with arbitration)
 net-wireless/wpa_supplicant 2.11: IEEE 802.1X/WPA supplicant for secure wireless transfers
@@ -47,6 +50,6 @@ sys-apps/sysvinit 3.14: /sbin/init - parent of all processes
 sys-boot/etcher-bin 1.19.25: Flash OS images to SD cards & USB drives, safely and easily.
 sys-boot/plymouth-openrc-plugin 0.3.0-r2: Plymouth plugin for OpenRC
 sys-libs/libnvidia-container 1.17.4: NVIDIA container runtime library
-www-client/brave-bin 1.75.175: Web browser that blocks ads and trackers by default
+www-client/brave-bin 1.75.178: Web browser that blocks ads and trackers by default
 www-client/librewolf 134.0.2_p1: LibreWolf Web Browser
 www-client/torbrowser-bin 14.0.2: The Tor Browser
