@@ -2,6 +2,7 @@ app-admin/bitwarden-desktop-bin 2025.2.0: Bitwarden password manager desktop cli
 app-containers/pods 2.1.2: Keep track of your podman containers
 app-emulation/virtualbox 7.1.6a: Family of powerful x86 virtualization products for enterprise and home use
 app-emulation/virtualbox-kvm 7.1.4_pre20241220: Family of powerful x86 virtualization products for enterprise and home use
+app-misc/ollama 0.5.11: Get up and running with Llama 3, Mistral, Gemma, and other language models.
 app-office/freeoffice 1222: A complete, free Microsoft Office-compatible alternative office suite
 app-office/libreoffice 24.8.5.1 25.2.0.3: A full office productivity suite
 app-office/libreoffice-l10n 24.8.5.1 25.2.0.3: Translations for the Libreoffice suite
@@ -12,7 +13,7 @@ dev-lang/go 1.24.0: A concurrent garbage collected and typesafe programming lang
 dev-libs/openssl 3.4.0: Robust, full-featured Open Source Toolkit for the Transport Layer Security (TLS)
 dev-libs/wayland-protocols 1.41: Wayland protocol files
 dev-util/glslang 1.4.304.1_p20250213: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
-dev-util/mesa_clc 25.0.0_rc3_p20250216: mesa_clc tool used for building OpenCL C to SPIR-V
+dev-util/mesa_clc 25.0.0_p20250220: mesa_clc tool used for building OpenCL C to SPIR-V
 dev-util/nvidia-cuda-toolkit 12.8.0: NVIDIA CUDA Toolkit (compiler and friends)
 dev-util/spirv-headers 1.4.304.1_p20250205: Machine-readable files for the SPIR-V Registry
 dev-util/spirv-tools 1.4.304.1_p20250214: Provides an API and commands for processing SPIR-V modules
@@ -27,14 +28,14 @@ mail-client/thunderbird-bin 135.0: Thunderbird Mail Client
 mail-mta/protonmail-bridge 3.17.0: Serves Proton Mail to IMAP/SMTP clients
 media-gfx/gimp 3.0.0_rc3: GNU Image Manipulation Program
 media-gfx/imagemagick 7.1.1.43: A collection of tools and libraries for many image formats
-media-libs/mesa 25.0.0_rc3_p20250216: OpenGL-like graphic library for Linux
+media-gfx/lycheeslicer 7.2.2: A powerful and versatile slicer
+media-libs/mesa 25.0.0_p20250220: OpenGL-like graphic library for Linux
 media-libs/vulkan-layers 1.4.307_p20250215: Vulkan Validation Layers
 media-libs/vulkan-loader 1.4.307_p20250204: Vulkan Installable Client Driver (ICD) Loader
 media-video/ffmpeg 7.1: Complete solution to record/convert/stream audio and video. Includes libavcodec
 media-video/obs-studio 31.0.1: Software for Recording and Streaming Live Video Content
 media-video/vlc 3.0.21_p20250212: Media player and framework with support for most multimedia files and streaming
 net-ftp/filezilla-pro 3.68.1: Commercial verison of FileZilla
-net-im/telegram-desktop 5.11.1: Official desktop client for Telegram
 net-libs/nodejs 23.8.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-misc/networkmanager 1.51.4: A set of co-operative tools that make networking simple and straightforward
 net-misc/onionshare 2.6.2: Securely and anonymously share files of any size behind a TOR hidden service.
@@ -50,6 +51,6 @@ sys-apps/sysvinit 3.14: /sbin/init - parent of all processes
 sys-boot/etcher-bin 1.19.25: Flash OS images to SD cards & USB drives, safely and easily.
 sys-boot/plymouth-openrc-plugin 0.3.0-r2: Plymouth plugin for OpenRC
 sys-libs/libnvidia-container 1.17.4: NVIDIA container runtime library
-www-client/brave-bin 1.75.178: Web browser that blocks ads and trackers by default
+www-client/brave-bin 1.75.180: Web browser that blocks ads and trackers by default
 www-client/librewolf 134.0.2_p1: LibreWolf Web Browser
 www-client/torbrowser-bin 14.0.2: The Tor Browser

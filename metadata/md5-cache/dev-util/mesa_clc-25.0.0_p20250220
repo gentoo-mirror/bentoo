@@ -11,6 +11,6 @@ LICENSE=MIT
 RDEPEND=dev-util/spirv-tools llvm_slot_18? ( dev-util/spirv-llvm-translator:18 llvm-core/clang:18= =llvm-core/libclc-18* llvm-core/llvm:18= ) llvm_slot_19? ( dev-util/spirv-llvm-translator:19 llvm-core/clang:19= =llvm-core/libclc-19* llvm-core/llvm:19= )
 REQUIRED_USE=^^ ( llvm_slot_18 llvm_slot_19 )
 SLOT=0
-SRC_URI=https://gitlab.freedesktop.org/mesa/mesa/-/archive/dfd2af5da11eca3678c0b34a24776114950fb6dc/mesa-dfd2af5da11eca3678c0b34a24776114950fb6dc.tar.gz -> mesa_clc-25.0.0_rc3_p20250216.tar.gz
+SRC_URI=https://gitlab.freedesktop.org/mesa/mesa/-/archive/536ef0b5460812422f715aa8780d8a1461520be9/mesa-536ef0b5460812422f715aa8780d8a1461520be9.tar.gz -> mesa_clc-25.0.0_p20250220.tar.gz
 _eclasses_=llvm-utils	7f49c40879f833f9d07e2d5a9643077b	llvm-r1	0bd586d3786517cd63802a520b404dda	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	357f1a896fbedcd06e5ce55419c49eb9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	b7726144f5af59e186d66746d0f513e5	meson	99466844dd8d4fcfb07578a76f5a9922	python-any-r1	891415dfe39ad9b41b461f2b86354af0
-_md5_=a449e895c6b1daba8ebc73e3ecdf1b8b
+_md5_=8cce91a18a09655c8a081de6688197cf
