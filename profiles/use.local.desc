@@ -43,12 +43,6 @@ dev-libs/openssl:sslv3 - Support for the old/insecure SSLv3 protocol -- note: no
 dev-libs/openssl:tls-compression - Enable support for discouraged TLS compression
 dev-libs/openssl:tls-heartbeat - Enable the Heartbeat Extension in TLS and DTLS
 dev-libs/openssl:weak-ssl-ciphers - Build support for SSL/TLS ciphers that are considered "weak"
-dev-util/nvidia-cuda-toolkit:debugger - Install the CUDA debugger
-dev-util/nvidia-cuda-toolkit:nsight - Install profiling and optimizing tools (nsight-compute, nsight-systems)
-dev-util/nvidia-cuda-toolkit:profiler - Install the NVIDIA CUDA profiler (nvprof) and the related libraries
-dev-util/nvidia-cuda-toolkit:rdma - Enable infiniband support via sys-cluster/rdma-core
-dev-util/nvidia-cuda-toolkit:sanitizer - Install compute-sanitizer tool
-dev-util/nvidia-cuda-toolkit:vis-profiler - Install the NVIDIA CUDA visual profiler (nvvp)
 dev-util/vulkan-tools:cube - Build the cube/cubepp demos
 mail-client/thunderbird:clang - Use Clang compiler instead of GCC
 mail-client/thunderbird:eme-free - Disable EME (DRM plugin) capability at build time

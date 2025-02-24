@@ -12,23 +12,23 @@ app-text/mupdf 1.25.4: A lightweight PDF viewer and toolkit written in portable 
 dev-libs/openssl 3.4.0: Robust, full-featured Open Source Toolkit for the Transport Layer Security (TLS)
 dev-libs/wayland-protocols 1.41: Wayland protocol files
 dev-util/glslang 1.4.304.1_p20250220: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
-dev-util/mesa_clc 25.0.0_p20250221: mesa_clc tool used for building OpenCL C to SPIR-V
-dev-util/nvidia-cuda-toolkit 12.8.0: NVIDIA CUDA Toolkit (compiler and friends)
-dev-util/spirv-headers 1.4.304.1_p20250205: Machine-readable files for the SPIR-V Registry
-dev-util/spirv-tools 1.4.304.1_p20250214: Provides an API and commands for processing SPIR-V modules
-dev-util/volk 1.4.308.0_p20250207: Meta loader for Vulkan API
-dev-util/vulkan-headers 1.4.307_p20250204: Vulkan Header files and API registry
-dev-util/vulkan-tools 1.4.307_p2020205: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
-dev-util/vulkan-utility-libraries 1.4.307_p20250130: Share code across various Vulkan repositories
+dev-util/mesa_clc 25.0.0_p20250224: mesa_clc tool used for building OpenCL C to SPIR-V
+dev-util/spirv-headers 1.4.304.1_p20250219: Machine-readable files for the SPIR-V Registry
+dev-util/spirv-tools 1.4.304.1_p20250224: Provides an API and commands for processing SPIR-V modules
+dev-util/volk 1.4.309.0_p20250224: Meta loader for Vulkan API
+dev-util/vulkan-headers 1.4.309_p20250204: Vulkan Header files and API registry
+dev-util/vulkan-tools 1.4.309_p2020221: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
+dev-util/vulkan-utility-libraries 1.4.309_p20250222: Share code across various Vulkan repositories
 mail-client/betterbird-bin 128.7.0: Betterbird is a fine-tuned version of Mozilla Thunderbird.
-mail-client/protonmail-bin 1.6.1: Official Beta Proton Mail Linux app
-mail-client/thunderbird 135.0: Thunderbird Mail Client
-mail-client/thunderbird-bin 135.0: Thunderbird Mail Client
+mail-client/protonmail-bin 1.7.0: Official Beta Proton Mail Linux app
+mail-client/thunderbird 135.0.1: Thunderbird Mail Client
+mail-client/thunderbird-bin 135.0.1: Thunderbird Mail Client
 mail-mta/protonmail-bridge 3.17.0: Serves Proton Mail to IMAP/SMTP clients
 media-gfx/gimp 3.0.0_rc3: GNU Image Manipulation Program
 media-gfx/imagemagick 7.1.1.43: A collection of tools and libraries for many image formats
 media-gfx/lycheeslicer 7.2.2: A powerful and versatile slicer
-media-libs/mesa 25.0.0_p20250221: OpenGL-like graphic library for Linux
+media-libs/mesa 25.0.0_p20250224: OpenGL-like graphic library for Linux
+media-libs/shaderc 2024.4_p20250224: Collection of tools, libraries and tests for shader compilation
 media-libs/vulkan-layers 1.4.307_p20250215: Vulkan Validation Layers
 media-libs/vulkan-loader 1.4.307_p20250204: Vulkan Installable Client Driver (ICD) Loader
 media-video/ffmpeg 7.1: Complete solution to record/convert/stream audio and video. Includes libavcodec
