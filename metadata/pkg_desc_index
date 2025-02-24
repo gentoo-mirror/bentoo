@@ -2,7 +2,7 @@ app-admin/bitwarden-desktop-bin 2025.2.0: Bitwarden password manager desktop cli
 app-containers/pods 2.1.2: Keep track of your podman containers
 app-emulation/virtualbox 7.1.6a: Family of powerful x86 virtualization products for enterprise and home use
 app-emulation/virtualbox-kvm 7.1.4_pre20241220: Family of powerful x86 virtualization products for enterprise and home use
-app-misc/ollama 0.5.11: Get up and running with Llama 3, Mistral, Gemma, and other language models.
+app-misc/ollama 9999: Get up and running with Llama 3, Mistral, Gemma, and other language models.
 app-office/freeoffice 1222: A complete, free Microsoft Office-compatible alternative office suite
 app-office/libreoffice 24.8.5.1 25.2.0.3: A full office productivity suite
 app-office/libreoffice-l10n 24.8.5.1 25.2.0.3: Translations for the Libreoffice suite
@@ -11,7 +11,7 @@ app-office/openoffice-bin 4.1.15: Apache OpenOffice productivity suite
 app-text/mupdf 1.25.4: A lightweight PDF viewer and toolkit written in portable C
 dev-libs/openssl 3.4.0: Robust, full-featured Open Source Toolkit for the Transport Layer Security (TLS)
 dev-libs/wayland-protocols 1.41: Wayland protocol files
-dev-util/glslang 1.4.304.1_p20250213: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
+dev-util/glslang 1.4.304.1_p20250220: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
 dev-util/mesa_clc 25.0.0_p20250221: mesa_clc tool used for building OpenCL C to SPIR-V
 dev-util/nvidia-cuda-toolkit 12.8.0: NVIDIA CUDA Toolkit (compiler and friends)
 dev-util/spirv-headers 1.4.304.1_p20250205: Machine-readable files for the SPIR-V Registry
