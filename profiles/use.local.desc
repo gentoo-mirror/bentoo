@@ -23,26 +23,7 @@ app-misc/ollama:cuda - Enable NVIDIA CUDA support
 app-misc/ollama:mkl - Use sci-libs/mkl for blas, lapack and sparse blas routines
 app-misc/ollama:rocm - Enable ROCm gpu computing support
 app-office/freeoffice:pax_kernel - Triggers a paxmarking of the binary
-app-office/libreoffice:base - Enable full support for LibreOffice Base databases (involves additional bundled libs)
-app-office/libreoffice:clang - Use Clang compiler instead of GCC
-app-office/libreoffice:coinmp - Use sci-libs/coinor-mp as alternative solver
-app-office/libreoffice:googledrive - Enable support for remote files on Google Drive
-app-office/libreoffice:mariadb - Prefer mariadb connector over mysql connector
-app-office/libreoffice:odk - Build the Office Development Kit
-app-office/libreoffice:pdfimport - Enable PDF import via the Poppler library
-app-office/libreoffice:vulkan - Enable Vulkan usage via the skia library (clang recommended)
-app-office/libreoffice-l10n:offlinehelp - Install help files locally instead of using the LibreOffice Wiki
 app-text/mupdf:archive - Enable support for CBR and other archive formats using libarchive
-dev-libs/openssl:bindist - Disable/Restrict EC algorithms (as they seem to be patented) -- note: changes the ABI
-dev-libs/openssl:fips - Enable FIPS provider
-dev-libs/openssl:ktls - Enable support for Kernel implementation of TLS (kTLS)
-dev-libs/openssl:quic - Enable support for QUIC (RFC 9000); a UDP-based protocol intended to replace TCP
-dev-libs/openssl:rfc3779 - Enable support for RFC 3779 (X.509 Extensions for IP Addresses and AS Identifiers)
-dev-libs/openssl:sslv2 - Support for the old/insecure SSLv2 protocol -- note: not required for TLS/https
-dev-libs/openssl:sslv3 - Support for the old/insecure SSLv3 protocol -- note: not required for TLS/https
-dev-libs/openssl:tls-compression - Enable support for discouraged TLS compression
-dev-libs/openssl:tls-heartbeat - Enable the Heartbeat Extension in TLS and DTLS
-dev-libs/openssl:weak-ssl-ciphers - Build support for SSL/TLS ciphers that are considered "weak"
 dev-util/vulkan-tools:cube - Build the cube/cubepp demos
 mail-client/thunderbird:clang - Use Clang compiler instead of GCC
 mail-client/thunderbird:eme-free - Disable EME (DRM plugin) capability at build time
@@ -82,134 +63,6 @@ media-libs/mesa:vulkan-overlay - Build vulkan-overlay-layer which displays Frame
 media-libs/mesa:wayland - Enable support for dev-libs/wayland
 media-libs/mesa:xa - Enable the XA (X Acceleration) API for Gallium3D.
 media-libs/vulkan-loader:layers - Include the vulkan layers
-media-video/ffmpeg:amf - Enables support for AMD's Advanced Media Framework (AMF)
-media-video/ffmpeg:amr - Enables Adaptive Multi-Rate Audio support
-media-video/ffmpeg:amrenc - Enables Adaptive Multi-Rate Audio encoding support with media-libs/vo-amrwbenc.
-media-video/ffmpeg:appkit - Enables Apple AppKit framework
-media-video/ffmpeg:bluray - Enable playback of Blu-ray filesystems
-media-video/ffmpeg:bs2b - Enables media-libs/libbs2b based Bauer stereo-to-binaural filter.
-media-video/ffmpeg:cdio - Enables audio CD grabbing with dev-libs/libcdio.
-media-video/ffmpeg:chromaprint - Enables audio fingerprinting support with media-libs/chromaprint.
-media-video/ffmpeg:chromium - Builds libffmpeg.so to enable media playback in Chromium-based browsers like Opera and Vivaldi.
-media-video/ffmpeg:codec2 - Enables codec2 low bit rate speech codec support via media-libs/codec2.
-media-video/ffmpeg:cpudetection - Enables runtime CPU detection (useful for bindist, compatibility on other CPUs)
-media-video/ffmpeg:cuda - Enables CUDA-based acceleration. Mostly used for specific filters.
-media-video/ffmpeg:dav1d - Enables AV1 decoding via media-libs/dav1d.
-media-video/ffmpeg:fdk - Use external fdk-aac library for AAC encoding
-media-video/ffmpeg:flite - Adds a text-to-speech filter based on app-accessibility/flite.
-media-video/ffmpeg:frei0r - Enable frei0r wrapping in libavfilter
-media-video/ffmpeg:fribidi - Enables fribidi support in the drawtext filter.
-media-video/ffmpeg:gcrypt - Enables gcrypt support: Needed for rtmp(t)e support if openssl, librtmp or gmp is not used.
-media-video/ffmpeg:glslang - Use dev-util/glslang to compile GLSL
-media-video/ffmpeg:gme - Enables support for media-libs/game-music-emu for playing various video game music formats.
-media-video/ffmpeg:gpl - Build GPL code. Should be enabled unless you require LGPL binaries.
-media-video/ffmpeg:hardcoded-tables - Use pre-calculated tables rather than calculating them on the fly. It results in an increase of approximately 15% in the size of libavcodec, the main library impacted by this change. It enables savings in table generation time, done once at codec initialization, since by hardcoding the tables, they do not need to be computed at runtime. However, the savings are often negligible (~100k cycles is a typical number) especially when amortized over the entire encoding/decoding operation. Improvements are being made to the runtime initialization, and so over time, this option will have an impact on fewer and fewer codecs.
-media-video/ffmpeg:iec61883 - Support for FireWire DV/HDV input device using media-libs/libiec61883.
-media-video/ffmpeg:kvazaar - Enables media-libs/kvazaar based HEVC encoder.
-media-video/ffmpeg:lcms - Enable ICC profile support via media-libs/lcms.
-media-video/ffmpeg:libaom - Enables media-libs/libaom based AV1 codec support.
-media-video/ffmpeg:libaribb24 - Enables ARIB text and caption decoding via media-libs/aribb24.
-media-video/ffmpeg:libdrm - Enables x11-libs/libdrm support for better screen grabbing and hardware accelerated codecs.
-media-video/ffmpeg:libdvdnav - Uses media-libs/libdvdnav to enable DVD demuxing
-media-video/ffmpeg:libdvdread - Uses media-libs/libdvdread to enable DVD demuxing
-media-video/ffmpeg:libilbc - Enables iLBC de/encoding via media-libs/libilbc.
-media-video/ffmpeg:liblc3 - Enables LC3 de/encoding via media-sound/liblc3.
-media-video/ffmpeg:libplacebo - Adds flexible GPU-accelerated processing filter based on media-libs/libplacebo.
-media-video/ffmpeg:librtmp - Enables Real Time Messaging Protocol using librtmp (media-video/rtmpdump) in addition to FFmpeg's native implementation.
-media-video/ffmpeg:libsoxr - Enables audio resampling through media-libs/soxr.
-media-video/ffmpeg:libtesseract - Enables the OCR filter via app-text/tesseract.
-media-video/ffmpeg:libv4l - Uses media-libs/libv4l for video4linux instead of direct calls. Adds support for more devices via the userspace library.
-media-video/ffmpeg:libxml2 - Uses dev-libs/libxml2 to enable dash demuxing support.
-media-video/ffmpeg:lv2 - Enables lv2 audio filter wrapper.
-media-video/ffmpeg:mipsdspr1 - Enables MIPS DSP ASE R1 optimizations.
-media-video/ffmpeg:mipsdspr2 - Enables MIPS DSP ASE R2 optimizations.
-media-video/ffmpeg:mipsfpu - Enables floating point MIPS optimizations.
-media-video/ffmpeg:mmal - Enables Multi-Media Abstraction Layer (MMAL) decoding support: Available e.g. on the Raspberry Pi.
-media-video/ffmpeg:network - Enables network streaming support
-media-video/ffmpeg:openh264 - Enables H.264 encoding suppoprt via media-libs/openh264.
-media-video/ffmpeg:openssl - Enables dev-libs/openssl support. Adds support for encrypted network protocols (TLS/HTTPS).
-media-video/ffmpeg:pic - Force shared libraries to be built as PIC (this is slower)
-media-video/ffmpeg:postproc - Build and install libpostproc.
-media-video/ffmpeg:qrcode - Enables QR encode generation via media-gfx/qrencode
-media-video/ffmpeg:qsv - Enable Intel Quick Sync Video via media-libs/intel-mediasdk (ffmpeg versions older than, and including, 5.1) or media-libs/libvpl (ffmpeg version newer than 5.1).
-media-video/ffmpeg:quirc - Enables QR decoding via media-libs/quirc
-media-video/ffmpeg:rav1e - Enables AV1 encoding support via media-video/rav1e.
-media-video/ffmpeg:rubberband - Adds time-stretching and pitch-shifting audio filter based on media-libs/rubberband.
-media-video/ffmpeg:shaderc - Use media-libs/shaderc to compile GLSL
-media-video/ffmpeg:snappy - Enable app-arch/snappy support. Required for e.g. Vidvox Hap encoder.
-media-video/ffmpeg:sndio - Enable support for the media-sound/sndio backend
-media-video/ffmpeg:soc - Apply additional patches for efficient playback on some SoCs (e.g. ARM, RISC-V).
-media-video/ffmpeg:srt - Enable support for Secure Reliable Transport (SRT) via net-libs/srt
-media-video/ffmpeg:ssh - Enable SSH/sftp support via net-libs/libssh.
-media-video/ffmpeg:svt-av1 - Enables AV1 encoding support via media-libs/svt-av1.
-media-video/ffmpeg:truetype - Enables drawtext filter via media-libs/freetype and media-libs/harfbuzz.
-media-video/ffmpeg:twolame - Enables MP2 encoding via media-sound/twolame as an alternative to the internal encoder.
-media-video/ffmpeg:vidstab - Enables video stabilization filter using vid.stab library (media-libs/vidstab).
-media-video/ffmpeg:vmaf - Enables Netflix's perceptual video quality assessment filter using the library (media-libs/libvmaf).
-media-video/ffmpeg:vpx - Enables VP8 and VP9 codec support using libvpx: Decoding does not require this to be enabled but libvpx can also be used for decoding; encoding requires this useflag to be enabled though.
-media-video/ffmpeg:x265 - Enables HEVC encoding with media-libs/x265.
-media-video/ffmpeg:zeromq - Enables net-libs/zeromq support with the zmq/azmq filters.
-media-video/ffmpeg:zimg - Enables media-libs/zimg based scale filter.
-media-video/ffmpeg:zvbi - Enables media-libs/zvbi based teletext decoder.
-media-video/obs-studio:browser - Enable browser source support via (precompiled) CEF.
-media-video/obs-studio:decklink - Build the Decklink plugin.
-media-video/obs-studio:fdk - Build with LibFDK AAC support.
-media-video/obs-studio:mpegts - Enable native SRT/RIST mpegts output.
-media-video/obs-studio:pipewire - Build with PipeWire support.
-media-video/obs-studio:python - Build with scripting support for Python 3.
-media-video/obs-studio:qsv - Build with Intel Quick Sync Video support.
-media-video/obs-studio:sndio - Build with sndio support.
-media-video/obs-studio:speex - Build with Speex noise suppression filter support.
-media-video/obs-studio:test-input - Build and install input sources used for testing.
-media-video/obs-studio:vlc - Build with VLC media source support.
-media-video/obs-studio:websocket - Build with WebSocket API support.
-media-video/vlc:X - Enable support for e.g. fullscreen mode via X and the X C-language binding. It does not build a graphical interface
-media-video/vlc:aom - Enable AV1 encoding/decoding support using media-libs/libaom
-media-video/vlc:archive - Enable support for libarchive stream extractor
-media-video/vlc:aribsub - Enable support for decoding ARIB STD-B24 subtitles
-media-video/vlc:bluray - Enable libbluray for Blu-ray disc support
-media-video/vlc:chromaprint - Enable libchromaprint for Chromaprint based audio fingerprinter support
-media-video/vlc:chromecast - Enable experimental support for Google Chromecast
-media-video/vlc:dav1d - Enable support for media-libs/dav1d AV1 decoder
-media-video/vlc:dc1394 - Enable IIDC cameras support
-media-video/vlc:directx - Enable Win32 DirectX, D3D11va and DxVA2 support
-media-video/vlc:dvbpsi - Enable support for Mpeg-TS files (.ts, .m2ts, .mts) via media-libs/libdvbpsi
-media-video/vlc:encode - Enable streaming-output support and videolan manager to control multiple streams from within one instance
-media-video/vlc:faad - Enable AAC audio decoding library support via media-libs/faad2
-media-video/vlc:fdk - Enable the Fraunhofer AAC codec library
-media-video/vlc:fluidsynth - Enable Fluidsynth MIDI software synthesis (with external sound fonts)
-media-video/vlc:gcrypt - Enable cryptography support via libgcrypt
-media-video/vlc:gme - Enable support for media-libs/game-music-emu for playing various video game music formats
-media-video/vlc:gstreamer - Enable GStreamer based decoding support (currently supports only video decoding)
-media-video/vlc:kate - Adds support for Ogg Kate subtitles via libkate
-media-video/vlc:kms - Enable kernel mode setting video output plugin via x11-libs/libdrm
-media-video/vlc:libplacebo - Enable support for GPU accelerated video rendering with media-libs/libplacebo
-media-video/vlc:libtar - Uses libtar instead of the built-in tar reader for reading custom skins
-media-video/vlc:libtiger - Enable Ogg Kate subtitles rendering using libtiger
-media-video/vlc:linsys - Enable support for Linux Linear Systems Ltd. SDI and HD-SDI input cards
-media-video/vlc:live - Enable live555 streaming media support (client support for rtsp)
-media-video/vlc:loudness - Enable loudness normalisation according to the EBU R128 standard using media-libs/libebur128
-media-video/vlc:lua - Enable Lua scripting support, needed for including support for Jamendo (online music platform) and similar things
-media-video/vlc:macosx-notifications - Enable Mac OS X notifications module (formerly growl)
-media-video/vlc:matroska - Enable matroska support using reference libraries (fallback on other existing matroska support if disabled, i.e., matroska enabled FFmpeg)
-media-video/vlc:mpeg - Add libmpeg2 support for mpeg-1 and mpeg-2 video streams
-media-video/vlc:nfs - Enable support for nfs protocol via net-fs/libnfs
-media-video/vlc:omxil - Enable OpenMAX Integration Layer codec module
-media-video/vlc:optimisememory - Enable optimisation for memory rather than performance
-media-video/vlc:projectm - Enable the projectM visualization plugin
-media-video/vlc:run-as-root - Allows vlc to start for root. Don't enable this unless you have a very specific (e.g. embedded) need for it!
-media-video/vlc:sdl-image - Enable sdl image video decoder (depends on sdl)
-media-video/vlc:sftp - Enable libssh2 to support SFTP file transfer
-media-video/vlc:shout - Enable libshout output
-media-video/vlc:skins - Enable support for the skins2 interface
-media-video/vlc:soxr - Enable SoX Resampler support via media-libs/soxr
-media-video/vlc:srt - Enable support for Secure Reliable Transport (SRT) via net-libs/srt
-media-video/vlc:tremor - Enable tremor, a fixed-point version of the Ogg Vorbis decoder
-media-video/vlc:twolame - Enable twolame support (MPEG Audio Layer 2 encoder)
-media-video/vlc:upnp - Enable support for the Intel SDK stack based UPnP discovery module instead of CyberLink
-media-video/vlc:x265 - Support X265 Encoder
-media-video/vlc:zeroconf - Enable support for zero-configuration networking via avahi
-media-video/vlc:zvbi - Enable support for teletext subtitles via the zvbi library
 net-libs/nodejs:corepack - Enable the experimental corepack package management tool
 net-libs/nodejs:inspector - Enable V8 inspector
 net-libs/nodejs:npm - Enable NPM package manager
@@ -242,26 +95,6 @@ net-misc/rsync:rrsync - Install rrsync script to setup restricted rsync users vi
 net-misc/rsync:stunnel - Provide helper scripts for using rsync via >=net-misc/stunnel-4
 net-misc/rsync:system-zlib - Use system zlib instead of bundled one. This is incompatible with older rsync releases!
 net-misc/rsync:xxhash - Enable dev-libs/xxhash support for hashing
-net-wireless/wpa_supplicant:ap - Add support for access point mode
-net-wireless/wpa_supplicant:broadcom-sta - Flag to help users disable features not supported by broadcom-sta driver
-net-wireless/wpa_supplicant:eap-sim - Add support for EAP-SIM authentication algorithm
-net-wireless/wpa_supplicant:eapol-test - Build and install eapol_test binary
-net-wireless/wpa_supplicant:fasteap - Add support for FAST-EAP authentication algorithm
-net-wireless/wpa_supplicant:fils - Add support for Fast Initial Link Setup (802.11ai)
-net-wireless/wpa_supplicant:hs2-0 - Add support for 802.11u and Passpoint for HotSpot 2.0
-net-wireless/wpa_supplicant:macsec - Add support for wired macsec
-net-wireless/wpa_supplicant:mbo - Add support Multiband Operation
-net-wireless/wpa_supplicant:mesh - Add support for mesh mode
-net-wireless/wpa_supplicant:p2p - Add support for Wi-Fi Direct mode
-net-wireless/wpa_supplicant:privsep - Enable wpa_priv privledge separation binary
-net-wireless/wpa_supplicant:ps3 - Add support for ps3 hypervisor driven gelic wifi
-net-wireless/wpa_supplicant:smartcard - Add support for smartcards
-net-wireless/wpa_supplicant:tdls - Add support for Tunneled Direct Link Setup (802.11z)
-net-wireless/wpa_supplicant:tkip - Add support for WPA TKIP (deprecated due to security flaws in 2009)
-net-wireless/wpa_supplicant:uncommon-eap-types - Add support for GPSK, SAKE, GPSK_SHA256, IKEV2 and EKE
-net-wireless/wpa_supplicant:wep - Add support for Wired Equivalent Privacy (deprecated due to security flaws in 2004)
-net-wireless/wpa_supplicant:wimax - Add support for Wimax EAP-PEER authentication algorithm
-net-wireless/wpa_supplicant:wps - Add support for Wi-Fi Protected Setup
 sys-apps/busybox:make-symlinks - Create all the appropriate symlinks in /bin and /sbin.
 sys-apps/busybox:math - Enable math support in gawk (requires libm)
 sys-apps/busybox:mdev - Create the appropriate symlink in /sbin and install mdev.conf and support files
@@ -303,5 +136,5 @@ www-client/librewolf:system-libvpx - Use the system-wide media-libs/libvpx inste
 www-client/librewolf:system-png - Use the system-wide media-libs/libpng instead of bundled (requires APNG patches)
 www-client/librewolf:system-python-libs - Use system's python site instead of bundled python libraries
 www-client/librewolf:system-webp - Use the system-wide media-libs/libwebp instead of bundled
-www-client/librewolf:wasm - Sandbox certain third-party libraries through WebAssembly using RLBox
+www-client/librewolf:wasm-sandbox - Sandbox certain third-party libraries through WebAssembly using RLBox
 www-client/librewolf:wifi - Enable necko-wifi for NetworkManager integration, and access point MAC address scanning for better precision with opt-in geolocation services
