@@ -30,7 +30,7 @@ net-ftp/filezilla-pro 3.68.1: Commercial verison of FileZilla
 net-libs/nodejs 23.8.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-misc/networkmanager 1.51.4: A set of co-operative tools that make networking simple and straightforward
 net-misc/onionshare 2.6.2: Securely and anonymously share files of any size behind a TOR hidden service.
-net-misc/postman-bin 11.33.4: API platform for building and using APIs
+net-misc/postman-bin 11.34.4: API platform for building and using APIs
 net-misc/rsync 3.4.1: File transfer program to keep remote files into sync
 net-p2p/bisq-bin 1.9.19: The decentralized bitcoin exchange (non-atomic, with arbitration)
 sys-apps/bentoo-utils 0.1.9-r1: Utility for managing Git operations for the Bentoo project
@@ -40,6 +40,6 @@ sys-apps/shadow 4.17.2: Utilities to deal with user accounts
 sys-boot/etcher-bin 1.19.25: Flash OS images to SD cards & USB drives, safely and easily.
 sys-boot/plymouth-openrc-plugin 0.3.0-r2: Plymouth plugin for OpenRC
 sys-libs/libnvidia-container 1.17.4: NVIDIA container runtime library
-www-client/brave-bin 1.75.180: Web browser that blocks ads and trackers by default
+www-client/brave-bin 1.75.181: Web browser that blocks ads and trackers by default
 www-client/librewolf 135.0.1_p1: LibreWolf Web Browser
 www-client/torbrowser-bin 14.0.2: The Tor Browser
