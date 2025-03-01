@@ -23,6 +23,15 @@ app-misc/ollama:cuda - Enable NVIDIA CUDA support
 app-misc/ollama:mkl - Use sci-libs/mkl for blas, lapack and sparse blas routines
 app-misc/ollama:rocm - Enable ROCm gpu computing support
 app-office/freeoffice:pax_kernel - Triggers a paxmarking of the binary
+app-office/libreoffice:base - Enable full support for LibreOffice Base databases (involves additional bundled libs)
+app-office/libreoffice:clang - Use Clang compiler instead of GCC
+app-office/libreoffice:coinmp - Use sci-libs/coinor-mp as alternative solver
+app-office/libreoffice:googledrive - Enable support for remote files on Google Drive
+app-office/libreoffice:mariadb - Prefer mariadb connector over mysql connector
+app-office/libreoffice:odk - Build the Office Development Kit
+app-office/libreoffice:pdfimport - Enable PDF import via the Poppler library
+app-office/libreoffice:vulkan - Enable Vulkan usage via the skia library (clang recommended)
+app-office/libreoffice-l10n:offlinehelp - Install help files locally instead of using the LibreOffice Wiki
 app-text/mupdf:archive - Enable support for CBR and other archive formats using libarchive
 dev-util/vulkan-tools:cube - Build the cube/cubepp demos
 mail-client/thunderbird:clang - Use Clang compiler instead of GCC

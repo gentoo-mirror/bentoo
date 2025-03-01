@@ -4,6 +4,8 @@ app-emulation/virtualbox 7.1.6a: Family of powerful x86 virtualization products 
 app-emulation/virtualbox-kvm 7.1.6a_pre20250207: Family of powerful x86 virtualization products for enterprise and home use
 app-misc/ollama 9999: Get up and running with Llama 3, Mistral, Gemma, and other language models.
 app-office/freeoffice 1222: A complete, free Microsoft Office-compatible alternative office suite
+app-office/libreoffice 25.2.1.2: A full office productivity suite
+app-office/libreoffice-l10n 25.2.1.2: Translations for the Libreoffice suite
 app-office/openoffice-bin 4.1.15: Apache OpenOffice productivity suite
 app-text/mupdf 1.25.4: A lightweight PDF viewer and toolkit written in portable C
 dev-util/glslang 1.4.304.1 1.4.304.1_p20250220: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
