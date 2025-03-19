@@ -52,6 +52,32 @@ mail-client/thunderbird:system-libvpx - Use the system-wide media-libs/libvpx in
 mail-client/thunderbird:system-png - Use the system-wide media-libs/libpng instead of bundled (requires APNG patches)
 mail-client/thunderbird:system-webp - Use the system-wide media-libs/libwebp instead of bundled.
 mail-client/thunderbird:wifi - Enable necko-wifi for NetworkManager integration, and access point MAC address scanning for better precision with opt-in geolocation services
+media-gfx/blender:alembic - Add support for Alembic through media-gfx/alembic.
+media-gfx/blender:bullet - Enable Bullet (Physics Engine).
+media-gfx/blender:collada - Add support for Collada interchange format through media-libs/opencollada.
+media-gfx/blender:color-management - Enable color management via media-libs/opencolorio.
+media-gfx/blender:cuda - Build cycles renderer with nVidia CUDA support.
+media-gfx/blender:cycles - Enable the Cycles raytracing render engine.
+media-gfx/blender:cycles-bin-kernels - Precompile the cycles render kernels for the CUDA/HIP/OneAPI backends, if they are enabled, at compile time. This makes it so that the user doesn't have to wait for the kernels to compile when they are used for the first time in Blender. If this option is not on, they will be built as needed at runtime.
+media-gfx/blender:dds - Adds DDS textures support to Blender.
+media-gfx/blender:embree - Use embree to accelerate certain areas of the Cycles render engine.
+media-gfx/blender:experimental - Build Experimental Blender Modules
+media-gfx/blender:fluid - Adds fluid simulation support via the built-in Mantaflow library.
+media-gfx/blender:hip - Build cycles renderer with AMD HIP support.
+media-gfx/blender:nanovdb - Enable nanoVDB support in Cycles. Uses less memory than regular openVDB when rendering.
+media-gfx/blender:ndof - Enable NDOF input devices (SpaceNavigator and friends).
+media-gfx/blender:oidn - Enable OpenImageDenoiser Support
+media-gfx/blender:oneapi - Build OIDN with Intel oneAPI SyCL support
+media-gfx/blender:openpgl - Enable path guiding support in Cycles
+media-gfx/blender:opensubdiv - Add rendering support form OpenSubdiv from Dreamworks Animation through media-libs/opensubdiv.
+media-gfx/blender:openvdb - Enable openvdb for volumetric processing, like the voxel remesher. Also enables volumetric GPU preview rendering for Nvidia cards.
+media-gfx/blender:optix - Add support for NVIDIA's OptiX Raytracing Engine.
+media-gfx/blender:osl - Add support for OpenShadingLanguage scripting.
+media-gfx/blender:potrace - Add support for converting bitmaps into Grease pencil line using the potrace library.
+media-gfx/blender:pugixml - Enable PugiXML support (Used for OpenImageIO, Grease Pencil SVG export)
+media-gfx/blender:renderdoc - Build Blender with renderdoc support
+media-gfx/blender:tbb - Use threading building blocks library from dev-cpp/tbb.
+media-gfx/blender:vulkan - Add support for the experimental Vulkan viewport backend
 media-gfx/gimp:fits - Enable support for loading/exporting FITS images
 media-gfx/gimp:vector-icons - Enable support for vector icons (experimental)
 media-gfx/imagemagick:corefonts - Use media-fonts/corefonts which is required by some commands
@@ -130,6 +156,20 @@ sys-apps/fwupd:test-full - Enable tests known not to play nicely with the sandbo
 sys-apps/fwupd:tpm - Install Trusted Platform Module plugin
 sys-apps/fwupd:uefi - Enable UEFI support
 sys-apps/shadow:su - build the su program
+sys-apps/util-linux:audit - Use sys-process/audit to emit audit messages about system changes
+sys-apps/util-linux:caps - build setpriv helper (run programs with diff capabilities)
+sys-apps/util-linux:cramfs - build mkfs/fsck helpers for cramfs filesystems
+sys-apps/util-linux:cryptsetup - Use sys-fs/cryptsetup to have built-in dm-verity in libmount
+sys-apps/util-linux:fdformat - build fdformat (floppy disk format)
+sys-apps/util-linux:hardlink - build hardlink program
+sys-apps/util-linux:kill - build the kill program
+sys-apps/util-linux:logger - build the logger program
+sys-apps/util-linux:pam - build runuser helper
+sys-apps/util-linux:rtas - Add support for the Run Time Abstraction Services (RTAS)
+sys-apps/util-linux:su - build the su program
+sys-apps/util-linux:suid - Install some programs with suid bit set to provide additional functionality. mount/umount: non-root users may mount/umount devices wall/write: non-root users can notify other users su: non-root users may become root
+sys-apps/util-linux:tty-helpers - install the mesg/wall/write tools for talking to local users
+sys-apps/util-linux:uuidd - build uuidd daemon
 www-client/librewolf:clang - Use Clang compiler instead of GCC
 www-client/librewolf:eme-free - Disable EME (DRM plugin) capability at build time
 www-client/librewolf:gmp-autoupdate - Allow Gecko Media Plugins (binary blobs) to be automatically downloaded and kept up-to-date in user profiles
@@ -151,3 +191,8 @@ www-client/librewolf:system-python-libs - Use system's python site instead of bu
 www-client/librewolf:system-webp - Use the system-wide media-libs/libwebp instead of bundled
 www-client/librewolf:wasm-sandbox - Sandbox certain third-party libraries through WebAssembly using RLBox
 www-client/librewolf:wifi - Enable necko-wifi for NetworkManager integration, and access point MAC address scanning for better precision with opt-in geolocation services
+x11-drivers/nvidia-drivers:kernel-open - Use the open source variant of the drivers (Turing/Ampere+ GPUs only, aka GTX 1650+ -- recommended with >=560.xx drivers if usable and it may be required for 50xx Blackwell+ GPUs)
+x11-drivers/nvidia-drivers:persistenced - Install the persistence daemon for keeping devices state when unused (e.g. for headless)
+x11-drivers/nvidia-drivers:powerd - Install the NVIDIA dynamic boost support daemon (only useful with specific laptops, ignore if unsure)
+x11-drivers/nvidia-drivers:static-libs - Install the XNVCtrl static library for accessing sensors and other features
+x11-drivers/nvidia-drivers:tools - Install additional tools such as nvidia-settings

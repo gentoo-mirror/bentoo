@@ -9,7 +9,7 @@ app-office/onlyoffice-bin 8.3.1: Onlyoffice is an office productivity suite (bin
 app-office/openoffice-bin 4.1.15: Apache OpenOffice productivity suite
 app-text/mupdf 1.25.5: A lightweight PDF viewer and toolkit written in portable C
 dev-util/glslang 1.4.304.1 1.4.304.1_p20250220: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
-dev-util/mesa_clc 25.0.0_p20250313: mesa_clc tool used for building OpenCL C to SPIR-V
+dev-util/mesa_clc 25.0.1_p20250313: mesa_clc tool used for building OpenCL C to SPIR-V
 dev-util/spirv-headers 1.4.304.1_p20250219: Machine-readable files for the SPIR-V Registry
 dev-util/spirv-tools 1.4.304.1_p20250224: Provides an API and commands for processing SPIR-V modules
 dev-util/volk 1.4.309.0_p20250224: Meta loader for Vulkan API
@@ -21,10 +21,11 @@ mail-client/protonmail-bin 1.8.0: Official Beta Proton Mail Linux app
 mail-client/thunderbird 136.0: Thunderbird Mail Client
 mail-client/thunderbird-bin 136.0: Thunderbird Mail Client
 mail-mta/protonmail-bridge 3.18.0-r1: Serves Proton Mail to IMAP/SMTP clients
-media-gfx/gimp 3.0.0_rc3-r1: GNU Image Manipulation Program
+media-gfx/blender 4.4.0: 3D Creation/Animation/Publishing System
+media-gfx/gimp 3.0.0: GNU Image Manipulation Program
 media-gfx/imagemagick 7.1.1.43: A collection of tools and libraries for many image formats
 media-gfx/lycheeslicer 7.2.2: A powerful and versatile slicer
-media-libs/mesa 25.0.0_p20250313: OpenGL-like graphic library for Linux
+media-libs/mesa 25.0.1_p20250313: OpenGL-like graphic library for Linux
 media-libs/shaderc 2024.5_pre20250224: Collection of tools, libraries and tests for shader compilation
 media-libs/vulkan-layers 1.4.307_p20250224: Vulkan Validation Layers
 media-libs/vulkan-loader 1.4.307_p20250204: Vulkan Installable Client Driver (ICD) Loader
@@ -40,9 +41,11 @@ sys-apps/bentoo-utils 0.1.9-r1: Utility for managing Git operations for the Bent
 sys-apps/busybox 1.37.0: Utilities for rescue and embedded systems
 sys-apps/fwupd 2.0.6: Aims to make updating firmware on Linux automatic, safe and reliable
 sys-apps/shadow 4.17.2: Utilities to deal with user accounts
+sys-apps/util-linux 2.41: Various useful Linux utilities
 sys-boot/etcher-bin 1.19.25: Flash OS images to SD cards & USB drives, safely and easily.
 sys-boot/plymouth-openrc-plugin 0.3.0-r2: Plymouth plugin for OpenRC
 sys-libs/libnvidia-container 1.17.4: NVIDIA container runtime library
 www-client/brave-bin 1.76.74: Web browser that blocks ads and trackers by default
 www-client/librewolf 136.0.1_p1: LibreWolf Web Browser
 www-client/torbrowser-bin 14.0.2: The Tor Browser
+x11-drivers/nvidia-drivers 570.133.07: NVIDIA Accelerated Graphics Driver
