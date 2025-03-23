@@ -10,12 +10,12 @@ app-office/openoffice-bin 4.1.15: Apache OpenOffice productivity suite
 app-text/mupdf 1.25.5: A lightweight PDF viewer and toolkit written in portable C
 dev-util/glslang 1.4.309.0_p20250319: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
 dev-util/mesa_clc 25.0.1_p20250315: mesa_clc tool used for building OpenCL C to SPIR-V
-dev-util/spirv-headers 1.4.304.1_p20250219: Machine-readable files for the SPIR-V Registry
-dev-util/spirv-tools 1.4.304.1_p20250224: Provides an API and commands for processing SPIR-V modules
-dev-util/volk 1.4.309.0_p20250224: Meta loader for Vulkan API
-dev-util/vulkan-headers 1.4.309_p20250204: Vulkan Header files and API registry
-dev-util/vulkan-tools 1.4.309_p2020221: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
-dev-util/vulkan-utility-libraries 1.4.309_p20250222: Share code across various Vulkan repositories
+dev-util/spirv-headers 1.4.309.0_p20250319: Machine-readable files for the SPIR-V Registry
+dev-util/spirv-tools 1.4.309.0_p20250321: Provides an API and commands for processing SPIR-V modules
+dev-util/volk 1.4.309.0_p20250321: Meta loader for Vulkan API
+dev-util/vulkan-headers 1.4.311_p20250321: Vulkan Header files and API registry
+dev-util/vulkan-tools 1.4.311_p2020321: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
+dev-util/vulkan-utility-libraries 1.4.309_p20250321: Share code across various Vulkan repositories
 mail-client/betterbird-bin 128.8.0: Betterbird is a fine-tuned version of Mozilla Thunderbird.
 mail-client/protonmail-bin 1.8.0: Official Beta Proton Mail Linux app
 mail-client/thunderbird 136.0: Thunderbird Mail Client
@@ -26,9 +26,8 @@ media-gfx/gimp 3.0.0: GNU Image Manipulation Program
 media-gfx/imagemagick 7.1.1.43: A collection of tools and libraries for many image formats
 media-gfx/lycheeslicer 7.2.2: A powerful and versatile slicer
 media-libs/mesa 25.0.1_p20250315: OpenGL-like graphic library for Linux
-media-libs/shaderc 2024.5_pre20250224: Collection of tools, libraries and tests for shader compilation
-media-libs/vulkan-layers 1.4.307_p20250224: Vulkan Validation Layers
-media-libs/vulkan-loader 1.4.307_p20250204: Vulkan Installable Client Driver (ICD) Loader
+media-libs/vulkan-layers 1.4.311_p20250322: Vulkan Validation Layers
+media-libs/vulkan-loader 1.4.311_p20250321: Vulkan Installable Client Driver (ICD) Loader
 net-ftp/filezilla-pro 3.68.1: Commercial verison of FileZilla
 net-im/telegram-desktop 5.12.4: Official desktop client for Telegram
 net-libs/nodejs 23.10.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
