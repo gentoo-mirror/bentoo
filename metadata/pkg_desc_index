@@ -15,7 +15,7 @@ dev-util/spirv-tools 1.4.309.0_p20250321: Provides an API and commands for proce
 dev-util/volk 1.4.309.0_p20250321: Meta loader for Vulkan API
 dev-util/vulkan-headers 1.4.311_p20250321: Vulkan Header files and API registry
 dev-util/vulkan-tools 1.4.311_p2020321: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
-dev-util/vulkan-utility-libraries 1.4.309_p20250321: Share code across various Vulkan repositories
+dev-util/vulkan-utility-libraries 1.4.309.0_p20250321: Share code across various Vulkan repositories
 mail-client/betterbird-bin 128.8.0: Betterbird is a fine-tuned version of Mozilla Thunderbird.
 mail-client/protonmail-bin 1.8.0: Official Beta Proton Mail Linux app
 mail-client/thunderbird 136.0: Thunderbird Mail Client
@@ -47,5 +47,4 @@ sys-kernel/gentoo-sources 6.13.8: Full sources including the Gentoo patchset for
 sys-libs/libnvidia-container 1.17.4: NVIDIA container runtime library
 www-client/brave-bin 1.76.81: Web browser that blocks ads and trackers by default
 www-client/librewolf 136.0.2_p1: LibreWolf Web Browser
-www-client/torbrowser-bin 14.0.2: The Tor Browser
 x11-drivers/nvidia-drivers 570.133.07: NVIDIA Accelerated Graphics Driver
