@@ -1,14 +1,14 @@
-app-containers/pods 2.1.2: Keep track of your podman containers
+app-containers/pods 2.2.0: Keep track of your podman containers
 app-emulation/virtualbox 7.1.6a: Family of powerful x86 virtualization products for enterprise and home use
 app-emulation/virtualbox-kvm 7.1.6a_pre20250207: Family of powerful x86 virtualization products for enterprise and home use
 app-misc/ollama 9999: Get up and running with Llama 3, Mistral, Gemma, and other language models.
-app-office/freeoffice 1222: A complete, free Microsoft Office-compatible alternative office suite
+app-office/freeoffice 1224: A complete, free Microsoft Office-compatible alternative office suite
 app-office/libreoffice 25.2.1.2: A full office productivity suite
 app-office/libreoffice-l10n 25.2.1.2: Translations for the Libreoffice suite
 app-office/onlyoffice-bin 8.3.1: Onlyoffice is an office productivity suite (binary version)
 app-office/openoffice-bin 4.1.15: Apache OpenOffice productivity suite
 app-text/mupdf 1.25.5: A lightweight PDF viewer and toolkit written in portable C
-dev-util/glslang 1.4.304.1 1.4.304.1_p20250220: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
+dev-util/glslang 1.4.309.0_p20250319: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
 dev-util/mesa_clc 25.0.1_p20250315: mesa_clc tool used for building OpenCL C to SPIR-V
 dev-util/spirv-headers 1.4.304.1_p20250219: Machine-readable files for the SPIR-V Registry
 dev-util/spirv-tools 1.4.304.1_p20250224: Provides an API and commands for processing SPIR-V modules
@@ -34,7 +34,7 @@ net-im/telegram-desktop 5.12.4: Official desktop client for Telegram
 net-libs/nodejs 23.10.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-misc/networkmanager 1.52.0: A set of co-operative tools that make networking simple and straightforward
 net-misc/onionshare 2.6.2: Securely and anonymously share files of any size behind a TOR hidden service.
-net-misc/postman-bin 11.36.6: API platform for building and using APIs
+net-misc/postman-bin 11.37.5: API platform for building and using APIs
 net-misc/rsync 3.4.1: File transfer program to keep remote files into sync
 net-p2p/bisq-bin 1.9.19: The decentralized bitcoin exchange (non-atomic, with arbitration)
 sys-apps/bentoo-utils 0.1.9-r1: Utility for managing Git operations for the Bentoo project
@@ -44,8 +44,9 @@ sys-apps/shadow 4.17.2: Utilities to deal with user accounts
 sys-apps/util-linux 2.41: Various useful Linux utilities
 sys-boot/etcher-bin 1.19.25: Flash OS images to SD cards & USB drives, safely and easily.
 sys-boot/plymouth-openrc-plugin 0.3.0-r2: Plymouth plugin for OpenRC
+sys-kernel/gentoo-sources 6.13.8: Full sources including the Gentoo patchset for the 6.13 kernel tree
 sys-libs/libnvidia-container 1.17.4: NVIDIA container runtime library
-www-client/brave-bin 1.76.74: Web browser that blocks ads and trackers by default
-www-client/librewolf 136.0.1_p1: LibreWolf Web Browser
+www-client/brave-bin 1.76.81: Web browser that blocks ads and trackers by default
+www-client/librewolf 136.0.2_p1: LibreWolf Web Browser
 www-client/torbrowser-bin 14.0.2: The Tor Browser
 x11-drivers/nvidia-drivers 570.133.07: NVIDIA Accelerated Graphics Driver
