@@ -23,15 +23,6 @@ app-misc/ollama:cuda - Enable NVIDIA CUDA support
 app-misc/ollama:mkl - Use sci-libs/mkl for blas, lapack and sparse blas routines
 app-misc/ollama:rocm - Enable ROCm gpu computing support
 app-office/freeoffice:pax_kernel - Triggers a paxmarking of the binary
-app-office/libreoffice:base - Enable full support for LibreOffice Base databases (involves additional bundled libs)
-app-office/libreoffice:clang - Use Clang compiler instead of GCC
-app-office/libreoffice:coinmp - Use sci-libs/coinor-mp as alternative solver
-app-office/libreoffice:googledrive - Enable support for remote files on Google Drive
-app-office/libreoffice:mariadb - Prefer mariadb connector over mysql connector
-app-office/libreoffice:odk - Build the Office Development Kit
-app-office/libreoffice:pdfimport - Enable PDF import via the Poppler library
-app-office/libreoffice:vulkan - Enable Vulkan usage via the skia library (clang recommended)
-app-office/libreoffice-l10n:offlinehelp - Install help files locally instead of using the LibreOffice Wiki
 app-text/mupdf:archive - Enable support for CBR and other archive formats using libarchive
 dev-util/vulkan-tools:cube - Build the cube/cubepp demos
 mail-client/thunderbird:clang - Use Clang compiler instead of GCC
@@ -101,7 +92,6 @@ media-libs/vulkan-loader:layers - Include the vulkan layers
 net-im/telegram-desktop:enchant - Use the app-text/enchant spell-checking backend instead of app-text/hunspell
 net-im/telegram-desktop:fonts - Use builtin patched copy of open-sans fonts (overrides fontconfig)
 net-im/telegram-desktop:libdispatch - Use dev-libs/libdispatch to speed up concurrent code execution
-net-im/telegram-desktop:qt6 - Build with Qt6 support
 net-libs/nodejs:corepack - Enable the experimental corepack package management tool
 net-libs/nodejs:inspector - Enable V8 inspector
 net-libs/nodejs:npm - Enable NPM package manager
@@ -170,6 +160,27 @@ sys-apps/util-linux:su - build the su program
 sys-apps/util-linux:suid - Install some programs with suid bit set to provide additional functionality. mount/umount: non-root users may mount/umount devices wall/write: non-root users can notify other users su: non-root users may become root
 sys-apps/util-linux:tty-helpers - install the mesg/wall/write tools for talking to local users
 sys-apps/util-linux:uuidd - build uuidd daemon
+www-client/firefox:clang - Use Clang compiler instead of GCC
+www-client/firefox:eme-free - Disable EME (DRM plugin) capability at build time
+www-client/firefox:gmp-autoupdate - Allow Gecko Media Plugins (binary blobs) to be automatically downloaded and kept up-to-date in user profiles
+www-client/firefox:gnome-shell - Integrate with gnome-base/gnome-shell search
+www-client/firefox:hwaccel - Force-enable hardware-accelerated rendering (Mozilla bug 594876)
+www-client/firefox:jumbo-build - Enable unified build - combines source files to speed up build process, but requires more memory
+www-client/firefox:libproxy - Enable libproxy support
+www-client/firefox:openh264 - Use media-libs/openh264 for H264 support instead of downloading binary blob from Mozilla at runtime
+www-client/firefox:pgo - Add support for profile-guided optimization for faster binaries - this option will double the compile time
+www-client/firefox:pulseaudio - Add sound server support via media-libs/libpulse (may be PulseAudio or Pipewire, or apulse if installed)
+www-client/firefox:sndio - Enable support for the media-sound/sndio backend
+www-client/firefox:system-av1 - Use the system-wide media-libs/dav1d and media-libs/libaom library instead of bundled
+www-client/firefox:system-harfbuzz - Use the system-wide media-libs/harfbuzz instead of bundled and media-gfx/graphite2 in most cases
+www-client/firefox:system-icu - Use the system-wide dev-libs/icu instead of bundled
+www-client/firefox:system-jpeg - Use the system-wide media-libs/libjpeg-turbo instead of bundled
+www-client/firefox:system-libevent - Use the system-wide dev-libs/libevent instead of bundled
+www-client/firefox:system-libvpx - Use the system-wide media-libs/libvpx instead of bundled
+www-client/firefox:system-png - Use the system-wide media-libs/libpng instead of bundled (requires APNG patches)
+www-client/firefox:system-webp - Use the system-wide media-libs/libwebp instead of bundled
+www-client/firefox:wasm-sandbox - Sandbox certain third-party libraries through WebAssembly using RLBox
+www-client/firefox:wifi - Enable necko-wifi for NetworkManager integration, and access point MAC address scanning for better precision with opt-in geolocation services
 www-client/librewolf:clang - Use Clang compiler instead of GCC
 www-client/librewolf:eme-free - Disable EME (DRM plugin) capability at build time
 www-client/librewolf:gmp-autoupdate - Allow Gecko Media Plugins (binary blobs) to be automatically downloaded and kept up-to-date in user profiles
