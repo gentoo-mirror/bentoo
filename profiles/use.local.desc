@@ -25,24 +25,6 @@ app-misc/ollama:rocm - Enable ROCm gpu computing support
 app-office/freeoffice:pax_kernel - Triggers a paxmarking of the binary
 app-text/mupdf:archive - Enable support for CBR and other archive formats using libarchive
 dev-util/vulkan-tools:cube - Build the cube/cubepp demos
-mail-client/thunderbird:clang - Use Clang compiler instead of GCC
-mail-client/thunderbird:eme-free - Disable EME (DRM plugin) capability at build time
-mail-client/thunderbird:hwaccel - Force-enable hardware-accelerated rendering (Mozilla bug 594876)
-mail-client/thunderbird:libproxy - Enable libproxy support
-mail-client/thunderbird:pgo - Add support for profile-guided optimization using gcc-4.5, for faster binaries. This option will double the compile time.
-mail-client/thunderbird:pulseaudio - Add sound server support via media-libs/libpulse (may be PulseAudio or Pipewire, or apulse if installed)
-mail-client/thunderbird:rust-extensions - Compile and install experimental rust extensions, that may become part of Thunderbird some day.
-mail-client/thunderbird:sndio - Enable support for the media-sound/sndio backend
-mail-client/thunderbird:system-av1 - Use the system-wide media-libs/dav1d and media-libs/libaom library instead of bundled.
-mail-client/thunderbird:system-harfbuzz - Use the system-wide media-libs/harfbuzz and media-gfx/graphite2 instead of bundled.
-mail-client/thunderbird:system-icu - Use the system-wide dev-libs/icu instead of bundled.
-mail-client/thunderbird:system-jpeg - Use the system-wide media-libs/libjpeg-turbo instead of bundled.
-mail-client/thunderbird:system-libevent - Use the system-wide dev-libs/libevent instead of bundled.
-mail-client/thunderbird:system-librnp - Use system-wide dev-util/librnp instead of bundled one.
-mail-client/thunderbird:system-libvpx - Use the system-wide media-libs/libvpx instead of bundled.
-mail-client/thunderbird:system-png - Use the system-wide media-libs/libpng instead of bundled (requires APNG patches)
-mail-client/thunderbird:system-webp - Use the system-wide media-libs/libwebp instead of bundled.
-mail-client/thunderbird:wifi - Enable necko-wifi for NetworkManager integration, and access point MAC address scanning for better precision with opt-in geolocation services
 media-gfx/blender:alembic - Add support for Alembic through media-gfx/alembic.
 media-gfx/blender:bullet - Enable Bullet (Physics Engine).
 media-gfx/blender:collada - Add support for Collada interchange format through media-libs/opencollada.
@@ -69,8 +51,6 @@ media-gfx/blender:pugixml - Enable PugiXML support (Used for OpenImageIO, Grease
 media-gfx/blender:renderdoc - Build Blender with renderdoc support
 media-gfx/blender:tbb - Use threading building blocks library from dev-cpp/tbb.
 media-gfx/blender:vulkan - Add support for the experimental Vulkan viewport backend
-media-gfx/gimp:fits - Enable support for loading/exporting FITS images
-media-gfx/gimp:vector-icons - Enable support for vector icons (experimental)
 media-gfx/imagemagick:corefonts - Use media-fonts/corefonts which is required by some commands
 media-gfx/imagemagick:fpx - Enable media-libs/libfpx support
 media-gfx/imagemagick:hdri - Enable High Dynamic Range Images formats
@@ -78,6 +58,13 @@ media-gfx/imagemagick:lqr - Enable experimental liquid rescale support using med
 media-gfx/imagemagick:pango - Enable Pango support using x11-libs/pango
 media-gfx/imagemagick:q32 - Set quantum depth value to 32
 media-gfx/imagemagick:q8 - Set quantum depth value to 8
+media-gfx/inkscape:cdr - Enable support for CorelDRAW files via media-libs/libcdr
+media-gfx/inkscape:dia - Enable DIA flow chart import via app-office/dia
+media-gfx/inkscape:inkjar - Enable support for OpenOffice.org SVG jar files
+media-gfx/inkscape:sourceview - Enable syntax highlighting support via x11-libs/gtksourceview
+media-gfx/inkscape:svg2 - Enable support for new SVG2 features
+media-gfx/inkscape:visio - Enable support for Microsoft Visio diagrams via media-libs/libvisio
+media-gfx/inkscape:wpg - Enable support for WordPerfect graphics via app-text/libwpg
 media-libs/mesa:d3d9 - Enable Direct 3D9 API through Nine state tracker. Can be used together with patched wine.
 media-libs/mesa:llvm - Enable LLVM backend for Gallium3D.
 media-libs/mesa:lm-sensors - Enable Gallium HUD lm-sensors support.
@@ -89,9 +76,6 @@ media-libs/mesa:vulkan-overlay - Build vulkan-overlay-layer which displays Frame
 media-libs/mesa:wayland - Enable support for dev-libs/wayland
 media-libs/mesa:xa - Enable the XA (X Acceleration) API for Gallium3D.
 media-libs/vulkan-loader:layers - Include the vulkan layers
-net-im/telegram-desktop:enchant - Use the app-text/enchant spell-checking backend instead of app-text/hunspell
-net-im/telegram-desktop:fonts - Use builtin patched copy of open-sans fonts (overrides fontconfig)
-net-im/telegram-desktop:libdispatch - Use dev-libs/libdispatch to speed up concurrent code execution
 net-libs/nodejs:corepack - Enable the experimental corepack package management tool
 net-libs/nodejs:inspector - Enable V8 inspector
 net-libs/nodejs:npm - Enable NPM package manager
@@ -120,10 +104,6 @@ net-misc/networkmanager:tools - Build cli tools such as nmcli, nmtui and nm_clou
 net-misc/networkmanager:wext - Enable support for the deprecated Wext (Wireless Extensions) API; needed for some older drivers (e.g. ipw2200, ndiswrapper)
 net-misc/networkmanager:wifi - Enable support for wifi and 802.1x security
 net-misc/postman-bin:pax-kernel - Triggers a paxmarking of the binary
-net-misc/rsync:rrsync - Install rrsync script to setup restricted rsync users via ssh logins
-net-misc/rsync:stunnel - Provide helper scripts for using rsync via >=net-misc/stunnel-4
-net-misc/rsync:system-zlib - Use system zlib instead of bundled one. This is incompatible with older rsync releases!
-net-misc/rsync:xxhash - Enable dev-libs/xxhash support for hashing
 sys-apps/busybox:make-symlinks - Create all the appropriate symlinks in /bin and /sbin.
 sys-apps/busybox:math - Enable math support in gawk (requires libm)
 sys-apps/busybox:mdev - Create the appropriate symlink in /sbin and install mdev.conf and support files
@@ -146,41 +126,6 @@ sys-apps/fwupd:test-full - Enable tests known not to play nicely with the sandbo
 sys-apps/fwupd:tpm - Install Trusted Platform Module plugin
 sys-apps/fwupd:uefi - Enable UEFI support
 sys-apps/shadow:su - build the su program
-sys-apps/util-linux:audit - Use sys-process/audit to emit audit messages about system changes
-sys-apps/util-linux:caps - build setpriv helper (run programs with diff capabilities)
-sys-apps/util-linux:cramfs - build mkfs/fsck helpers for cramfs filesystems
-sys-apps/util-linux:cryptsetup - Use sys-fs/cryptsetup to have built-in dm-verity in libmount
-sys-apps/util-linux:fdformat - build fdformat (floppy disk format)
-sys-apps/util-linux:hardlink - build hardlink program
-sys-apps/util-linux:kill - build the kill program
-sys-apps/util-linux:logger - build the logger program
-sys-apps/util-linux:pam - build runuser helper
-sys-apps/util-linux:rtas - Add support for the Run Time Abstraction Services (RTAS)
-sys-apps/util-linux:su - build the su program
-sys-apps/util-linux:suid - Install some programs with suid bit set to provide additional functionality. mount/umount: non-root users may mount/umount devices wall/write: non-root users can notify other users su: non-root users may become root
-sys-apps/util-linux:tty-helpers - install the mesg/wall/write tools for talking to local users
-sys-apps/util-linux:uuidd - build uuidd daemon
-www-client/firefox:clang - Use Clang compiler instead of GCC
-www-client/firefox:eme-free - Disable EME (DRM plugin) capability at build time
-www-client/firefox:gmp-autoupdate - Allow Gecko Media Plugins (binary blobs) to be automatically downloaded and kept up-to-date in user profiles
-www-client/firefox:gnome-shell - Integrate with gnome-base/gnome-shell search
-www-client/firefox:hwaccel - Force-enable hardware-accelerated rendering (Mozilla bug 594876)
-www-client/firefox:jumbo-build - Enable unified build - combines source files to speed up build process, but requires more memory
-www-client/firefox:libproxy - Enable libproxy support
-www-client/firefox:openh264 - Use media-libs/openh264 for H264 support instead of downloading binary blob from Mozilla at runtime
-www-client/firefox:pgo - Add support for profile-guided optimization for faster binaries - this option will double the compile time
-www-client/firefox:pulseaudio - Add sound server support via media-libs/libpulse (may be PulseAudio or Pipewire, or apulse if installed)
-www-client/firefox:sndio - Enable support for the media-sound/sndio backend
-www-client/firefox:system-av1 - Use the system-wide media-libs/dav1d and media-libs/libaom library instead of bundled
-www-client/firefox:system-harfbuzz - Use the system-wide media-libs/harfbuzz instead of bundled and media-gfx/graphite2 in most cases
-www-client/firefox:system-icu - Use the system-wide dev-libs/icu instead of bundled
-www-client/firefox:system-jpeg - Use the system-wide media-libs/libjpeg-turbo instead of bundled
-www-client/firefox:system-libevent - Use the system-wide dev-libs/libevent instead of bundled
-www-client/firefox:system-libvpx - Use the system-wide media-libs/libvpx instead of bundled
-www-client/firefox:system-png - Use the system-wide media-libs/libpng instead of bundled (requires APNG patches)
-www-client/firefox:system-webp - Use the system-wide media-libs/libwebp instead of bundled
-www-client/firefox:wasm-sandbox - Sandbox certain third-party libraries through WebAssembly using RLBox
-www-client/firefox:wifi - Enable necko-wifi for NetworkManager integration, and access point MAC address scanning for better precision with opt-in geolocation services
 www-client/librewolf:clang - Use Clang compiler instead of GCC
 www-client/librewolf:eme-free - Disable EME (DRM plugin) capability at build time
 www-client/librewolf:gmp-autoupdate - Allow Gecko Media Plugins (binary blobs) to be automatically downloaded and kept up-to-date in user profiles
@@ -202,8 +147,3 @@ www-client/librewolf:system-python-libs - Use system's python site instead of bu
 www-client/librewolf:system-webp - Use the system-wide media-libs/libwebp instead of bundled
 www-client/librewolf:wasm-sandbox - Sandbox certain third-party libraries through WebAssembly using RLBox
 www-client/librewolf:wifi - Enable necko-wifi for NetworkManager integration, and access point MAC address scanning for better precision with opt-in geolocation services
-x11-drivers/nvidia-drivers:kernel-open - Use the open source variant of the drivers (Turing/Ampere+ GPUs only, aka GTX 1650+ -- recommended with >=560.xx drivers if usable and it may be required for 50xx Blackwell+ GPUs)
-x11-drivers/nvidia-drivers:persistenced - Install the persistence daemon for keeping devices state when unused (e.g. for headless)
-x11-drivers/nvidia-drivers:powerd - Install the NVIDIA dynamic boost support daemon (only useful with specific laptops, ignore if unsure)
-x11-drivers/nvidia-drivers:static-libs - Install the XNVCtrl static library for accessing sensors and other features
-x11-drivers/nvidia-drivers:tools - Install additional tools such as nvidia-settings
