@@ -1,4 +1,6 @@
 app-containers/pods 2.2.0: Keep track of your podman containers
+app-editors/cursor 0.48.8: Cursor App - AI-first coding environment
+app-editors/windsurf 1.6.2: AI-powered code editor maintaining flow state with instant assistance.
 app-emulation/virtualbox 7.1.6a: Family of powerful x86 virtualization products for enterprise and home use
 app-emulation/virtualbox-kvm 7.1.6a_pre20250207: Family of powerful x86 virtualization products for enterprise and home use
 app-misc/ollama 9999: Get up and running with Llama 3, Mistral, Gemma, and other language models.
