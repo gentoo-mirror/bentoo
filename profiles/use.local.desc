@@ -4,6 +4,8 @@
 
 app-editors/cursor:egl - Use EGL platform, enables smooth rending in high refresh rate monitors on X11/Xwayland
 app-editors/cursor:wayland - Run in wayland mode under wayland sessions, xwayland otherwise. This flag doesn't affect x11 sessions.
+app-editors/vscodium:egl - Use EGL platform, enables smooth rending in high refresh rate monitors on X11/Xwayland
+app-editors/vscodium:wayland - Run in wayland mode under wayland sessions, xwayland otherwise. This flag doesn't affect x11 sessions.
 app-emulation/virtualbox:dtrace - Install dtrace Extension Pack.
 app-emulation/virtualbox:headless - Build without any graphic frontend.
 app-emulation/virtualbox:lvm - Build VBoxVolInfo that needs devicemapper from sys-fs/lvm2.
@@ -77,6 +79,35 @@ media-libs/mesa:vdpau - Enable the VDPAU acceleration interface for the Gallium3
 media-libs/mesa:vulkan-overlay - Build vulkan-overlay-layer which displays Frames Per Second and other statistics
 media-libs/mesa:wayland - Enable support for dev-libs/wayland
 media-libs/mesa:xa - Enable the XA (X Acceleration) API for Gallium3D.
+media-libs/opencv:atlas - Use sci-libs/atlas for blas, lapack and sparse blas routines (Experimental!)
+media-libs/opencv:contrib - Install user contributed scripts from opencv_contrib (Experimental!)
+media-libs/opencv:contribcvv - Enable CVV in contrib (requires Qt5)
+media-libs/opencv:contribdnn - Enable DNN module contrib (requires tinydnn)
+media-libs/opencv:contribfreetype - Enable Drawing UTF-8 strings with media-libs/freetype&media-libs/harfbuzz
+media-libs/opencv:contribhdf - Enable HDF module (requires sci-libs/hdf5)
+media-libs/opencv:contribovis - Enable OGRE vision module support (dev-games/ogre)
+media-libs/opencv:contribsfm - Enable SFM module (requires USE="eigen gflags glog")
+media-libs/opencv:contribxfeatures2d - Enables xfeatures2d and autodownload of samples in contrib
+media-libs/opencv:cuda - Enable NVIDIA Cuda computations support (Experimental!)
+media-libs/opencv:cudnn - Enable support for nVidia cuDNN library
+media-libs/opencv:dnnsamples - Enable dnn caffeemodel samples
+media-libs/opencv:eigen - Enable usage of dev-cpp/eigen for computations
+media-libs/opencv:features2d - Enable features2d module
+media-libs/opencv:gdal - Enable support for sci-libs/gdal library
+media-libs/opencv:gflags - Use Google's C++ argument parsing library (dev-cpp/gflags)
+media-libs/opencv:glog - Use Google's C++ logging library (dev-cpp/glog)
+media-libs/opencv:gtk3 - Enable x11-libs/gtk+:3 support
+media-libs/opencv:jasper - Use media-libs/jasper for jpeg2k support
+media-libs/opencv:mkl - Use sci-libs/mkl for blas, lapack and sparse blas routines
+media-libs/opencv:non-free - Enable non-free components
+media-libs/opencv:opencvapps - Enable compilation with opencvapps
+media-libs/opencv:quirc - Enable qrcode decoding via media-libs/quirc
+media-libs/opencv:tbb - Enable multithreading with the Intel Threads Building Block (dev-cpp/tbb)
+media-libs/opencv:tesseract - Use Google's OCR Engine
+media-libs/opencv:testprograms - Build and install programs for testing OpenCV (performance)
+media-libs/opencv:truetype - Enable media-libs/freetype support for gapi module
+media-libs/opencv:video_cards_intel - Enable Video Acceleration API for hardware decoding for Intel cards
+media-libs/opencv:vtk - Build new 3D visualization module viz based on sci-libs/vtk
 media-libs/vulkan-loader:layers - Include the vulkan layers
 net-libs/nodejs:corepack - Enable the experimental corepack package management tool
 net-libs/nodejs:inspector - Enable V8 inspector
@@ -105,6 +136,12 @@ net-misc/networkmanager:teamd - Enable Teamd control support
 net-misc/networkmanager:tools - Build cli tools such as nmcli, nmtui and nm_cloud_setup
 net-misc/networkmanager:wext - Enable support for the deprecated Wext (Wireless Extensions) API; needed for some older drivers (e.g. ipw2200, ndiswrapper)
 net-misc/networkmanager:wifi - Enable support for wifi and 802.1x security
+net-misc/openssh:ldns - Use LDNS for DNSSEC/SSHFP validation.
+net-misc/openssh:legacy-ciphers - Enable support for deprecated, soon-to-be-dropped DSA keys. See https://marc.info/?l=openssh-unix-dev>m=170494903207436>w=2.
+net-misc/openssh:livecd - Enable root password logins for live-cd environment.
+net-misc/openssh:security-key - Include builtin U2F/FIDO support
+net-misc/openssh:ssl - Enable additional crypto algorithms via OpenSSL
+net-misc/openssh:xmss - Enable XMSS post-quantum authentication algorithm
 net-misc/postman-bin:pax-kernel - Triggers a paxmarking of the binary
 sys-apps/busybox:make-symlinks - Create all the appropriate symlinks in /bin and /sbin.
 sys-apps/busybox:math - Enable math support in gawk (requires libm)
