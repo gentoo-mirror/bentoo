@@ -8,6 +8,7 @@ app-misc/ollama 9999: Get up and running with Llama 3, Mistral, Gemma, and other
 app-office/freeoffice 1224: A complete, free Microsoft Office-compatible alternative office suite
 app-office/openoffice-bin 4.1.15: Apache OpenOffice productivity suite
 app-text/mupdf 1.25.6: A lightweight PDF viewer and toolkit written in portable C
+dev-python/conda 25.1.1: OS-agnostic, system-level binary package manager and ecosystem
 dev-util/glslang 1.4.309.0_p20250404: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
 dev-util/mesa_clc 25.0.3_p20250406: mesa_clc tool used for building OpenCL C to SPIR-V
 dev-util/spirv-headers 1.4.309.0_p20250401: Machine-readable files for the SPIR-V Registry

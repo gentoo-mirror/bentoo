@@ -28,6 +28,9 @@ app-misc/ollama:mkl - Use sci-libs/mkl for blas, lapack and sparse blas routines
 app-misc/ollama:rocm - Enable ROCm gpu computing support
 app-office/freeoffice:pax_kernel - Triggers a paxmarking of the binary
 app-text/mupdf:archive - Enable support for CBR and other archive formats using libarchive
+dev-python/conda:mamba - enable libmamba resolver
+dev-python/conda:pycosat - enable pycosat resolver
+dev-python/conda:user - use user's home directory as default pkgs and envs prefix
 dev-util/vulkan-tools:cube - Build the cube/cubepp demos
 media-gfx/blender:alembic - Add support for Alembic through media-gfx/alembic.
 media-gfx/blender:bullet - Enable Bullet (Physics Engine).
