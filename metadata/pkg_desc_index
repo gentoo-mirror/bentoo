@@ -1,5 +1,5 @@
 app-containers/pods 2.2.0: Keep track of your podman containers
-app-editors/cursor 0.49.4: Cursor App - AI-first coding environment
+app-editors/cursor 0.49.5: Cursor App - AI-first coding environment
 app-editors/vscodium 1.99.22418: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-editors/windsurf 1.6.2: AI-powered code editor maintaining flow state with instant assistance.
 app-emulation/virtualbox 7.1.6a: Family of powerful x86 virtualization products for enterprise and home use
