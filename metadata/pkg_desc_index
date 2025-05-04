@@ -1,6 +1,6 @@
 app-containers/pods 2.2.0: Keep track of your podman containers
 app-editors/cursor 0.49.6: Cursor App - AI-first coding environment
-app-editors/vscodium 1.99.22418: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
+app-editors/vscodium 1.99.32846: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-editors/windsurf 1.7.1: AI-powered code editor maintaining flow state with instant assistance.
 app-emulation/virtualbox 7.1.6a: Family of powerful x86 virtualization products for enterprise and home use
 app-emulation/virtualbox-kvm 7.1.6a_pre20250207: Family of powerful x86 virtualization products for enterprise and home use
@@ -26,7 +26,7 @@ media-gfx/inkscape 1.4.1: SVG based generic vector-drawing program
 media-gfx/lycheeslicer 7.2.2: A powerful and versatile slicer
 media-libs/mesa 25.0.3_p202500406: OpenGL-like graphic library for Linux
 media-libs/opencv 4.11.0: A collection of algorithms and sample code for various computer vision problems
-media-libs/vulkan-layers 1.4.311_p20250405: Vulkan Validation Layers
+media-libs/vulkan-layers 1.4.313_p20250504: Vulkan Validation Layers
 media-libs/vulkan-loader 1.4.312_p20250404: Vulkan Installable Client Driver (ICD) Loader
 net-ftp/filezilla-pro 3.69.1: Commercial verison of FileZilla
 net-libs/nodejs 23.11.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
@@ -35,6 +35,7 @@ net-misc/onionshare 2.6.2: Securely and anonymously share files of any size behi
 net-misc/openssh 10.0_p2: Port of OpenBSD's free SSH release
 net-misc/postman-bin 11.40.6: API platform for building and using APIs
 net-p2p/bisq-bin 1.9.19: The decentralized bitcoin exchange (non-atomic, with arbitration)
+net-p2p/qbittorrent 5.1.0: BitTorrent client in C++ and Qt
 sys-apps/bentoo-utils 0.1.9-r1: Utility for managing Git operations for the Bentoo project
 sys-apps/busybox 1.37.0: Utilities for rescue and embedded systems
 sys-apps/fwupd 2.0.7: Aims to make updating firmware on Linux automatic, safe and reliable
@@ -42,5 +43,5 @@ sys-apps/shadow 4.17.2: Utilities to deal with user accounts
 sys-boot/etcher-bin 1.19.25: Flash OS images to SD cards & USB drives, safely and easily.
 sys-boot/plymouth-openrc-plugin 0.3.0-r2: Plymouth plugin for OpenRC
 sys-libs/libnvidia-container 1.17.4: NVIDIA container runtime library
-www-client/brave-bin 1.77.97: Web browser that blocks ads and trackers by default
-www-client/librewolf 137.0_p3: LibreWolf Web Browser
+www-client/brave-bin 1.78.94: Web browser that blocks ads and trackers by default
+www-client/librewolf 138.0.1_p1: LibreWolf Web Browser
