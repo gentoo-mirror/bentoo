@@ -28,7 +28,7 @@ media-libs/mesa 25.0.3_p202500406: OpenGL-like graphic library for Linux
 media-libs/opencv 4.11.0: A collection of algorithms and sample code for various computer vision problems
 media-libs/vulkan-layers 1.4.311_p20250405: Vulkan Validation Layers
 media-libs/vulkan-loader 1.4.312_p20250404: Vulkan Installable Client Driver (ICD) Loader
-net-ftp/filezilla-pro 3.68.1: Commercial verison of FileZilla
+net-ftp/filezilla-pro 3.69.1: Commercial verison of FileZilla
 net-libs/nodejs 23.11.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-misc/networkmanager 1.52.0: A set of co-operative tools that make networking simple and straightforward
 net-misc/onionshare 2.6.2: Securely and anonymously share files of any size behind a TOR hidden service.
