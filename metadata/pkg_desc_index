@@ -33,7 +33,7 @@ net-libs/nodejs 23.11.0: A JavaScript runtime built on Chrome's V8 JavaScript en
 net-misc/networkmanager 1.52.0: A set of co-operative tools that make networking simple and straightforward
 net-misc/onionshare 2.6.2: Securely and anonymously share files of any size behind a TOR hidden service.
 net-misc/openssh 10.0_p2: Port of OpenBSD's free SSH release
-net-misc/postman-bin 11.40.6: API platform for building and using APIs
+net-misc/postman-bin 11.43.4: API platform for building and using APIs
 net-p2p/bisq-bin 1.9.19: The decentralized bitcoin exchange (non-atomic, with arbitration)
 net-p2p/qbittorrent 5.1.0: BitTorrent client in C++ and Qt
 sys-apps/bentoo-utils 0.1.9-r1: Utility for managing Git operations for the Bentoo project
