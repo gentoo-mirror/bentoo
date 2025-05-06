@@ -45,3 +45,4 @@ sys-boot/plymouth-openrc-plugin 0.3.0-r2: Plymouth plugin for OpenRC
 sys-libs/libnvidia-container 1.17.4: NVIDIA container runtime library
 www-client/brave-bin 1.78.94: Web browser that blocks ads and trackers by default
 www-client/librewolf 138.0.1_p1: LibreWolf Web Browser
+x11-misc/libinput-gestures 2.76: Actions gestures on your touchpad using libinput
