@@ -36,6 +36,7 @@ net-misc/openssh 10.0_p2: Port of OpenBSD's free SSH release
 net-misc/postman-bin 11.43.4: API platform for building and using APIs
 net-p2p/bisq-bin 1.9.19: The decentralized bitcoin exchange (non-atomic, with arbitration)
 net-p2p/qbittorrent 5.1.0: BitTorrent client in C++ and Qt
+net-vpn/openfortivpn 1.23.1: Fortinet compatible VPN client
 sys-apps/bentoo-utils 0.1.9-r1: Utility for managing Git operations for the Bentoo project
 sys-apps/busybox 1.37.0: Utilities for rescue and embedded systems
 sys-apps/fwupd 2.0.7: Aims to make updating firmware on Linux automatic, safe and reliable
