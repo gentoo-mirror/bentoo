@@ -3,6 +3,8 @@ app-editors/cursor 0.49.6: Cursor App - AI-first coding environment
 app-editors/windsurf 1.8.2: AI-powered code editor maintaining flow state with instant assistance.
 app-emulation/virtualbox 7.1.8: Family of powerful x86 virtualization products for enterprise and home use
 app-emulation/virtualbox-kvm 7.1.8_pre20250207: Family of powerful x86 virtualization products for enterprise and home use
+app-emulation/vmware-modules 17.6.3-r1: VMware kernel modules
+app-emulation/vmware-workstation 17.6.3.24583834-r2: Emulate a complete PC without the performance overhead of most emulators
 app-misc/ollama 9999: Get up and running with Llama 3, Mistral, Gemma, and other language models.
 app-office/freeoffice 1224: A complete, free Microsoft Office-compatible alternative office suite
 app-office/openoffice-bin 4.1.15: Apache OpenOffice productivity suite

@@ -21,6 +21,19 @@ app-emulation/virtualbox-kvm:udev - Controls installation of special USB udev ru
 app-emulation/virtualbox-kvm:vboxwebsrv - Build and install the VirtualBox webservice
 app-emulation/virtualbox-kvm:vde - Support for VDE networking via net-misc/vde
 app-emulation/virtualbox-kvm:vmmraw - Enable 32-bit support on a 64-bit kernel.
+app-emulation/vmware-workstation:macos-guests - Support macOS guests.
+app-emulation/vmware-workstation:modules - Install app-emulation/vmware-modules in order to run VMs locally.
+app-emulation/vmware-workstation:ovftool - Install OVF tool.
+app-emulation/vmware-workstation:vix - Install VIX. The VIX API allows you to write programs and scripts that automate virtual machine operations, and run programs or manipulate files within guest operating systems.
+app-emulation/vmware-workstation:vmware-tools-darwin - Install VMware Tools for OS X (El Capitan and later) guests.
+app-emulation/vmware-workstation:vmware-tools-darwinPre15 - Install VMware Tools for OS X (up to Yosemite) guests.
+app-emulation/vmware-workstation:vmware-tools-linux - Install VMware Tools for Linux guests.
+app-emulation/vmware-workstation:vmware-tools-linuxPreGlibc25 - Install VMware Tools for Linux (glibc older than 2.5) guests.
+app-emulation/vmware-workstation:vmware-tools-netware - Install VMware Tools for Netware guests.
+app-emulation/vmware-workstation:vmware-tools-solaris - Install VMware Tools for Solaris guests.
+app-emulation/vmware-workstation:vmware-tools-winPre2k - Install VMware Tools for Windows (before 2000) guests.
+app-emulation/vmware-workstation:vmware-tools-winPreVista - Install VMware Tools for Windows (after 2000, before Vista) guests.
+app-emulation/vmware-workstation:vmware-tools-windows - Install VMware Tools for Windows (Vista and later) guests.
 app-misc/ollama:cuda - Enable NVIDIA CUDA support
 app-misc/ollama:mkl - Use sci-libs/mkl for blas, lapack and sparse blas routines
 app-misc/ollama:rocm - Enable ROCm gpu computing support
