@@ -12,6 +12,6 @@ PROPERTIES=test_network
 RDEPEND=app-crypt/libsecret gui? ( >=dev-libs/protobuf-21.12:= >=dev-libs/sentry-native-0.6.5-r1 dev-qt/qtbase:6=[gui,icu,widgets] dev-qt/qtdeclarative:6=[widgets] dev-qt/qtsvg:6= media-libs/mesa net-libs/grpc:= )
 RESTRICT=test network-sandbox strip
 SLOT=0
-SRC_URI=https://github.com/ProtonMail/proton-bridge/archive/refs/tags/v3.19.0.tar.gz -> protonmail-bridge-3.19.0.tar.gz
+SRC_URI=https://github.com/ProtonMail/proton-bridge/archive/refs/tags/v3.20.0.tar.gz -> protonmail-bridge-3.20.0.tar.gz
 _eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	b05c1b7b3c9213c155f128f4eadaa49f	desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	go-env	0e2babf96e7d0b045fc07ad199eb2399	go-module	191a27261275fc3bff7dd7482361b5d6	systemd	a964c0cbe818b5729da1dbfcee5be861
 _md5_=6183a6c2cd2f96e5208471476c9b9ffa

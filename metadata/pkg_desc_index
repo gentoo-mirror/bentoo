@@ -1,7 +1,6 @@
 app-containers/pods 2.2.0: Keep track of your podman containers
 app-editors/cursor 0.49.6: Cursor App - AI-first coding environment
-app-editors/vscodium 1.99.32846: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
-app-editors/windsurf 1.7.1: AI-powered code editor maintaining flow state with instant assistance.
+app-editors/windsurf 1.8.2: AI-powered code editor maintaining flow state with instant assistance.
 app-emulation/virtualbox 7.1.8: Family of powerful x86 virtualization products for enterprise and home use
 app-emulation/virtualbox-kvm 7.1.8_pre20250207: Family of powerful x86 virtualization products for enterprise and home use
 app-misc/ollama 9999: Get up and running with Llama 3, Mistral, Gemma, and other language models.
@@ -9,42 +8,40 @@ app-office/freeoffice 1224: A complete, free Microsoft Office-compatible alterna
 app-office/openoffice-bin 4.1.15: Apache OpenOffice productivity suite
 app-text/mupdf 1.25.6: A lightweight PDF viewer and toolkit written in portable C
 dev-python/conda 25.3.1: OS-agnostic, system-level binary package manager and ecosystem
-dev-util/glslang 1.4.309.0_p20250404: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
-dev-util/mesa_clc 25.1.0_pre20250505: mesa_clc tool used for building OpenCL C to SPIR-V
-dev-util/spirv-headers 1.4.309.0_p20250401: Machine-readable files for the SPIR-V Registry
-dev-util/spirv-tools 1.4.309.0_p20250404: Provides an API and commands for processing SPIR-V modules
-dev-util/volk 1.4.309.0_p20250404: Meta loader for Vulkan API
-dev-util/vulkan-headers 1.4.312_p20250404: Vulkan Header files and API registry
-dev-util/vulkan-tools 1.4.311_p2020321: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
-dev-util/vulkan-utility-libraries 1.4.309.0_p20250404: Share code across various Vulkan repositories
+dev-util/glslang 1.4.313.0_p20250429: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
+dev-util/mesa_clc 25.1.0_p20250510: mesa_clc tool used for building OpenCL C to SPIR-V
+dev-util/spirv-headers 1.4.313.0_p20250507: Machine-readable files for the SPIR-V Registry
+dev-util/spirv-tools 1.4.313.0_p20250510: Provides an API and commands for processing SPIR-V modules
+dev-util/volk 1.4.313.0_p20250509: Meta loader for Vulkan API
+dev-util/vulkan-headers 1.4.315_p20250509: Vulkan Header files and API registry
+dev-util/vulkan-tools 1.4.315_p20250509: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
+dev-util/vulkan-utility-libraries 1.4.313.0_p20250509: Share code across various Vulkan repositories
 mail-client/betterbird-bin 128.10.0: Betterbird is a fine-tuned version of Mozilla Thunderbird.
 mail-client/protonmail-bin 1.8.0: Official Beta Proton Mail Linux app
-mail-mta/protonmail-bridge 3.19.0: Serves Proton Mail to IMAP/SMTP clients
-media-gfx/blender 4.4.0: 3D Creation/Animation/Publishing System
+mail-mta/protonmail-bridge 3.20.0: Serves Proton Mail to IMAP/SMTP clients
 media-gfx/imagemagick 7.1.1.47: A collection of tools and libraries for many image formats
 media-gfx/inkscape 1.4.1: SVG based generic vector-drawing program
-media-gfx/lycheeslicer 7.2.2: A powerful and versatile slicer
-media-libs/mesa 25.1.0_pre20250505: OpenGL-like graphic library for Linux
-media-libs/opencv 4.11.0: A collection of algorithms and sample code for various computer vision problems
-media-libs/vulkan-layers 1.4.313_p20250504: Vulkan Validation Layers
-media-libs/vulkan-loader 1.4.312_p20250404: Vulkan Installable Client Driver (ICD) Loader
+media-gfx/lycheeslicer 7.3.2: A powerful and versatile slicer
+media-libs/mesa 25.1.0_p20250510: OpenGL-like graphic library for Linux
+media-libs/vulkan-layers 1.4.315_p20250510: Vulkan Validation Layers
+media-libs/vulkan-loader 1.4.315_p20250509: Vulkan Installable Client Driver (ICD) Loader
 net-ftp/filezilla-pro 3.69.1: Commercial verison of FileZilla
-net-libs/nodejs 23.11.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
+net-im/telegram-desktop 5.14.2: Official desktop client for Telegram
+net-libs/nodejs 24.0.1: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-misc/networkmanager 1.52.0: A set of co-operative tools that make networking simple and straightforward
-net-misc/onionshare 2.6.2: Securely and anonymously share files of any size behind a TOR hidden service.
+net-misc/onionshare 2.6.3: Securely and anonymously share files of any size behind a TOR hidden service.
 net-misc/openssh 10.0_p2: Port of OpenBSD's free SSH release
-net-misc/postman-bin 11.43.4: API platform for building and using APIs
+net-misc/postman-bin 11.44.0: API platform for building and using APIs
 net-p2p/bisq-bin 1.9.19: The decentralized bitcoin exchange (non-atomic, with arbitration)
 net-p2p/qbittorrent 5.1.0: BitTorrent client in C++ and Qt
 net-vpn/forticlient-vpn 7.4.3.1736: Fortinet VPN client
 net-vpn/openfortivpn 1.23.1: Fortinet compatible VPN client
 sys-apps/bentoo-utils 0.1.9-r1: Utility for managing Git operations for the Bentoo project
+sys-apps/bleachbit 5.0.0: Clean junk to free disk space and to maintain privacy
 sys-apps/busybox 1.37.0: Utilities for rescue and embedded systems
-sys-apps/fwupd 2.0.7: Aims to make updating firmware on Linux automatic, safe and reliable
+sys-apps/fwupd 2.0.9: Aims to make updating firmware on Linux automatic, safe and reliable
 sys-apps/shadow 4.17.2: Utilities to deal with user accounts
 sys-boot/etcher-bin 1.19.25: Flash OS images to SD cards & USB drives, safely and easily.
 sys-boot/plymouth-openrc-plugin 0.3.0-r2: Plymouth plugin for OpenRC
-sys-libs/libnvidia-container 1.17.4: NVIDIA container runtime library
-www-client/brave-bin 1.78.94: Web browser that blocks ads and trackers by default
-www-client/librewolf 138.0.1_p1: LibreWolf Web Browser
+www-client/brave-bin 1.78.97: Web browser that blocks ads and trackers by default
 x11-misc/libinput-gestures 2.76: Actions gestures on your touchpad using libinput
