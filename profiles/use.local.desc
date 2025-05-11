@@ -30,6 +30,36 @@ dev-python/conda:mamba - enable libmamba resolver
 dev-python/conda:pycosat - enable pycosat resolver
 dev-python/conda:user - use user's home directory as default pkgs and envs prefix
 dev-util/vulkan-tools:cube - Build the cube/cubepp demos
+kde-frameworks/kcompletion:designer - Build plugins for dev-qt/designer
+kde-frameworks/kconfig:qml - Enable QML/QtQuick support via dev-qt/qtdeclarative
+kde-frameworks/kconfigwidgets:designer - Build plugins for dev-qt/designer
+kde-frameworks/kfilemetadata:epub - Enable support for reading EPUB ebook metadata
+kde-frameworks/kfilemetadata:mobi - Enable mobipocket support via kde-apps/kdegraphics-mobipocket
+kde-frameworks/kiconthemes:designer - Build plugins for dev-qt/designer
+kde-frameworks/kimageformats:eps - Support the EPS graphics file format
+kde-frameworks/kio:designer - Build plugins for dev-qt/designer
+kde-frameworks/kio:kwallet - Enable permanent storage of passwords for kpasswdserver with kde-frameworks/kwallet
+kde-frameworks/kitemmodels:qml - Enable QML support via dev-qt/qtdeclarative
+kde-frameworks/kitemviews:designer - Build plugins for dev-qt/designer
+kde-frameworks/knewstuff:designer - Build plugins for dev-qt/designer
+kde-frameworks/knewstuff:opds - Enable support for the Open Publication Distribution System via kde-frameworks/syndication
+kde-frameworks/knotifications:qml - Enable QML support via dev-qt/qtdeclarative
+kde-frameworks/knotifications:speech - Enable text-to-speech notification support
+kde-frameworks/kplotting:designer - Build plugins for dev-qt/designer
+kde-frameworks/ktexteditor:editorconfig - Enable support for EditorConfig configuration files
+kde-frameworks/ktextwidgets:designer - Build plugins for dev-qt/designer
+kde-frameworks/kwallet:gpg - Support wallets with GnuPG encryption in addition to the default blowfish-encrypted file
+kde-frameworks/kwallet:minimal - Pull in required runtime components for KWallet via kde-frameworks/kwallet
+kde-frameworks/kwidgetsaddons:designer - Build plugins for dev-qt/designer
+kde-frameworks/kxmlgui:designer - Build plugins for dev-qt/designer
+kde-frameworks/networkmanager-qt:teamd - Enable Teamd control support
+kde-frameworks/prison:qml - Enable QML/QtQuick support via dev-qt/qtdeclarative
+kde-frameworks/purpose:kaccounts - Enable support for system-wide defined KAccounts
+kde-frameworks/purpose:webengine - Enable support for system-wide defined KAccounts
+kde-frameworks/sonnet:aspell - Enable the app-text/aspell spell-checking backend
+kde-frameworks/sonnet:designer - Build plugins for dev-qt/designer
+kde-frameworks/sonnet:hunspell - Enable the app-text/hunspell spell-checking backend
+kde-frameworks/sonnet:qml - Enable QML/QtQuick support via dev-qt/qtdeclarative
 media-gfx/imagemagick:corefonts - Use media-fonts/corefonts which is required by some commands
 media-gfx/imagemagick:fpx - Enable media-libs/libfpx support
 media-gfx/imagemagick:hdri - Enable High Dynamic Range Images formats
