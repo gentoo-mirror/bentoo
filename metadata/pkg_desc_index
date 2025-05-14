@@ -10,7 +10,7 @@ app-office/openoffice-bin 4.1.15: Apache OpenOffice productivity suite
 app-text/mupdf 1.25.6: A lightweight PDF viewer and toolkit written in portable C
 dev-python/conda 25.3.1: OS-agnostic, system-level binary package manager and ecosystem
 dev-util/glslang 1.4.313.0_p20250429: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
-dev-util/mesa_clc 25.2_pre20250510: mesa_clc tool used for building OpenCL C to SPIR-V
+dev-util/mesa_clc 25.2_pre20250513: mesa_clc tool used for building OpenCL C to SPIR-V
 dev-util/spirv-headers 1.4.313.0_p20250507: Machine-readable files for the SPIR-V Registry
 dev-util/spirv-tools 1.4.313.0_p20250510: Provides an API and commands for processing SPIR-V modules
 dev-util/volk 1.4.313.0_p20250509: Meta loader for Vulkan API
@@ -96,7 +96,7 @@ mail-mta/protonmail-bridge 3.20.0: Serves Proton Mail to IMAP/SMTP clients
 media-gfx/imagemagick 7.1.1.47: A collection of tools and libraries for many image formats
 media-gfx/inkscape 1.4.1: SVG based generic vector-drawing program
 media-gfx/lycheeslicer 7.3.2: A powerful and versatile slicer
-media-libs/mesa 25.2_pre20250510: OpenGL-like graphic library for Linux
+media-libs/mesa 25.2_pre20250513: OpenGL-like graphic library for Linux
 media-libs/vulkan-layers 1.4.315_p20250510: Vulkan Validation Layers
 media-libs/vulkan-loader 1.4.315_p20250509: Vulkan Installable Client Driver (ICD) Loader
 net-ftp/filezilla-pro 3.69.1: Commercial verison of FileZilla
