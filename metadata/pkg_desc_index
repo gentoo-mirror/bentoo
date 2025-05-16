@@ -1,8 +1,8 @@
 acct-group/vmware 0: Group for VMware
 app-containers/pods 2.2.0: Keep track of your podman containers
-app-editors/cursor 0.49.6: Cursor App - AI-first coding environment
+app-editors/cursor 0.50.4: Cursor App - AI-first coding environment
 app-editors/vscodium 1.100.13210: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
-app-editors/windsurf 1.8.2: AI-powered code editor maintaining flow state with instant assistance.
+app-editors/windsurf 1.9.0: AI-powered code editor maintaining flow state with instant assistance.
 app-emulation/virtualbox 7.1.8-r1: Family of powerful x86 virtualization products for enterprise and home use
 app-emulation/virtualbox-kvm 7.1.8_pre20250207: Family of powerful x86 virtualization products for enterprise and home use
 app-misc/ollama 9999: Get up and running with Llama 3, Mistral, Gemma, and other language models.
@@ -34,7 +34,7 @@ net-libs/nodejs 22.15.1 24.0.2: A JavaScript runtime built on Chrome's V8 JavaSc
 net-misc/networkmanager 1.52.0: A set of co-operative tools that make networking simple and straightforward
 net-misc/onionshare 2.6.3: Securely and anonymously share files of any size behind a TOR hidden service.
 net-misc/openssh 10.0_p2: Port of OpenBSD's free SSH release
-net-misc/postman-bin 11.45.3: API platform for building and using APIs
+net-misc/postman-bin 11.45.6: API platform for building and using APIs
 net-p2p/bisq-bin 1.9.19: The decentralized bitcoin exchange (non-atomic, with arbitration)
 net-p2p/qbittorrent 5.1.0: BitTorrent client in C++ and Qt
 net-vpn/forticlient-vpn 7.4.3.1736: Fortinet VPN client
