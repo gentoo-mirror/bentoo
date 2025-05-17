@@ -47,4 +47,5 @@ sys-apps/shadow 4.17.2: Utilities to deal with user accounts
 sys-boot/etcher-bin 1.19.25: Flash OS images to SD cards & USB drives, safely and easily.
 sys-boot/plymouth-openrc-plugin 0.3.0-r2: Plymouth plugin for OpenRC
 www-client/brave-bin 1.78.97: Web browser that blocks ads and trackers by default
+www-client/chromium 137.0.7151.27: Open-source version of Google Chrome web browser
 x11-misc/libinput-gestures 2.76: Actions gestures on your touchpad using libinput
