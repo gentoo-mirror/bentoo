@@ -15,22 +15,20 @@ app-emulation/virtualbox:udev - Controls installation of special USB udev rules.
 app-emulation/virtualbox:vboxwebsrv - Build and install the VirtualBox webservice.
 app-emulation/virtualbox:vde - Support for VDE networking via net-misc/vde.
 app-emulation/virtualbox:vmmraw - Enable 32-bit support on a 64-bit kernel.
-app-emulation/virtualbox-kvm:dtrace - Install dtrace Extension Pack
-app-emulation/virtualbox-kvm:hardened - Enable hardening and install binaries SUID
-app-emulation/virtualbox-kvm:lvm - Build VBoxVolInfo that needs devicemapper from sys-fs/lvm2.
-app-emulation/virtualbox-kvm:sdk - Enable building of SDK
-app-emulation/virtualbox-kvm:udev - Controls installation of special USB udev rules.
-app-emulation/virtualbox-kvm:vboxwebsrv - Build and install the VirtualBox webservice
-app-emulation/virtualbox-kvm:vde - Support for VDE networking via net-misc/vde
-app-emulation/virtualbox-kvm:vmmraw - Enable 32-bit support on a 64-bit kernel.
-app-misc/ollama:cuda - Enable NVIDIA CUDA support
-app-misc/ollama:mkl - Use sci-libs/mkl for blas, lapack and sparse blas routines
-app-misc/ollama:rocm - Enable ROCm gpu computing support
+app-emulation/wine-staging:capi - Enable ISDN support using net-libs/libcapi
+app-emulation/wine-staging:crossdev-mingw - Use sys-devel/crossdev for the toolchain rather than dev-util/mingw64-toolchain (requires manual setting up and is mostly unsupported, try disabling if have issues)
+app-emulation/wine-staging:dos - Pull in games-emulation/dosbox to run DOS applications
+app-emulation/wine-staging:gecko - Enable mshtml support using app-emulation/wine-gecko
+app-emulation/wine-staging:mingw - Build PE files using dev-util/mingw64-toolchain (more tested) rather than llvm-core/clang (newer)
+app-emulation/wine-staging:mono - Enable .NET support using app-emulation/wine-mono
+app-emulation/wine-staging:netapi - Enable support for configuring remote shares using net-fs/samba
+app-emulation/wine-staging:pcap - Support packet capture software (e.g. wireshark)
+app-emulation/wine-staging:perl - Install helpers that require perl (winedump/winemaker)
+app-emulation/wine-staging:samba - Pull in net-fs/samba with winbind for NTLM auth support
+app-emulation/wine-staging:sdl - Enable gamepad support using media-libs/libsdl2
+app-emulation/wine-staging:wow64 - Enable the "new" wow64 mode that allows running 32bit applications without 32bit ELF multilib by mapping to 64bit calls (experimental, *may* have worse/unusable OpenGL performance or other issues compared to USE=abi_x86_32 aka "old" wow64, also lacks 16bit support) -- if USE=mingw is set, still need the default abi_x86_32 set on dev-util/mingw64-toolchain but that can be done even with /no-multilib/ profiles. This can also be enabled on arm64 to allow running x86 applications, but that requires to manually setup xtajit.dll in the wine prefix for x86 emulation.
 app-office/freeoffice:pax_kernel - Triggers a paxmarking of the binary
 app-text/mupdf:archive - Enable support for CBR and other archive formats using libarchive
-dev-python/conda:mamba - enable libmamba resolver
-dev-python/conda:pycosat - enable pycosat resolver
-dev-python/conda:user - use user's home directory as default pkgs and envs prefix
 dev-util/vulkan-tools:cube - Build the cube/cubepp demos
 media-gfx/imagemagick:corefonts - Use media-fonts/corefonts which is required by some commands
 media-gfx/imagemagick:fpx - Enable media-libs/libfpx support
