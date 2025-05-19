@@ -2,7 +2,7 @@ app-containers/pods 2.2.0: Keep track of your podman containers
 app-editors/cursor 0.50.4: Cursor App - AI-first coding environment
 app-editors/vscodium 1.100.13210: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-editors/windsurf 1.9.0: AI-powered code editor maintaining flow state with instant assistance.
-app-editors/zed 0.186.9: The fast, collaborative code editor
+app-editors/zed 0.187.2_pre20250519: The fast, collaborative code editor
 app-emulation/virtualbox 7.1.8-r1: Family of powerful x86 virtualization products for enterprise and home use
 app-emulation/wine-staging 10.8: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
 app-office/freeoffice 1224: A complete, free Microsoft Office-compatible alternative office suite
@@ -19,6 +19,7 @@ dev-util/vulkan-utility-libraries 1.4.313.0_p20250509: Share code across various
 mail-client/betterbird-bin 128.10.1: Betterbird is a fine-tuned version of Mozilla Thunderbird.
 mail-client/protonmail-bin 1.8.0: Official Beta Proton Mail Linux app
 mail-mta/protonmail-bridge 3.20.0: Serves Proton Mail to IMAP/SMTP clients
+media-gfx/gimp 3.0.4: GNU Image Manipulation Program
 media-gfx/imagemagick 7.1.1.47: A collection of tools and libraries for many image formats
 media-gfx/inkscape 1.4.2: SVG based generic vector-drawing program
 media-libs/mesa 25.2_pre20250517: OpenGL-like graphic library for Linux
