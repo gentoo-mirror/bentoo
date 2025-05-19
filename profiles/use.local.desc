@@ -31,6 +31,7 @@ app-emulation/wine-staging:wow64 - Enable the "new" wow64 mode that allows runni
 app-office/freeoffice:pax_kernel - Triggers a paxmarking of the binary
 app-text/mupdf:archive - Enable support for CBR and other archive formats using libarchive
 dev-util/vulkan-tools:cube - Build the cube/cubepp demos
+llvm-core/libclc:spirv - Build SPIRV targets
 media-gfx/gimp:fits - Enable support for loading/exporting FITS images
 media-gfx/gimp:vector-icons - Enable support for vector icons (experimental)
 media-gfx/imagemagick:corefonts - Use media-fonts/corefonts which is required by some commands
