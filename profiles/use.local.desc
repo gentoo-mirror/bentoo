@@ -47,6 +47,9 @@ media-gfx/inkscape:sourceview - Enable syntax highlighting support via x11-libs/
 media-gfx/inkscape:svg2 - Enable support for new SVG2 features
 media-gfx/inkscape:visio - Enable support for Microsoft Visio diagrams via media-libs/libvisio
 media-gfx/inkscape:wpg - Enable support for WordPerfect graphics via app-text/libwpg
+media-libs/gegl:lensfun - Enable support for media-libs/lensfun.
+media-libs/gegl:sdl2 - Add support for Simple Direct Layer 2.0 (media-libs/libsdl2)
+media-libs/gegl:umfpack - Enable sparse solving via sci-libs/umfpack.
 media-libs/mesa:d3d9 - Enable Direct 3D9 API through Nine state tracker. Can be used together with patched wine.
 media-libs/mesa:llvm - Enable LLVM backend for Gallium3D.
 media-libs/mesa:lm-sensors - Enable Gallium HUD lm-sensors support.
