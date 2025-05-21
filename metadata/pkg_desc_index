@@ -1,11 +1,13 @@
 app-containers/pods 2.2.0: Keep track of your podman containers
 app-editors/cursor 0.50.5: Cursor App - AI-first coding environment
-app-editors/vscodium 1.100.13210: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
+app-editors/vscodium 1.100.23258: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-editors/windsurf 1.9.0: AI-powered code editor maintaining flow state with instant assistance.
-app-editors/zed 0.186.11: The fast, collaborative code editor
+app-editors/zed 0.187.4: The fast, collaborative code editor
 app-emulation/virtualbox 7.1.8-r1: Family of powerful x86 virtualization products for enterprise and home use
 app-emulation/wine-staging 10.8: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
 app-office/freeoffice 1224: A complete, free Microsoft Office-compatible alternative office suite
+app-office/libreoffice 25.8.0.0_alpha1: A full office productivity suite
+app-office/libreoffice-l10n 25.8.0.0_alpha1: Translations for the Libreoffice suite
 app-office/openoffice-bin 4.1.15: Apache OpenOffice productivity suite
 app-text/mupdf 1.25.6: A lightweight PDF viewer and toolkit written in portable C
 dev-util/glslang 1.4.313.0_p20250429: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
@@ -29,7 +31,7 @@ media-libs/vulkan-layers 1.4.315_p20250517: Vulkan Validation Layers
 media-libs/vulkan-loader 1.4.315_p20250514: Vulkan Installable Client Driver (ICD) Loader
 media-video/v4l2loopback 0.14.0: v4l2 loopback device whose output is its own input
 net-ftp/filezilla-pro 3.69.1: Commercial verison of FileZilla
-net-im/telegram-desktop 5.14.2: Official desktop client for Telegram
+net-im/telegram-desktop 5.14.3: Official desktop client for Telegram
 net-libs/libmbim 1.32.0: Mobile Broadband Interface Model (MBIM) modem protocol helper library
 net-libs/libqmi 1.36.0: Qualcomm MSM (Mobile Station Modem) Interface (QMI) modem protocol library
 net-libs/nodejs 22.15.1 24.0.2: A JavaScript runtime built on Chrome's V8 JavaScript engine
@@ -37,7 +39,7 @@ net-misc/modemmanager 1.24.0: Modem and mobile broadband management libraries
 net-misc/networkmanager 1.52.0: A set of co-operative tools that make networking simple and straightforward
 net-misc/onionshare 2.6.3: Securely and anonymously share files of any size behind a TOR hidden service.
 net-misc/openssh 10.0_p2: Port of OpenBSD's free SSH release
-net-misc/postman-bin 11.45.6: API platform for building and using APIs
+net-misc/postman-bin 11.46.2: API platform for building and using APIs
 net-p2p/bisq-bin 1.9.19: The decentralized bitcoin exchange (non-atomic, with arbitration)
 net-p2p/qbittorrent 5.1.0: BitTorrent client in C++ and Qt
 net-vpn/forticlient-vpn 7.4.3.1736: Fortinet VPN client
@@ -45,7 +47,7 @@ net-vpn/openfortivpn 1.23.1: Fortinet compatible VPN client
 sys-apps/bentoo-utils 0.1.9-r1: Utility for managing Git operations for the Bentoo project
 sys-apps/bleachbit 5.0.0: Clean junk to free disk space and to maintain privacy
 sys-apps/busybox 1.37.0: Utilities for rescue and embedded systems
-sys-apps/fwupd 2.0.9: Aims to make updating firmware on Linux automatic, safe and reliable
+sys-apps/fwupd 2.0.10: Aims to make updating firmware on Linux automatic, safe and reliable
 sys-apps/shadow 4.17.2: Utilities to deal with user accounts
 sys-boot/etcher-bin 1.19.25: Flash OS images to SD cards & USB drives, safely and easily.
 sys-boot/plymouth-openrc-plugin 0.3.0-r2: Plymouth plugin for OpenRC
