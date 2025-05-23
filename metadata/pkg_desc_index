@@ -2,7 +2,7 @@ app-containers/pods 2.2.0: Keep track of your podman containers
 app-editors/cursor 0.50.5: Cursor App - AI-first coding environment
 app-editors/vscodium 1.100.23258: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-editors/windsurf 1.9.0: AI-powered code editor maintaining flow state with instant assistance.
-app-editors/zed 0.187.7: The fast, collaborative code editor
+app-editors/zed 0.187.4 0.187.7: The fast, collaborative code editor
 app-emulation/virtualbox 7.1.8-r1: Family of powerful x86 virtualization products for enterprise and home use
 app-emulation/wine-staging 10.8: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
 app-office/freeoffice 1224: A complete, free Microsoft Office-compatible alternative office suite
