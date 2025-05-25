@@ -6,6 +6,7 @@ app-office/freeoffice 1224: A complete, free Microsoft Office-compatible alterna
 app-office/libreoffice 25.8.0.0_alpha1: A full office productivity suite
 app-office/libreoffice-l10n 25.8.0.0_alpha1: Translations for the Libreoffice suite
 app-office/openoffice-bin 4.1.15: Apache OpenOffice productivity suite
+dev-libs/libdnet 1.18.0-r2: Simplified, portable interface to several low-level networking routines
 dev-libs/wayland 1.23.91: Wayland protocol libraries
 dev-util/glslang 1.4.313.0_p20250522: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
 dev-util/mesa_clc 25.2_pre20250525: mesa_clc tool used for building OpenCL C to SPIR-V
