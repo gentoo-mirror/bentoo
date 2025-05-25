@@ -6,7 +6,6 @@ app-office/freeoffice 1224: A complete, free Microsoft Office-compatible alterna
 app-office/libreoffice 25.8.0.0_alpha1: A full office productivity suite
 app-office/libreoffice-l10n 25.8.0.0_alpha1: Translations for the Libreoffice suite
 app-office/openoffice-bin 4.1.15: Apache OpenOffice productivity suite
-dev-libs/libdnet 1.18.0-r2: Simplified, portable interface to several low-level networking routines
 dev-libs/wayland 1.23.91: Wayland protocol libraries
 dev-util/glslang 1.4.313.0_p20250522: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
 dev-util/mesa_clc 25.2_pre20250525: mesa_clc tool used for building OpenCL C to SPIR-V
@@ -26,7 +25,7 @@ media-libs/mesa 25.2_pre20250525: OpenGL-like graphic library for Linux
 media-libs/vulkan-layers 1.4.315_p20250522: Vulkan Validation Layers
 media-libs/vulkan-loader 1.4.315_p20250520: Vulkan Installable Client Driver (ICD) Loader
 media-video/v4l2loopback 0.14.0: v4l2 loopback device whose output is its own input
-net-ftp/filezilla-pro 3.69.1: Commercial verison of FileZilla
+net-ftp/filezilla-pro 3.69.1-r1: Commercial verison of FileZilla
 net-libs/libmbim 1.32.0: Mobile Broadband Interface Model (MBIM) modem protocol helper library
 net-libs/libqmi 1.36.0: Qualcomm MSM (Mobile Station Modem) Interface (QMI) modem protocol library
 net-libs/nodejs 24.1.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
