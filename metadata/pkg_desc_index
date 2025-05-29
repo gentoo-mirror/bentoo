@@ -16,7 +16,7 @@ dev-util/vulkan-headers 1.4.315_p20250509: Vulkan Header files and API registry
 dev-util/vulkan-tools 1.4.315_p20250509: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
 dev-util/vulkan-utility-libraries 1.4.313.0_p20250522: Share code across various Vulkan repositories
 dev-util/wayland-scanner 1.23.91: wayland-scanner tool
-mail-client/betterbird-bin 128.10.1: Betterbird is a fine-tuned version of Mozilla Thunderbird.
+mail-client/betterbird-bin 128.11.0: Betterbird is a fine-tuned version of Mozilla Thunderbird.
 mail-client/protonmail-bin 1.8.0: Official Beta Proton Mail Linux app
 mail-mta/protonmail-bridge 3.20.0: Serves Proton Mail to IMAP/SMTP clients
 media-gfx/imagemagick 7.1.1.47: A collection of tools and libraries for many image formats
@@ -33,7 +33,7 @@ net-misc/modemmanager 1.24.0: Modem and mobile broadband management libraries
 net-misc/networkmanager 1.52.0: A set of co-operative tools that make networking simple and straightforward
 net-misc/onionshare 2.6.3: Securely and anonymously share files of any size behind a TOR hidden service.
 net-misc/openssh 10.0_p2: Port of OpenBSD's free SSH release
-net-misc/postman-bin 11.46.6: API platform for building and using APIs
+net-misc/postman-bin 11.47.1: API platform for building and using APIs
 net-p2p/bisq-bin 1.9.19: The decentralized bitcoin exchange (non-atomic, with arbitration)
 net-p2p/qbittorrent 5.1.0: BitTorrent client in C++ and Qt
 net-vpn/forticlient-vpn 7.4.3.1736: Fortinet VPN client
@@ -44,5 +44,5 @@ sys-apps/fwupd 2.0.10: Aims to make updating firmware on Linux automatic, safe a
 sys-apps/shadow 4.17.2: Utilities to deal with user accounts
 sys-boot/plymouth-openrc-plugin 0.3.0-r2: Plymouth plugin for OpenRC
 www-client/brave-bin 1.78.102: Web browser that blocks ads and trackers by default
-www-client/chromium 137.0.7151.40: Open-source version of Google Chrome web browser
+www-client/chromium 137.0.7151.55: Open-source version of Google Chrome web browser
 www-client/firefox 139.0: Firefox Web Browser
