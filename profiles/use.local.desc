@@ -97,6 +97,18 @@ media-libs/mesa:vulkan-overlay - Build vulkan-overlay-layer which displays Frame
 media-libs/mesa:wayland - Enable support for dev-libs/wayland
 media-libs/mesa:xa - Enable the XA (X Acceleration) API for Gallium3D.
 media-libs/vulkan-loader:layers - Include the vulkan layers
+media-video/obs-studio:browser - Enable browser source support via (precompiled) CEF.
+media-video/obs-studio:decklink - Build the Decklink plugin.
+media-video/obs-studio:fdk - Build with LibFDK AAC support.
+media-video/obs-studio:mpegts - Enable native SRT/RIST mpegts output.
+media-video/obs-studio:pipewire - Build with PipeWire support.
+media-video/obs-studio:python - Build with scripting support for Python 3.
+media-video/obs-studio:qsv - Build with Intel Quick Sync Video support.
+media-video/obs-studio:sndio - Build with sndio support.
+media-video/obs-studio:speex - Build with Speex noise suppression filter support.
+media-video/obs-studio:test-input - Build and install input sources used for testing.
+media-video/obs-studio:vlc - Build with VLC media source support.
+media-video/obs-studio:websocket - Build with WebSocket API support.
 net-libs/libqmi:mbim - Support QMI over Mobile Broadband Interface Model (MBIM)
 net-libs/libqmi:qrtr - Support QMI over IPC Router bus (QRTR)
 net-libs/nodejs:corepack - Enable the experimental corepack package management tool
