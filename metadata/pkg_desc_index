@@ -102,7 +102,6 @@ net-libs/libqmi 1.36.0: Qualcomm MSM (Mobile Station Modem) Interface (QMI) mode
 net-libs/nodejs 24.1.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-misc/modemmanager 1.24.0: Modem and mobile broadband management libraries
 net-misc/networkmanager 1.52.0: A set of co-operative tools that make networking simple and straightforward
-net-misc/onionshare 2.6.3: Securely and anonymously share files of any size behind a TOR hidden service.
 net-misc/openssh 10.0_p2: Port of OpenBSD's free SSH release
 net-misc/postman-bin 11.47.1: API platform for building and using APIs
 net-p2p/bisq-bin 1.9.19: The decentralized bitcoin exchange (non-atomic, with arbitration)
