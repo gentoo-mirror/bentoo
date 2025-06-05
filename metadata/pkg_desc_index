@@ -1,5 +1,5 @@
 app-containers/pods 2.2.0: Keep track of your podman containers
-app-editors/cursor 0.50.5: Cursor App - AI-first coding environment
+app-editors/cursor 1.0.0: Cursor App - AI-first coding environment
 app-editors/windsurf 1.9.2: AI-powered code editor maintaining flow state with instant assistance.
 app-editors/zed 0.187.4: The fast, collaborative code editor
 app-office/freeoffice 1224: A complete, free Microsoft Office-compatible alternative office suite
@@ -104,7 +104,7 @@ net-libs/nodejs 24.1.0: A JavaScript runtime built on Chrome's V8 JavaScript eng
 net-misc/modemmanager 1.24.0: Modem and mobile broadband management libraries
 net-misc/networkmanager 1.52.0: A set of co-operative tools that make networking simple and straightforward
 net-misc/openssh 10.0_p2: Port of OpenBSD's free SSH release
-net-misc/postman-bin 11.48.2: API platform for building and using APIs
+net-misc/postman-bin 11.48.4: API platform for building and using APIs
 net-p2p/bisq-bin 1.9.19: The decentralized bitcoin exchange (non-atomic, with arbitration)
 net-p2p/qbittorrent 5.1.0: BitTorrent client in C++ and Qt
 net-vpn/forticlient-vpn 7.4.3.1736: Fortinet VPN client
