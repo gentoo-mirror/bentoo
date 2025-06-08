@@ -104,7 +104,7 @@ net-libs/nodejs 24.1.0: A JavaScript runtime built on Chrome's V8 JavaScript eng
 net-misc/modemmanager 1.25.1_p20250604: Modem and mobile broadband management libraries
 net-misc/networkmanager 1.55.0_p20250606: A set of co-operative tools that make networking simple and straightforward
 net-misc/openssh 10.0_p2: Port of OpenBSD's free SSH release
-net-misc/postman-bin 11.48.4: API platform for building and using APIs
+net-misc/postman-bin 11.48.5: API platform for building and using APIs
 net-p2p/bisq-bin 1.9.19: The decentralized bitcoin exchange (non-atomic, with arbitration)
 net-p2p/qbittorrent 5.1.0: BitTorrent client in C++ and Qt
 net-vpn/forticlient-vpn 7.4.3.1736: Fortinet VPN client
@@ -114,5 +114,5 @@ sys-apps/busybox 1.37.0: Utilities for rescue and embedded systems
 sys-apps/fwupd 2.0.11: Aims to make updating firmware on Linux automatic, safe and reliable
 sys-apps/shadow 4.17.2: Utilities to deal with user accounts
 sys-boot/plymouth-openrc-plugin 0.3.0-r2: Plymouth plugin for OpenRC
-www-client/brave-bin 1.79.118: Web browser that blocks ads and trackers by default
+www-client/brave-bin 1.79.119: Web browser that blocks ads and trackers by default
 www-client/chromium 138.0.7204.15: Open-source version of Google Chrome web browser
