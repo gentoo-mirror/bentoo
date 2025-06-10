@@ -9,7 +9,7 @@ app-office/openoffice-bin 4.1.15: Apache OpenOffice productivity suite
 dev-libs/wayland 1.23.91: Wayland protocol libraries
 dev-util/claude-code 1.0.17: Claude Code - an agentic coding tool by Anthropic
 dev-util/glslang 1.4.313.0_p20250605: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
-dev-util/mesa_clc 25.2_pre20250607: mesa_clc tool used for building OpenCL C to SPIR-V
+dev-util/mesa_clc 25.2_pre20250610: mesa_clc tool used for building OpenCL C to SPIR-V
 dev-util/spirv-headers 1.4.313.0_p20250604: Machine-readable files for the SPIR-V Registry
 dev-util/spirv-tools 1.4.313.0_p20250606: Provides an API and commands for processing SPIR-V modules
 dev-util/volk 1.4.313.0_p20250606: Meta loader for Vulkan API
@@ -93,14 +93,14 @@ mail-client/protonmail-bin 1.8.0: Official Beta Proton Mail Linux app
 mail-mta/protonmail-bridge 3.20.0: Serves Proton Mail to IMAP/SMTP clients
 media-gfx/imagemagick 7.1.1.47: A collection of tools and libraries for many image formats
 media-gfx/inkscape 1.4.2: SVG based generic vector-drawing program
-media-libs/mesa 25.2_pre20250607: OpenGL-like graphic library for Linux
+media-libs/mesa 25.2_pre20250610: OpenGL-like graphic library for Linux
 media-libs/vulkan-layers 1.4.315_p20250607: Vulkan Validation Layers
 media-libs/vulkan-loader 1.4.315_p20250606: Vulkan Installable Client Driver (ICD) Loader
 media-video/obs-studio 31.1.0_beta1_p20250531: Software for Recording and Streaming Live Video Content
 net-ftp/filezilla-pro 3.69.1-r1: Commercial verison of FileZilla
 net-libs/libmbim 1.32.0: Mobile Broadband Interface Model (MBIM) modem protocol helper library
 net-libs/libqmi 1.38.1_pre20250603: Qualcomm MSM (Mobile Station Modem) Interface (QMI) modem protocol library
-net-libs/nodejs 24.1.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
+net-libs/nodejs 24.2.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-misc/modemmanager 1.25.1_p20250604: Modem and mobile broadband management libraries
 net-misc/networkmanager 1.55.0_p20250606: A set of co-operative tools that make networking simple and straightforward
 net-misc/openssh 10.0_p2: Port of OpenBSD's free SSH release
