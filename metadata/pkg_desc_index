@@ -1,13 +1,12 @@
 app-containers/pods 2.2.0: Keep track of your podman containers
 app-editors/cursor 1.0.0: Cursor App - AI-first coding environment
-app-editors/windsurf 1.9.4: AI-powered code editor maintaining flow state with instant assistance.
+app-editors/windsurf 1.10.1: AI-powered code editor maintaining flow state with instant assistance.
 app-editors/zed 0.187.4: The fast, collaborative code editor
 app-office/freeoffice 1224: A complete, free Microsoft Office-compatible alternative office suite
 app-office/libreoffice 25.8.0.0_alpha1: A full office productivity suite
 app-office/libreoffice-l10n 25.8.0.0_alpha1: Translations for the Libreoffice suite
 app-office/openoffice-bin 4.1.15: Apache OpenOffice productivity suite
 dev-libs/wayland 1.23.91: Wayland protocol libraries
-dev-util/claude-code 1.0.17: Claude Code - an agentic coding tool by Anthropic
 dev-util/glslang 1.4.313.0_p20250605: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
 dev-util/mesa_clc 25.2_pre20250610: mesa_clc tool used for building OpenCL C to SPIR-V
 dev-util/spirv-headers 1.4.313.0_p20250604: Machine-readable files for the SPIR-V Registry
@@ -115,4 +114,4 @@ sys-apps/fwupd 2.0.11: Aims to make updating firmware on Linux automatic, safe a
 sys-apps/shadow 4.17.2: Utilities to deal with user accounts
 sys-boot/plymouth-openrc-plugin 0.3.0-r2: Plymouth plugin for OpenRC
 www-client/brave-bin 1.79.119: Web browser that blocks ads and trackers by default
-www-client/chromium 138.0.7204.15: Open-source version of Google Chrome web browser
+www-client/chromium 138.0.7204.23: Open-source version of Google Chrome web browser
