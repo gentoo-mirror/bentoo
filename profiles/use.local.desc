@@ -5,6 +5,18 @@
 app-editors/cursor:egl - Use EGL platform, enables smooth rending in high refresh rate monitors on X11/Xwayland
 app-editors/cursor:wayland - Run in wayland mode under wayland sessions, xwayland otherwise. This flag doesn't affect x11 sessions.
 app-editors/zed:gles - Use simplified OpenGLES instead of full-scale OpenGL
+app-emulation/wine-staging:capi - Enable ISDN support using net-libs/libcapi
+app-emulation/wine-staging:crossdev-mingw - Use sys-devel/crossdev for the toolchain rather than dev-util/mingw64-toolchain (requires manual setting up and is mostly unsupported, try disabling if have issues)
+app-emulation/wine-staging:dos - Pull in games-emulation/dosbox to run DOS applications
+app-emulation/wine-staging:gecko - Enable mshtml support using app-emulation/wine-gecko
+app-emulation/wine-staging:mingw - Build PE files using dev-util/mingw64-toolchain (more tested) rather than llvm-core/clang (newer)
+app-emulation/wine-staging:mono - Enable .NET support using app-emulation/wine-mono
+app-emulation/wine-staging:netapi - Enable support for configuring remote shares using net-fs/samba
+app-emulation/wine-staging:pcap - Support packet capture software (e.g. wireshark)
+app-emulation/wine-staging:perl - Install helpers that require perl (winedump/winemaker)
+app-emulation/wine-staging:samba - Pull in net-fs/samba with winbind for NTLM auth support
+app-emulation/wine-staging:sdl - Enable gamepad support using media-libs/libsdl2
+app-emulation/wine-staging:wow64 - Enable the "new" wow64 mode that allows running 32bit applications without 32bit ELF multilib by mapping to 64bit calls (experimental, *may* have worse/unusable OpenGL performance or other issues compared to USE=abi_x86_32 aka "old" wow64, also lacks 16bit support) -- if USE=mingw is set, still need the default abi_x86_32 set on dev-util/mingw64-toolchain but that can be done even with /no-multilib/ profiles. This can also be enabled on arm64 to allow running x86 applications via binary translation.
 app-office/freeoffice:pax_kernel - Triggers a paxmarking of the binary
 app-office/libreoffice:base - Enable full support for LibreOffice Base databases (involves additional bundled libs)
 app-office/libreoffice:clang - Use Clang compiler instead of GCC
@@ -22,6 +34,39 @@ games-action/supertuxkart:nettle - Use dev-libs/nettle crypto backend
 games-action/supertuxkart:recorder - Enable recording with media-libs/libopenglrecorder
 games-action/supertuxkart:sqlite - Record IP bans, statistics in server mode with dev-db/sqlite
 games-action/supertuxkart:wiimote - Support for wiimote input devices
+kde-frameworks/kcompletion:designer - Build plugins for dev-qt/designer
+kde-frameworks/kconfig:qml - Enable QML/QtQuick support via dev-qt/qtdeclarative
+kde-frameworks/kconfigwidgets:designer - Build plugins for dev-qt/designer
+kde-frameworks/kfilemetadata:epub - Enable support for reading EPUB ebook metadata
+kde-frameworks/kfilemetadata:mobi - Enable mobipocket support via kde-apps/kdegraphics-mobipocket
+kde-frameworks/kiconthemes:designer - Build plugins for dev-qt/designer
+kde-frameworks/kimageformats:eps - Support the EPS graphics file format
+kde-frameworks/kio:designer - Build plugins for dev-qt/designer
+kde-frameworks/kio:kwallet - Enable permanent storage of passwords for kpasswdserver with kde-frameworks/kwallet
+kde-frameworks/kitemmodels:qml - Enable QML support via dev-qt/qtdeclarative
+kde-frameworks/kitemviews:designer - Build plugins for dev-qt/designer
+kde-frameworks/knewstuff:designer - Build plugins for dev-qt/designer
+kde-frameworks/knewstuff:opds - Enable support for the Open Publication Distribution System via kde-frameworks/syndication
+kde-frameworks/knotifications:qml - Enable QML support via dev-qt/qtdeclarative
+kde-frameworks/knotifications:speech - Enable text-to-speech notification support
+kde-frameworks/kplotting:designer - Build plugins for dev-qt/designer
+kde-frameworks/ktexteditor:editorconfig - Enable support for EditorConfig configuration files
+kde-frameworks/ktextwidgets:designer - Build plugins for dev-qt/designer
+kde-frameworks/kuserfeedback:tools - Build application console and CLI binary
+kde-frameworks/kwallet:gpg - Support wallets with GnuPG encryption in addition to the default blowfish-encrypted file
+kde-frameworks/kwallet:minimal - Pull in required runtime components for KWallet via kde-frameworks/kwallet
+kde-frameworks/kwallet-runtime:gpg - Support wallets with GnuPG encryption in addition to the default blowfish-encrypted file
+kde-frameworks/kwallet-runtime:legacy-kwallet - Support KWallet D-Bus API for applications still using it
+kde-frameworks/kwidgetsaddons:designer - Build plugins for dev-qt/designer
+kde-frameworks/kxmlgui:designer - Build plugins for dev-qt/designer
+kde-frameworks/networkmanager-qt:teamd - Enable Teamd control support
+kde-frameworks/prison:qml - Enable QML/QtQuick support via dev-qt/qtdeclarative
+kde-frameworks/purpose:kaccounts - Enable support for system-wide defined KAccounts
+kde-frameworks/purpose:webengine - Enable support for system-wide defined KAccounts
+kde-frameworks/sonnet:aspell - Enable the app-text/aspell spell-checking backend
+kde-frameworks/sonnet:designer - Build plugins for dev-qt/designer
+kde-frameworks/sonnet:hunspell - Enable the app-text/hunspell spell-checking backend
+kde-frameworks/sonnet:qml - Enable QML/QtQuick support via dev-qt/qtdeclarative
 kde-plasma/discover:firmware - Enable support for firmware upgrades using sys-apps/fwupd
 kde-plasma/discover:flatpak - Enable support for flatpak repositories using sys-apps/flatpak
 kde-plasma/discover:snap - Enable support for snap packages using app-containers/snapd
@@ -76,13 +121,6 @@ kde-plasma/plasma-workspace:wallpaper-metadata - Show metadata for image wallpap
 kde-plasma/plasma5support:activities - Enable kactivities support
 kde-plasma/powerdevil:brightness-control - Enable screen brightness control using app-misc/ddcutil
 kde-plasma/spectacle:share - Enable support for a share menu using kde-frameworks/purpose
-media-gfx/imagemagick:corefonts - Use media-fonts/corefonts which is required by some commands
-media-gfx/imagemagick:fpx - Enable media-libs/libfpx support
-media-gfx/imagemagick:hdri - Enable High Dynamic Range Images formats
-media-gfx/imagemagick:lqr - Enable experimental liquid rescale support using media-libs/liblqr
-media-gfx/imagemagick:pango - Enable Pango support using x11-libs/pango
-media-gfx/imagemagick:q32 - Set quantum depth value to 32
-media-gfx/imagemagick:q8 - Set quantum depth value to 8
 media-gfx/inkscape:cdr - Enable support for CorelDRAW files via media-libs/libcdr
 media-gfx/inkscape:dia - Enable DIA flow chart import via app-office/dia
 media-gfx/inkscape:inkjar - Enable support for OpenOffice.org SVG jar files
@@ -115,14 +153,6 @@ media-video/obs-studio:vlc - Build with VLC media source support.
 media-video/obs-studio:websocket - Build with WebSocket API support.
 net-libs/libqmi:mbim - Support QMI over Mobile Broadband Interface Model (MBIM)
 net-libs/libqmi:qrtr - Support QMI over IPC Router bus (QRTR)
-net-libs/nodejs:corepack - Enable the experimental corepack package management tool
-net-libs/nodejs:inspector - Enable V8 inspector
-net-libs/nodejs:npm - Enable NPM package manager
-net-libs/nodejs:pax-kernel - Enable building under a PaX enabled kernel
-net-libs/nodejs:snapshot - Enable snapshot creation for faster startup
-net-libs/nodejs:system-icu - Use system dev-libs/icu instead of the bundled version
-net-libs/nodejs:system-ssl - Use system OpenSSL instead of the bundled one
-net-libs/nodejs:systemtap - Enable SystemTap/DTrace tracing
 net-misc/modemmanager:mbim - Enable MBIM modem protocol
 net-misc/modemmanager:qmi - Enable support for the QMI modem protocol used by devices with Qualcomm chipsets
 net-misc/modemmanager:qrtr - Enable support for the QMI over IPC Router bus (QRTR) protocol
