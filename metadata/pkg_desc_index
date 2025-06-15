@@ -1,8 +1,8 @@
 app-containers/pods 2.2.0: Keep track of your podman containers
 app-editors/cursor 1.0.0: Cursor App - AI-first coding environment
+app-editors/vscodium 1.101.03933: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-editors/windsurf 1.10.3: AI-powered code editor maintaining flow state with instant assistance.
 app-editors/zed 0.187.4: The fast, collaborative code editor
-app-emulation/wine-staging 10.10: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
 app-office/freeoffice 1224: A complete, free Microsoft Office-compatible alternative office suite
 app-office/libreoffice 25.8.0.0_alpha1: A full office productivity suite
 app-office/libreoffice-l10n 25.8.0.0_alpha1: Translations for the Libreoffice suite
@@ -173,6 +173,7 @@ media-libs/vulkan-layers 1.4.318_p20250614: Vulkan Validation Layers
 media-libs/vulkan-loader 1.4.315_p20250613: Vulkan Installable Client Driver (ICD) Loader
 media-video/obs-studio 31.1.0_beta1_p20250531: Software for Recording and Streaming Live Video Content
 net-ftp/filezilla-pro 3.69.1-r1: Commercial verison of FileZilla
+net-im/telegram-desktop 5.15.4: Official desktop client for Telegram
 net-libs/libmbim 1.32.0: Mobile Broadband Interface Model (MBIM) modem protocol helper library
 net-libs/libqmi 1.38.1_pre20250603: Qualcomm MSM (Mobile Station Modem) Interface (QMI) modem protocol library
 net-misc/modemmanager 1.25.1_p20250604: Modem and mobile broadband management libraries
