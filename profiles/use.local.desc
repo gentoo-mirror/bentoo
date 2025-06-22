@@ -72,6 +72,7 @@ net-misc/openssh:ssl - Enable additional crypto algorithms via OpenSSL
 net-misc/openssh:xmss - Enable XMSS post-quantum authentication algorithm
 net-misc/postman-bin:pax-kernel - Triggers a paxmarking of the binary
 net-p2p/qbittorrent:webui - Install qBittorrent Web UI (qbittorrent-nox) and systemd/OpenRC service
+net-p2p/syncthing:tools - Install stdiscosrv, strelaysrv and other tools to /usr/libexec/syncthing/.
 sys-apps/busybox:make-symlinks - Create all the appropriate symlinks in /bin and /sbin.
 sys-apps/busybox:math - Enable math support in gawk (requires libm)
 sys-apps/busybox:mdev - Create the appropriate symlink in /sbin and install mdev.conf and support files
