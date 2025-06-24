@@ -1,3 +1,4 @@
+app-containers/docker-compose 2.37.2: Multi-container orchestration for Docker
 app-containers/pods 2.2.0: Keep track of your podman containers
 app-editors/cursor 1.1.3: Cursor App - AI-first coding environment
 app-editors/vscodium 1.101.14098: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
@@ -32,7 +33,7 @@ net-misc/networkmanager 1.55.0_p20250606: A set of co-operative tools that make 
 net-misc/openssh 10.0_p2: Port of OpenBSD's free SSH release
 net-misc/postman-bin 11.50.5: API platform for building and using APIs
 net-p2p/bisq-bin 1.9.19-r1: The decentralized bitcoin exchange (non-atomic, with arbitration)
-net-p2p/qbittorrent 5.1.0: BitTorrent client in C++ and Qt
+net-p2p/qbittorrent 5.1.1: BitTorrent client in C++ and Qt
 net-p2p/syncthing 1.29.7: Open Source Continuous File Synchronization
 net-vpn/openfortivpn 1.23.1: Fortinet compatible VPN client
 sys-apps/bentoo-utils 0.1.9-r1: Utility for managing Git operations for the Bentoo project
