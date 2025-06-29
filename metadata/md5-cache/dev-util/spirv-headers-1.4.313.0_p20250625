@@ -1,14 +1,12 @@
 BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.20.5
 DEFINED_PHASES=compile configure install prepare test
-DESCRIPTION=Vulkan Header files and API registry
+DESCRIPTION=Machine-readable files for the SPIR-V Registry
 EAPI=8
-HOMEPAGE=https://github.com/KhronosGroup/Vulkan-Headers
+HOMEPAGE=https://registry.khronos.org/SPIR-V/ https://github.com/KhronosGroup/SPIRV-Headers
 INHERIT=cmake
-IUSE=test
-KEYWORDS=amd64 arm arm64 ~hppa ~loong ppc ppc64 ~riscv x86
-LICENSE=Apache-2.0
-RESTRICT=!test? ( test )
+KEYWORDS=~amd64 ~arm ~arm64 ~loong ~ppc ~ppc64 ~riscv ~x86
+LICENSE=MIT
 SLOT=0
-SRC_URI=https://github.com/KhronosGroup/Vulkan-Headers/archive/10739e8e00a7b6f74d22dd0a547f1406ff1f5eb9.tar.gz -> vulkan-headers-1.4.319_p20250620.tar.gz
+SRC_URI=https://github.com/KhronosGroup/SPIRV-Headers/archive/04b76709bf40a7ce8df3382060ef3620f19de566.tar.gz -> spirv-headers-1.4.313.0_p20250625.tar.gz
 _eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	460729dc36f68cf03b044bc1d367e34a
-_md5_=571f4d31181e3fd40b34d1eda331c7c5
+_md5_=b5f843c238f3401553075e4ae2e58c89

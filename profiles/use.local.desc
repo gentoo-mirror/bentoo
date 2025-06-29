@@ -4,18 +4,6 @@
 
 app-editors/cursor:egl - Use EGL platform, enables smooth rending in high refresh rate monitors on X11/Xwayland
 app-editors/cursor:wayland - Run in wayland mode under wayland sessions, xwayland otherwise. This flag doesn't affect x11 sessions.
-app-emulation/wine-staging:capi - Enable ISDN support using net-libs/libcapi
-app-emulation/wine-staging:crossdev-mingw - Use sys-devel/crossdev for the toolchain rather than dev-util/mingw64-toolchain (requires manual setting up and is mostly unsupported, try disabling if have issues)
-app-emulation/wine-staging:dos - Pull in games-emulation/dosbox to run DOS applications
-app-emulation/wine-staging:gecko - Enable mshtml support using app-emulation/wine-gecko
-app-emulation/wine-staging:mingw - Build PE files using dev-util/mingw64-toolchain (more tested) rather than llvm-core/clang (newer)
-app-emulation/wine-staging:mono - Enable .NET support using app-emulation/wine-mono
-app-emulation/wine-staging:netapi - Enable support for configuring remote shares using net-fs/samba
-app-emulation/wine-staging:pcap - Support packet capture software (e.g. wireshark)
-app-emulation/wine-staging:perl - Install helpers that require perl (winedump/winemaker)
-app-emulation/wine-staging:samba - Pull in net-fs/samba with winbind for NTLM auth support
-app-emulation/wine-staging:sdl - Enable gamepad support using media-libs/libsdl2
-app-emulation/wine-staging:wow64 - Enable the "new" wow64 mode that allows running 32bit applications without 32bit ELF multilib by mapping to 64bit calls (experimental, *may* have worse/unusable OpenGL performance or other issues compared to USE=abi_x86_32 aka "old" wow64, also lacks 16bit support) -- if USE=mingw is set, still need the default abi_x86_32 set on dev-util/mingw64-toolchain but that can be done even with /no-multilib/ profiles. This can also be enabled on arm64 to allow running x86 applications via binary translation.
 app-office/freeoffice:pax_kernel - Triggers a paxmarking of the binary
 app-office/libreoffice:base - Enable full support for LibreOffice Base databases (involves additional bundled libs)
 app-office/libreoffice:clang - Use Clang compiler instead of GCC
