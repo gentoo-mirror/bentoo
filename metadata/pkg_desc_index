@@ -1,4 +1,4 @@
-app-containers/docker-compose 2.37.2: Multi-container orchestration for Docker
+app-containers/docker-compose 2.37.3: Multi-container orchestration for Docker
 app-containers/pods 2.2.0: Keep track of your podman containers
 app-editors/cursor 1.1.6: Cursor App - AI-first coding environment
 app-editors/windsurf 1.10.5: AI-powered code editor maintaining flow state with instant assistance.
