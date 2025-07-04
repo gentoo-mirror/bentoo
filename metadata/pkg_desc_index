@@ -1,6 +1,6 @@
 app-containers/docker-compose 2.37.3: Multi-container orchestration for Docker
 app-containers/pods 2.2.0: Keep track of your podman containers
-app-editors/cursor 1.1.6: Cursor App - AI-first coding environment
+app-editors/cursor 1.2.1: Cursor App - AI-first coding environment
 app-editors/windsurf 1.10.5: AI-powered code editor maintaining flow state with instant assistance.
 app-office/freeoffice 1224: A complete, free Microsoft Office-compatible alternative office suite
 app-office/libreoffice 25.8.0.0_beta1: A full office productivity suite
@@ -16,7 +16,7 @@ dev-util/vulkan-headers 1.4.320_p20250627: Vulkan Header files and API registry
 dev-util/vulkan-tools 1.4.320_p20250625: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
 dev-util/vulkan-utility-libraries 1.4.320.0_p20250620: Share code across various Vulkan repositories
 dev-util/wayland-scanner 1.23.91: wayland-scanner tool
-mail-client/betterbird-bin 128.11.0: Betterbird is a fine-tuned version of Mozilla Thunderbird.
+mail-client/betterbird-bin 128.12.0: Betterbird is a fine-tuned version of Mozilla Thunderbird.
 mail-client/proton-mail-bin 1.8.0: Official Beta Proton Mail Linux app
 mail-mta/proton-mail-bridge 3.21.1: Multi-container orchestration for Docker
 media-gfx/gimp 3.1.2: GNU Image Manipulation Program
@@ -42,6 +42,6 @@ sys-apps/busybox 1.37.0: Utilities for rescue and embedded systems
 sys-apps/fwupd 2.0.12: Aims to make updating firmware on Linux automatic, safe and reliable
 sys-apps/shadow 4.17.2: Utilities to deal with user accounts
 sys-boot/plymouth-openrc-plugin 0.3.0-r2: Plymouth plugin for OpenRC
-www-client/brave-bin 1.80.113: Web browser that blocks ads and trackers by default
+www-client/brave-bin 1.80.115: Web browser that blocks ads and trackers by default
 www-client/chromium 139.0.7258.5: Open-source version of Google Chrome web browser
 www-client/firefox 140.0.2: Firefox Web Browser
