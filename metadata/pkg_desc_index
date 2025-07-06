@@ -1,40 +1,39 @@
 app-containers/docker-compose 2.37.3: Multi-container orchestration for Docker
 app-containers/pods 2.2.0: Keep track of your podman containers
 app-editors/cursor 1.2.1: Cursor App - AI-first coding environment
-app-editors/windsurf 1.10.5: AI-powered code editor maintaining flow state with instant assistance.
+app-editors/windsurf 1.10.7: AI-powered code editor maintaining flow state with instant assistance.
 app-office/freeoffice 1224: A complete, free Microsoft Office-compatible alternative office suite
-app-office/libreoffice 25.8.0.0_beta1: A full office productivity suite
-app-office/libreoffice-l10n 25.8.0.0_beta1: Translations for the Libreoffice suite
+app-office/libreoffice 25.2.5.1 25.8.0.0_beta1: A full office productivity suite
+app-office/libreoffice-l10n 25.2.5.1 25.8.0.0_beta1: Translations for the Libreoffice suite
 app-office/openoffice-bin 4.1.15: Apache OpenOffice productivity suite
 dev-libs/wayland 1.23.91: Wayland protocol libraries
-dev-util/glslang 1.4.313.0_p20250627: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
-dev-util/mesa_clc 25.2_pre20250629: mesa_clc tool used for building OpenCL C to SPIR-V
-dev-util/spirv-headers 1.4.313.0_p20250625: Machine-readable files for the SPIR-V Registry
-dev-util/spirv-tools 1.4.313.0_p20250626: Provides an API and commands for processing SPIR-V modules
-dev-util/volk 1.4.320.0_p20250627: Meta loader for Vulkan API
-dev-util/vulkan-headers 1.4.320_p20250627: Vulkan Header files and API registry
-dev-util/vulkan-tools 1.4.320_p20250625: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
-dev-util/vulkan-utility-libraries 1.4.320.0_p20250620: Share code across various Vulkan repositories
+dev-util/glslang 1.4.313.0_p20250702: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
+dev-util/mesa_clc 25.2_pre20250704: mesa_clc tool used for building OpenCL C to SPIR-V
+dev-util/spirv-headers 1.4.313.0_p20250703: Machine-readable files for the SPIR-V Registry
+dev-util/spirv-tools 1.4.313.0_p20250704: Provides an API and commands for processing SPIR-V modules
+dev-util/volk 1.4.321.0_p20250704: Meta loader for Vulkan API
+dev-util/vulkan-headers 1.4.321.0_p20250703: Vulkan Header files and API registry
+dev-util/vulkan-tools 1.4.321.0_p20250630: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
+dev-util/vulkan-utility-libraries 1.4.321.0_p20250704: Share code across various Vulkan repositories
 dev-util/wayland-scanner 1.23.91: wayland-scanner tool
 mail-client/betterbird-bin 128.12.0: Betterbird is a fine-tuned version of Mozilla Thunderbird.
 mail-client/proton-mail-bin 1.8.0: Official Beta Proton Mail Linux app
 mail-mta/proton-mail-bridge 3.21.1: Multi-container orchestration for Docker
-media-gfx/gimp 3.1.2: GNU Image Manipulation Program
 media-gfx/inkscape 1.4.2: SVG based generic vector-drawing program
-media-libs/mesa 25.2_pre20250629: OpenGL-like graphic library for Linux
-media-libs/vulkan-layers 1.4.320_p20250628: Vulkan Validation Layers
-media-libs/vulkan-loader 1.4.320_p20250627: Vulkan Installable Client Driver (ICD) Loader
+media-libs/mesa 25.2_pre20250704: OpenGL-like graphic library for Linux
+media-libs/vulkan-layers 1.4.321.0_p20250704: Vulkan Validation Layers
+media-libs/vulkan-loader 1.4.321.0_p20250704: Vulkan Installable Client Driver (ICD) Loader
 net-ftp/filezilla-pro 3.69.1-r1: Commercial verison of FileZilla
-net-im/telegram-desktop 5.15.4: Official desktop client for Telegram
+net-im/telegram-desktop 5.16.2: Official desktop client for Telegram
 net-libs/libmbim 1.32.0: Mobile Broadband Interface Model (MBIM) modem protocol helper library
 net-libs/libqmi 1.38.1_pre20250603: Qualcomm MSM (Mobile Station Modem) Interface (QMI) modem protocol library
 net-libs/nodejs 22.17.0 24.3.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-misc/modemmanager 1.25.1_p20250604: Modem and mobile broadband management libraries
 net-misc/networkmanager 1.55.0_p20250606: A set of co-operative tools that make networking simple and straightforward
 net-misc/openssh 10.0_p2: Port of OpenBSD's free SSH release
-net-misc/postman-bin 11.51.5: API platform for building and using APIs
+net-misc/postman-bin 11.52.5: API platform for building and using APIs
 net-p2p/bisq-bin 1.9.19-r1: The decentralized bitcoin exchange (non-atomic, with arbitration)
-net-p2p/qbittorrent 5.1.1: BitTorrent client in C++ and Qt
+net-p2p/qbittorrent 5.1.2: BitTorrent client in C++ and Qt
 net-p2p/syncthing 1.29.7: Open Source Continuous File Synchronization
 net-vpn/openfortivpn 1.23.1: Fortinet compatible VPN client
 sys-apps/bentoo-utils 0.1.9-r1: Utility for managing Git operations for the Bentoo project

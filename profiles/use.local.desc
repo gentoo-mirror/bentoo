@@ -17,9 +17,6 @@ app-office/libreoffice:pdfimport - Enable PDF import via the Poppler library
 app-office/libreoffice:vulkan - Enable Vulkan usage via the skia library (clang recommended)
 app-office/libreoffice-l10n:offlinehelp - Install help files locally instead of using the LibreOffice Wiki
 dev-util/vulkan-tools:cube - Build the cube/cubepp demos
-media-gfx/gimp:alsa - Enable ALSA support in midi input controller
-media-gfx/gimp:fits - Enable support for loading/exporting FITS images
-media-gfx/gimp:vector-icons - Enable support for vector icons (experimental)
 media-gfx/inkscape:cdr - Enable support for CorelDRAW files via media-libs/libcdr
 media-gfx/inkscape:dia - Enable DIA flow chart import via app-office/dia
 media-gfx/inkscape:inkjar - Enable support for OpenOffice.org SVG jar files
@@ -79,7 +76,8 @@ net-misc/openssh:security-key - Include builtin U2F/FIDO support
 net-misc/openssh:ssl - Enable additional crypto algorithms via OpenSSL
 net-misc/openssh:xmss - Enable XMSS post-quantum authentication algorithm
 net-misc/postman-bin:pax-kernel - Triggers a paxmarking of the binary
-net-p2p/qbittorrent:webui - Install qBittorrent Web UI (qbittorrent-nox) and systemd/OpenRC service
+net-p2p/qbittorrent:dbus - Enable support for notifications and power-management features via D-Bus
+net-p2p/qbittorrent:webui - Install qBittorrent Web UI (qbittorrent-nox)
 net-p2p/syncthing:tools - Install stdiscosrv, strelaysrv and other tools to /usr/libexec/syncthing/.
 sys-apps/busybox:make-symlinks - Create all the appropriate symlinks in /bin and /sbin.
 sys-apps/busybox:math - Enable math support in gawk (requires libm)
