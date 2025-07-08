@@ -1,12 +1,11 @@
 app-containers/docker-compose 2.37.3: Multi-container orchestration for Docker
 app-containers/pods 2.2.0: Keep track of your podman containers
-app-editors/cursor 1.2.1: Cursor App - AI-first coding environment
+app-editors/cursor 1.2.2: Cursor App - AI-first coding environment
 app-editors/windsurf 1.10.7: AI-powered code editor maintaining flow state with instant assistance.
 app-office/freeoffice 1224: A complete, free Microsoft Office-compatible alternative office suite
 app-office/libreoffice 25.2.5.1 25.8.0.0_beta1: A full office productivity suite
 app-office/libreoffice-l10n 25.2.5.1 25.8.0.0_beta1: Translations for the Libreoffice suite
 app-office/openoffice-bin 4.1.15: Apache OpenOffice productivity suite
-dev-libs/wayland 1.23.91: Wayland protocol libraries
 dev-util/glslang 1.4.313.0_p20250702: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
 dev-util/mesa_clc 25.2_pre20250704: mesa_clc tool used for building OpenCL C to SPIR-V
 dev-util/spirv-headers 1.4.313.0_p20250703: Machine-readable files for the SPIR-V Registry
@@ -15,7 +14,6 @@ dev-util/volk 1.4.321.0_p20250704: Meta loader for Vulkan API
 dev-util/vulkan-headers 1.4.321.0_p20250703: Vulkan Header files and API registry
 dev-util/vulkan-tools 1.4.321.0_p20250630: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
 dev-util/vulkan-utility-libraries 1.4.321.0_p20250704: Share code across various Vulkan repositories
-dev-util/wayland-scanner 1.23.91: wayland-scanner tool
 mail-client/betterbird-bin 128.12.0: Betterbird is a fine-tuned version of Mozilla Thunderbird.
 mail-client/proton-mail-bin 1.8.0: Official Beta Proton Mail Linux app
 mail-mta/proton-mail-bridge 3.21.1: Multi-container orchestration for Docker
