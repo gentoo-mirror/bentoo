@@ -1,9 +1,9 @@
 app-containers/docker 28.3.2: The core functions you need to create Docker images and run Docker containers
 app-containers/docker-compose 2.38.2: Multi-container orchestration for Docker
 app-containers/pods 2.2.0: Keep track of your podman containers
-app-editors/cursor 1.2.2: Cursor App - AI-first coding environment
+app-editors/cursor 1.2.4: Cursor App - AI-first coding environment
 app-editors/vscodium 1.102.14746: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
-app-editors/windsurf 1.11.0: AI-powered code editor maintaining flow state with instant assistance.
+app-editors/windsurf 1.11.1: AI-powered code editor maintaining flow state with instant assistance.
 app-office/freeoffice 1224: A complete, free Microsoft Office-compatible alternative office suite
 app-office/libreoffice 25.8.0.1: A full office productivity suite
 app-office/libreoffice-l10n 25.8.0.1: Translations for the Libreoffice suite
