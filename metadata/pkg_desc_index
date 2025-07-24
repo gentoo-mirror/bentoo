@@ -2,11 +2,11 @@ app-containers/docker 28.3.2: The core functions you need to create Docker image
 app-containers/docker-compose 2.38.2: Multi-container orchestration for Docker
 app-containers/pods 2.2.0: Keep track of your podman containers
 app-editors/cursor 1.2.2: Cursor App - AI-first coding environment
-app-editors/vscodium 1.102.04606: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
-app-editors/windsurf 1.10.7: AI-powered code editor maintaining flow state with instant assistance.
+app-editors/vscodium 1.102.14746: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
+app-editors/windsurf 1.11.0: AI-powered code editor maintaining flow state with instant assistance.
 app-office/freeoffice 1224: A complete, free Microsoft Office-compatible alternative office suite
-app-office/libreoffice 25.2.5.2 25.8.0.1: A full office productivity suite
-app-office/libreoffice-l10n 25.2.5.1 25.8.0.1: Translations for the Libreoffice suite
+app-office/libreoffice 25.8.0.1: A full office productivity suite
+app-office/libreoffice-l10n 25.8.0.1: Translations for the Libreoffice suite
 app-office/openoffice-bin 4.1.15: Apache OpenOffice productivity suite
 dev-libs/libinput 1.28.901: Library to handle input devices in Wayland
 dev-util/claude-code 1.0.51: Claude Code - an agentic coding tool by Anthropic
@@ -19,21 +19,21 @@ dev-util/vulkan-headers 1.4.321.0_p20250711: Vulkan Header files and API registr
 dev-util/vulkan-tools 1.4.321.0_p20250707: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
 dev-util/vulkan-utility-libraries 1.4.321.0_p20250708: Share code across various Vulkan repositories
 mail-client/betterbird-bin 128.12.0: Betterbird is a fine-tuned version of Mozilla Thunderbird.
-mail-client/proton-mail-bin 1.8.0: Official Beta Proton Mail Linux app
+mail-client/proton-mail-bin 1.8.1: Official Beta Proton Mail Linux app
 mail-mta/proton-mail-bridge 3.21.1 3.21.2: Serves Proton Mail to IMAP/SMTP clients
 media-gfx/inkscape 1.4.2: SVG based generic vector-drawing program
 media-libs/gstreamer 1.27.1: Open source multimedia framework
 media-libs/mesa 25.2_pre20250713: OpenGL-like graphic library for Linux
 media-libs/vulkan-layers 1.4.321.0_p20250713: Vulkan Validation Layers
 media-libs/vulkan-loader 1.4.321.0_p20250704: Vulkan Installable Client Driver (ICD) Loader
-net-ftp/filezilla-pro 3.69.1-r1: Commercial verison of FileZilla
+net-ftp/filezilla-pro 3.69.3: Commercial verison of FileZilla
 net-im/telegram-desktop 5.16.3: Official desktop client for Telegram
 net-libs/libqmi 1.38.1_pre20250603: Qualcomm MSM (Mobile Station Modem) Interface (QMI) modem protocol library
 net-libs/nodejs 22.17.0 24.4.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-misc/modemmanager 1.25.1_p20250604: Modem and mobile broadband management libraries
 net-misc/networkmanager 1.55.0_p20250606: A set of co-operative tools that make networking simple and straightforward
 net-misc/openssh 10.0_p2: Port of OpenBSD's free SSH release
-net-misc/postman-bin 11.53.5: API platform for building and using APIs
+net-misc/postman-bin 11.55.3: API platform for building and using APIs
 net-p2p/bisq-bin 1.9.19-r1: The decentralized bitcoin exchange (non-atomic, with arbitration)
 net-p2p/qbittorrent 5.1.2: BitTorrent client in C++ and Qt
 net-p2p/syncthing 1.29.7: Open Source Continuous File Synchronization
@@ -43,6 +43,6 @@ sys-apps/busybox 1.37.0: Utilities for rescue and embedded systems
 sys-apps/fwupd 2.0.12: Aims to make updating firmware on Linux automatic, safe and reliable
 sys-apps/shadow 4.17.2: Utilities to deal with user accounts
 sys-boot/plymouth-openrc-plugin 0.3.0-r2: Plymouth plugin for OpenRC
-www-client/brave-bin 1.80.120: Web browser that blocks ads and trackers by default
+www-client/brave-bin 1.80.124: Web browser that blocks ads and trackers by default
 www-client/chromium 139.0.7258.31: Open-source version of Google Chrome web browser
 www-client/firefox 140.0.2: Firefox Web Browser
