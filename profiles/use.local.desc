@@ -20,6 +20,8 @@ app-office/libreoffice:odk - Build the Office Development Kit
 app-office/libreoffice:pdfimport - Enable PDF import via the Poppler library
 app-office/libreoffice:vulkan - Enable Vulkan usage via the skia library (clang recommended)
 app-office/libreoffice-l10n:offlinehelp - Install help files locally instead of using the LibreOffice Wiki
+dev-libs/sentry-native:breakpad - Use dev-util/breakpad as the crash handler
+dev-libs/sentry-native:curl - Enable support for automated uploading of crash reports
 dev-util/vulkan-tools:cube - Build the cube/cubepp demos
 media-gfx/blender:alembic - Add support for Alembic through media-gfx/alembic.
 media-gfx/blender:bullet - Enable Bullet (Physics Engine).

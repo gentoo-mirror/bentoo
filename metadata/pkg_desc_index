@@ -9,6 +9,7 @@ app-office/libreoffice 25.8.0.1: A full office productivity suite
 app-office/libreoffice-l10n 25.8.0.1: Translations for the Libreoffice suite
 app-office/openoffice-bin 4.1.15: Apache OpenOffice productivity suite
 dev-libs/libinput 1.29.0: Library to handle input devices in Wayland
+dev-libs/sentry-native 0.9.1: Sentry SDK for C, C++ and native applications
 dev-util/glslang 1.4.321.0_p20250731: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
 dev-util/mesa_clc 25.2_pre20250801: mesa_clc tool used for building OpenCL C to SPIR-V
 dev-util/spirv-headers 1.4.321.0_p20250729: Machine-readable files for the SPIR-V Registry
@@ -19,7 +20,7 @@ dev-util/vulkan-tools 1.4.323.0_p20250721: Official Vulkan Tools and Utilities f
 dev-util/vulkan-utility-libraries 1.4.323.0_p20250725: Share code across various Vulkan repositories
 mail-client/betterbird-bin 128.13.0: Betterbird is a fine-tuned version of Mozilla Thunderbird.
 mail-client/proton-mail-bin 1.8.1: Official Beta Proton Mail Linux app
-mail-mta/proton-mail-bridge 3.21.2-r1: Serves Proton Mail to IMAP/SMTP clients
+mail-mta/proton-mail-bridge 3.21.2-r2: Serves Proton Mail to IMAP/SMTP clients
 media-gfx/blender 4.5.0: 3D Creation/Animation/Publishing System
 media-gfx/inkscape 1.4.2: SVG based generic vector-drawing program
 media-libs/gstreamer 1.26.4: Open source multimedia framework
