@@ -29,7 +29,7 @@ media-libs/vulkan-loader 1.4.323.0_p20250730: Vulkan Installable Client Driver (
 net-ftp/filezilla-pro 3.69.3: Commercial verison of FileZilla
 net-im/telegram-desktop 6.0.0: Official desktop client for Telegram
 net-libs/libqmi 1.38.1_pre20250603: Qualcomm MSM (Mobile Station Modem) Interface (QMI) modem protocol library
-net-libs/nodejs 22.17.1 24.4.1: A JavaScript runtime built on Chrome's V8 JavaScript engine
+net-libs/nodejs 22.18.0 24.5.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-misc/modemmanager 1.25.1_p20250604: Modem and mobile broadband management libraries
 net-misc/networkmanager 1.55.2_p20250723: A set of co-operative tools that make networking simple and straightforward
 net-misc/openssh 10.0_p2: Port of OpenBSD's free SSH release
