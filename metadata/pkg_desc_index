@@ -27,7 +27,7 @@ media-libs/mesa 25.2_pre20250730: OpenGL-like graphic library for Linux
 media-libs/vulkan-layers 1.4.323.0_p20250730: Vulkan Validation Layers
 media-libs/vulkan-loader 1.4.323.0_p20250730: Vulkan Installable Client Driver (ICD) Loader
 net-ftp/filezilla-pro 3.69.3: Commercial verison of FileZilla
-net-im/telegram-desktop 5.16.3: Official desktop client for Telegram
+net-im/telegram-desktop 6.0.0: Official desktop client for Telegram
 net-libs/libqmi 1.38.1_pre20250603: Qualcomm MSM (Mobile Station Modem) Interface (QMI) modem protocol library
 net-libs/nodejs 22.17.1 24.4.1: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-misc/modemmanager 1.25.1_p20250604: Modem and mobile broadband management libraries
