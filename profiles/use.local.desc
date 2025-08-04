@@ -11,6 +11,7 @@ app-editors/vscode:egl - Use EGL platform, enables smooth rendering in high refr
 app-editors/vscode:wayland - Run in wayland mode under wayland sessions, xwayland otherwise. This flag doesn't affect x11 sessions.
 app-editors/vscodium:egl - Use EGL platform, enables smooth rendering in high refresh rate monitors on X11/Xwayland
 app-editors/vscodium:wayland - Run in wayland mode under wayland sessions, xwayland otherwise. This flag doesn't affect x11 sessions.
+app-editors/zed:gles - Use simplified OpenGLES instead of full-scale OpenGL
 app-office/freeoffice:pax_kernel - Triggers a paxmarking of the binary
 app-office/libreoffice:base - Enable full support for LibreOffice Base databases (involves additional bundled libs)
 app-office/libreoffice:coinmp - Use sci-libs/coinor-mp as alternative solver
