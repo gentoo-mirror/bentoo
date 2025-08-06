@@ -25,6 +25,13 @@ app-office/libreoffice:vulkan - Enable Vulkan usage via the skia library (clang 
 app-office/libreoffice-l10n:offlinehelp - Install help files locally instead of using the LibreOffice Wiki
 dev-libs/sentry-native:breakpad - Use dev-util/breakpad as the crash handler
 dev-libs/sentry-native:curl - Enable support for automated uploading of crash reports
+dev-util/nvidia-cuda-toolkit:clang - Depend on llvm-core/clang as host compiler
+dev-util/nvidia-cuda-toolkit:debugger - Install the CUDA debugger
+dev-util/nvidia-cuda-toolkit:nsight - Install profiling and optimizing tools (nsight-compute, nsight-systems)
+dev-util/nvidia-cuda-toolkit:profiler - Install the NVIDIA CUDA profiler (nvprof) and the related libraries
+dev-util/nvidia-cuda-toolkit:rdma - Enable infiniband support via sys-cluster/rdma-core
+dev-util/nvidia-cuda-toolkit:sanitizer - Install compute-sanitizer tool
+dev-util/nvidia-cuda-toolkit:vis-profiler - Install the NVIDIA CUDA visual profiler (nvvp)
 dev-util/vulkan-tools:cube - Build the cube/cubepp demos
 media-gfx/blender:alembic - Add support for Alembic through media-gfx/alembic.
 media-gfx/blender:bullet - Enable Bullet (Physics Engine).
