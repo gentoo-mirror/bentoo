@@ -2,7 +2,7 @@ app-containers/docker 28.3.3: The core functions you need to create Docker image
 app-containers/docker-cli 28.3.3: the command line binary for docker
 app-containers/docker-compose 2.39.1: Multi-container orchestration for Docker
 app-containers/pods 2.2.0: Keep track of your podman containers
-app-editors/cursor 1.3.9: Cursor App - AI-first coding environment
+app-editors/cursor 1.4.2: Cursor App - AI-first coding environment
 app-editors/vscode 1.102.3: Multiplatform Visual Studio Code from Microsoft
 app-editors/vscodium 1.102.35058: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-editors/windsurf 1.11.3: AI-powered code editor maintaining flow state with instant assistance.
