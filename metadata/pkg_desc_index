@@ -5,7 +5,7 @@ app-containers/pods 2.2.0: Keep track of your podman containers
 app-editors/cursor 1.4.3: Cursor App - AI-first coding environment
 app-editors/vscodium 1.103.05312: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-editors/windsurf 1.11.5: AI-powered code editor maintaining flow state with instant assistance.
-app-editors/zed 0.196.5 0.197.5: The fast, collaborative code editor
+app-editors/zed 0.198.5: The fast, collaborative code editor
 app-office/freeoffice 1224: A complete, free Microsoft Office-compatible alternative office suite
 app-office/libreoffice 25.8.0.1: A full office productivity suite
 app-office/libreoffice-l10n 25.8.0.1: Translations for the Libreoffice suite
