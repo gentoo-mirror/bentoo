@@ -178,6 +178,10 @@ sys-apps/fwupd:test-full - Enable tests known not to play nicely with the sandbo
 sys-apps/fwupd:tpm - Install Trusted Platform Module plugin
 sys-apps/fwupd:uefi - Enable UEFI support
 sys-apps/shadow:su - build the su program
+sys-firmware/intel-microcode:hostonly - Only install ucode(s) supported by currently available (=online) processor(s)
+sys-firmware/intel-microcode:initramfs - Install a small initramfs for use with CONFIG_MICROCODE_EARLY
+sys-firmware/intel-microcode:split-ucode - Install the split binary ucode files (used by the kernel directly)
+sys-firmware/intel-microcode:vanilla - Only install microcode updates from Intel's official microcode tarball
 www-client/chromium:bundled-toolchain - Download and use the upstream binary toolchain(s) to build Chromium
 www-client/chromium:debug - Enable DCHECK feature with severity configurable at runtime. Mostly intended for debugging and development, NOT RECOMMENDED for general use.
 www-client/chromium:ffmpeg-chromium - (binpkg only) Use Chromium FFmpeg fork (media-video/ffmpeg-chromium) rather than mainline FFmpeg (media-video/ffmpeg)

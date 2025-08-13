@@ -12,7 +12,7 @@ app-office/libreoffice-l10n 25.8.0.1: Translations for the Libreoffice suite
 app-office/openoffice-bin 4.1.15: Apache OpenOffice productivity suite
 dev-libs/sentry-native 0.9.1: Sentry SDK for C, C++ and native applications
 dev-util/glslang 1.4.321.0_p20250808: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
-dev-util/mesa_clc 25.2_p20250809: mesa_clc tool used for building OpenCL C to SPIR-V
+dev-util/mesa_clc 25.2_p20250813: mesa_clc tool used for building OpenCL C to SPIR-V
 dev-util/nvidia-cuda-toolkit 13.0.0: NVIDIA CUDA Toolkit (compiler and friends)
 dev-util/spirv-headers 1.4.321.0_p20250805: Machine-readable files for the SPIR-V Registry
 dev-util/spirv-tools 1.4.321.0_p20250807: Provides an API and commands for processing SPIR-V modules
@@ -102,7 +102,7 @@ media-gfx/blender 4.5.1: 3D Creation/Animation/Publishing System
 media-gfx/inkscape 1.4.2: SVG based generic vector-drawing program
 media-gfx/pixieditor-bin 2.0.1.7: All-in-one solution for 2D image editing with pixel art focus (binary package)
 media-libs/gstreamer 1.26.4: Open source multimedia framework
-media-libs/mesa 25.2_p20250809: OpenGL-like graphic library for Linux
+media-libs/mesa 25.2_p20250813: OpenGL-like graphic library for Linux
 media-libs/vulkan-layers 1.4.324.0_p20250808: Vulkan Validation Layers
 media-libs/vulkan-loader 1.4.323.0_p20250808: Vulkan Installable Client Driver (ICD) Loader
 net-ftp/filezilla-pro 3.69.4: Commercial verison of FileZilla
@@ -120,6 +120,7 @@ sys-apps/bentoo-utils 0.1.9-r1: Utility for managing Git operations for the Bent
 sys-apps/busybox 1.37.0-r1: Utilities for rescue and embedded systems
 sys-apps/fwupd 2.0.13: Aims to make updating firmware on Linux automatic, safe and reliable
 sys-apps/shadow 4.17.2: Utilities to deal with user accounts
+sys-firmware/intel-microcode 20250812: Intel IA32/IA64 microcode update data
 www-client/brave-bin 1.81.131: Web browser that blocks ads and trackers by default
 www-client/chromium 139.0.7258.66: Open-source version of Google Chrome web browser
 www-client/librewolf 141.0.3_p1: LibreWolf Web Browser
