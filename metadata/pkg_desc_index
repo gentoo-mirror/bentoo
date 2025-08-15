@@ -122,5 +122,5 @@ sys-apps/fwupd 2.0.13: Aims to make updating firmware on Linux automatic, safe a
 sys-apps/shadow 4.17.2: Utilities to deal with user accounts
 sys-firmware/intel-microcode 20250812: Intel IA32/IA64 microcode update data
 www-client/brave-bin 1.81.131: Web browser that blocks ads and trackers by default
-www-client/chromium 139.0.7258.66: Open-source version of Google Chrome web browser
+www-client/chromium 139.0.7258.127: Open-source version of Google Chrome web browser
 www-client/librewolf 141.0.3_p1: LibreWolf Web Browser
