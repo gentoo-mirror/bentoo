@@ -9,7 +9,6 @@ app-office/freeoffice 1224: A complete, free Microsoft Office-compatible alterna
 app-office/libreoffice 25.8.0.4: A full office productivity suite
 app-office/libreoffice-l10n 25.8.0.4: Translations for the Libreoffice suite
 app-office/openoffice-bin 4.1.15: Apache OpenOffice productivity suite
-dev-lang/go 1.25.0: A concurrent garbage collected and typesafe programming language
 dev-libs/sentry-native 0.9.1: Sentry SDK for C, C++ and native applications
 dev-util/glslang 1.4.321.0_p20250815: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
 dev-util/mesa_clc 25.2_p20250816: mesa_clc tool used for building OpenCL C to SPIR-V
