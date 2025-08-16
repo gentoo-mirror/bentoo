@@ -25,7 +25,7 @@ mail-client/proton-mail-bin 1.9.0: Official Beta Proton Mail Linux app
 mail-mta/proton-mail-bridge 3.21.2-r2: Serves Proton Mail to IMAP/SMTP clients
 media-gfx/blender 4.5.1: 3D Creation/Animation/Publishing System
 media-gfx/inkscape 1.4.2: SVG based generic vector-drawing program
-media-gfx/kiro-bin 0.2.13_p202508150626: AI IDE that helps you do your best work by turning ideas into production code
+media-gfx/kiro 0.2.13_p202508150626-r1: AI IDE that helps you do your best work by turning ideas into production code
 media-gfx/pixieditor-bin 2.0.1.9: All-in-one solution for 2D image editing with pixel art focus (binary package)
 media-libs/gstreamer 1.26.5: Open source multimedia framework
 media-libs/mesa 25.2_p20250816: OpenGL-like graphic library for Linux

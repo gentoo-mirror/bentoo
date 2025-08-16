@@ -63,7 +63,7 @@ media-gfx/inkscape:sourceview - Enable syntax highlighting support via x11-libs/
 media-gfx/inkscape:svg2 - Enable support for new SVG2 features
 media-gfx/inkscape:visio - Enable support for Microsoft Visio diagrams via media-libs/libvisio
 media-gfx/inkscape:wpg - Enable support for WordPerfect graphics via app-text/libwpg
-media-gfx/kiro-bin:wayland - Enable native Wayland support for better integration with Wayland-based desktop environments
+media-gfx/kiro:wayland - Enable native Wayland support for better integration with Wayland-based desktop environments
 media-gfx/pixieditor-bin:opengl - Ensure OpenGL support is available (requires graphics drivers)
 media-gfx/pixieditor-bin:vulkan - Install Vulkan loader for hardware-accelerated rendering (requires compatible GPU and drivers)
 media-libs/gstreamer:ptp - Controls Precision Time Protocol (PTP) helper. Written in Rust.
