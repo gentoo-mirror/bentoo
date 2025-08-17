@@ -6,8 +6,6 @@ app-editors/cursor 1.4.5: Cursor App - AI-first coding environment
 app-editors/windsurf 1.12.2: AI-powered code editor maintaining flow state with instant assistance.
 app-editors/zed 0.199.6: The fast, collaborative code editor
 app-office/freeoffice 1224: A complete, free Microsoft Office-compatible alternative office suite
-app-office/libreoffice 25.8.0.4: A full office productivity suite
-app-office/libreoffice-l10n 25.8.0.4: Translations for the Libreoffice suite
 app-office/openoffice-bin 4.1.15: Apache OpenOffice productivity suite
 dev-libs/sentry-native 0.9.1: Sentry SDK for C, C++ and native applications
 dev-util/glslang 1.4.321.0_p20250815: Khronos reference front-end for GLSL and ESSL, and sample SPIR-V generator
