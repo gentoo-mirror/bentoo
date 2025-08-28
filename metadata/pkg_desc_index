@@ -3,6 +3,7 @@ app-containers/docker-cli 28.3.3: the command line binary for docker
 app-containers/docker-compose 2.39.2: Multi-container orchestration for Docker
 app-containers/pods 2.2.0: Keep track of your podman containers
 app-editors/cursor 1.4.5: Cursor App - AI-first coding environment
+app-editors/kiro 0.2.13_p202508150626-r1: AI IDE that helps you do your best work by turning ideas into production code
 app-editors/windsurf 1.12.2: AI-powered code editor maintaining flow state with instant assistance.
 app-editors/zed 0.199.6: The fast, collaborative code editor
 app-office/freeoffice 1224: A complete, free Microsoft Office-compatible alternative office suite
@@ -17,25 +18,24 @@ dev-util/volk 1.4.325.0_p20250808: Meta loader for Vulkan API
 dev-util/vulkan-headers 1.4.325.0_p20250808: Vulkan Header files and API registry
 dev-util/vulkan-tools 1.4.323.0_p20250814: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
 dev-util/vulkan-utility-libraries 1.4.325.0_p20250808: Share code across various Vulkan repositories
-mail-client/betterbird-bin 128.14.0: Betterbird is a fine-tuned version of Mozilla Thunderbird.
+mail-client/betterbird-bin 140.2.0: Betterbird is a fine-tuned version of Mozilla Thunderbird.
 mail-client/proton-mail-bin 1.9.0: Official Beta Proton Mail Linux app
 mail-mta/proton-mail-bridge 3.21.2-r2: Serves Proton Mail to IMAP/SMTP clients
 media-gfx/blender 4.5.1: 3D Creation/Animation/Publishing System
 media-gfx/inkscape 1.4.2: SVG based generic vector-drawing program
-media-gfx/kiro 0.2.13_p202508150626-r1: AI IDE that helps you do your best work by turning ideas into production code
 media-gfx/pixieditor-bin 2.0.1.9: All-in-one solution for 2D image editing with pixel art focus (binary package)
 media-libs/gstreamer 1.26.5: Open source multimedia framework
 media-libs/mesa 25.2.1_p20250821: OpenGL-like graphic library for Linux
 media-libs/vulkan-layers 1.4.324.0_p20250815: Vulkan Validation Layers
 media-libs/vulkan-loader 1.4.323.0_p20250813: Vulkan Installable Client Driver (ICD) Loader
 net-ftp/filezilla-pro 3.69.4: Commercial verison of FileZilla
-net-im/telegram-desktop 6.0.2: Official desktop client for Telegram
 net-libs/libqmi 1.38.1_pre20250619: Qualcomm MSM (Mobile Station Modem) Interface (QMI) modem protocol library
 net-libs/nodejs 22.18.0 24.6.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-misc/modemmanager 1.25.1_p20250808: Modem and mobile broadband management libraries
 net-misc/networkmanager 1.55.3_p20250813: A set of co-operative tools that make networking simple and straightforward
+net-misc/nxplayer 9.1.24.6: Client for NoMachine remote servers
 net-misc/openssh 10.0_p2: Port of OpenBSD's free SSH release
-net-misc/postman-bin 11.58.4: API platform for building and using APIs
+net-misc/postman-bin 11.59.5: API platform for building and using APIs
 net-p2p/bisq-bin 1.9.21: The decentralized bitcoin exchange (non-atomic, with arbitration)
 net-p2p/qbittorrent 5.1.2: BitTorrent client in C++ and Qt
 net-p2p/syncthing 1.30.0 2.0.2: Open Source Continuous File Synchronization
@@ -43,6 +43,6 @@ sys-apps/bentoo-utils 0.1.9-r1: Utility for managing Git operations for the Bent
 sys-apps/busybox 1.37.0-r1: Utilities for rescue and embedded systems
 sys-apps/fwupd 2.0.13: Aims to make updating firmware on Linux automatic, safe and reliable
 sys-apps/shadow 4.18.0: Utilities to deal with user accounts
-www-client/brave-bin 1.81.135: Web browser that blocks ads and trackers by default
+www-client/brave-bin 1.81.136: Web browser that blocks ads and trackers by default
 www-client/chromium 139.0.7258.138: Open-source version of Google Chrome web browser
-www-client/librewolf 141.0.3_p1: LibreWolf Web Browser
+www-client/librewolf 142.0_p1: LibreWolf Web Browser
