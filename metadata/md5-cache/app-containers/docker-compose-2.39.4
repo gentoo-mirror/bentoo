@@ -1,0 +1,15 @@
+BDEPEND=>=dev-lang/go-1.24.7 net-misc/wget net-misc/curl dev-vcs/git >=dev-lang/go-1.20:= app-arch/unzip
+DEFINED_PHASES=compile configure install postinst prepare test unpack
+DESCRIPTION=Multi-container orchestration for Docker
+EAPI=8
+HOMEPAGE=https://github.com/docker/compose
+INHERIT=eapi9-ver go-env go-module
+KEYWORDS=~amd64 ~arm64
+LICENSE=Apache-2.0
+PROPERTIES=test_network
+RDEPEND=app-containers/docker-cli
+RESTRICT=network-sandbox strip
+SLOT=2
+SRC_URI=https://github.com/docker/compose/archive/v2.39.4.tar.gz -> docker-compose-2.39.4.gh.tar.gz
+_eclasses_=eapi9-ver	6a71fa30cdb3fe445114fdeab156c1f0	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	go-env	0e2babf96e7d0b045fc07ad199eb2399	multiprocessing	1e32df7deee68372153dca65f4a7c21f	go-module	d96f2a2fd6d8fbad6d94516bf238f885
+_md5_=f57bd1a6d3022de6bbc7faec0c0103ae
