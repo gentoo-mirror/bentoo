@@ -1,12 +1,11 @@
 app-containers/docker 28.4.0: The core functions you need to create Docker images and run Docker containers
 app-containers/docker-cli 28.4.0: the command line binary for docker
 app-containers/docker-compose 2.39.4: Multi-container orchestration for Docker
-app-containers/podman 5.6.1: A tool for managing OCI containers and pods with Docker-compatible CLI
 app-containers/pods 2.2.0: Keep track of your podman containers
 app-editors/cursor 1.6.35: Cursor App - AI-first coding environment
-app-editors/kiro 0.2.13_p202508150626: AI IDE that helps you do your best work by turning ideas into production code
+app-editors/kiro 0.2.59_p202509172055: AI IDE that helps you do your best work by turning ideas into production code
 app-editors/vscodium 1.104.16282: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
-app-editors/windsurf 1.12.2: AI-powered code editor maintaining flow state with instant assistance.
+app-editors/windsurf 1.12.6: AI-powered code editor maintaining flow state with instant assistance.
 app-editors/zed 0.199.6: The fast, collaborative code editor
 app-office/freeoffice 1228: A complete, free Microsoft Office-compatible alternative office suite
 app-office/openoffice-bin 4.1.15: Apache OpenOffice productivity suite

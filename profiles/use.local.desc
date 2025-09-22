@@ -5,8 +5,6 @@
 app-containers/docker:btrfs - Enables dependencies for the "btrfs" graph driver, including necessary kernel flags.
 app-containers/docker:container-init - Makes the a staticly-linked init system tini available inside a container.
 app-containers/docker:overlay2 - Enables dependencies for the "overlay2" graph driver, including necessary kernel flags.
-app-containers/podman:btrfs - Enables btrfs support (graph driver) in Podman
-app-containers/podman:wrapper - Install wrapper which lets use podman for command `docker`
 app-editors/cursor:egl - Use EGL platform, enables smooth rending in high refresh rate monitors on X11/Xwayland
 app-editors/cursor:wayland - Run in wayland mode under wayland sessions, xwayland otherwise. This flag doesn't affect x11 sessions.
 app-editors/kiro:wayland - Enable native Wayland support for better integration with Wayland-based desktop environments
