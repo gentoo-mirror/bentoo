@@ -6,7 +6,7 @@ app-editors/cursor 1.6.35: Cursor App - AI-first coding environment
 app-editors/kiro 0.2.59_p202509172055: AI IDE that helps you do your best work by turning ideas into production code
 app-editors/vscodium 1.104.16282: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-editors/windsurf 1.12.6: AI-powered code editor maintaining flow state with instant assistance.
-app-editors/zed 0.199.6: The fast, collaborative code editor
+app-editors/zed 0.204.5: The fast, collaborative code editor
 app-office/freeoffice 1228: A complete, free Microsoft Office-compatible alternative office suite
 app-office/openoffice-bin 4.1.15: Apache OpenOffice productivity suite
 dev-libs/sentry-native 0.11.0: Sentry SDK for C, C++ and native applications
@@ -37,7 +37,7 @@ net-misc/modemmanager 1.25.1_p20250919: Modem and mobile broadband management li
 net-misc/networkmanager 1.55.4_p20250912: A set of co-operative tools that make networking simple and straightforward
 net-misc/nxplayer 9.1.24.6: Client for NoMachine remote servers
 net-misc/openssh 10.0_p2: Port of OpenBSD's free SSH release
-net-misc/postman-bin 11.63.6: API platform for building and using APIs
+net-misc/postman-bin 11.64.0: API platform for building and using APIs
 net-p2p/bisq-bin 1.9.21: The decentralized bitcoin exchange (non-atomic, with arbitration)
 net-p2p/qbittorrent 5.1.2: BitTorrent client in C++ and Qt
 net-p2p/syncthing 2.0.9: Open Source Continuous File Synchronization
@@ -45,6 +45,7 @@ sys-apps/bentoo-utils 0.1.9-r1: Utility for managing Git operations for the Bent
 sys-apps/busybox 1.37.0-r1: Utilities for rescue and embedded systems
 sys-apps/fwupd 2.0.16: Aims to make updating firmware on Linux automatic, safe and reliable
 sys-apps/shadow 4.18.0: Utilities to deal with user accounts
+sys-apps/systemd 258: System and service manager for Linux
 www-client/brave-bin 1.82.170: Web browser that blocks ads and trackers by default
 www-client/chromium 141.0.7390.30: Open-source version of Google Chrome web browser
 www-client/firefox 143.0.1: Firefox Web Browser
