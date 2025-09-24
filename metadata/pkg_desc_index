@@ -45,7 +45,6 @@ sys-apps/bentoo-utils 0.1.9-r1: Utility for managing Git operations for the Bent
 sys-apps/busybox 1.37.0-r1: Utilities for rescue and embedded systems
 sys-apps/fwupd 2.0.16: Aims to make updating firmware on Linux automatic, safe and reliable
 sys-apps/shadow 4.18.0: Utilities to deal with user accounts
-sys-apps/systemd 258: System and service manager for Linux
 www-client/brave-bin 1.82.170: Web browser that blocks ads and trackers by default
 www-client/chromium 141.0.7390.30: Open-source version of Google Chrome web browser
 www-client/firefox 143.0.1: Firefox Web Browser

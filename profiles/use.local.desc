@@ -167,33 +167,6 @@ sys-apps/fwupd:test-full - Enable tests known not to play nicely with the sandbo
 sys-apps/fwupd:tpm - Install Trusted Platform Module plugin
 sys-apps/fwupd:uefi - Enable UEFI support
 sys-apps/shadow:su - build the su program
-sys-apps/systemd:audit - Enable support for sys-process/audit
-sys-apps/systemd:boot - Enable EFI boot manager and stub loader
-sys-apps/systemd:bpf - Enable BPF support for sandboxing and firewalling.
-sys-apps/systemd:cgroup-hybrid - Default to hybrid (legacy) cgroup hierarchy instead of unified (modern).
-sys-apps/systemd:cryptsetup - Enable cryptsetup tools (includes unit generator for crypttab)
-sys-apps/systemd:curl - Enable support for uploading journals
-sys-apps/systemd:dns-over-tls - Enable DNS-over-TLS support
-sys-apps/systemd:elfutils - Enable coredump stacktraces in the journal
-sys-apps/systemd:fido2 - Enable FIDO2 support
-sys-apps/systemd:gcrypt - Enable use of dev-libs/libgcrypt for various features
-sys-apps/systemd:homed - Enable portable home directories
-sys-apps/systemd:http - Enable embedded HTTP server in journald
-sys-apps/systemd:importd - Enable import daemon
-sys-apps/systemd:iptables - Use libiptc from net-firewall/iptables for NAT support in systemd-networkd; this is used only if the running kernel does not support nftables
-sys-apps/systemd:kernel-install - Enable kernel-install
-sys-apps/systemd:kmod - Enable kernel module loading via sys-apps/kmod
-sys-apps/systemd:lz4 - Enable lz4 compression for the journal
-sys-apps/systemd:openssl - Enable use of dev-libs/openssl for various features
-sys-apps/systemd:pkcs11 - Enable PKCS#11 support for cryptsetup and homed
-sys-apps/systemd:pwquality - Enable password quality checking in homed
-sys-apps/systemd:qrcode - Enable qrcode output support in journal
-sys-apps/systemd:resolvconf - Install resolvconf symlink for systemd-resolve
-sys-apps/systemd:sysv-utils - Install sysvinit compatibility symlinks and manpages for init, telinit, halt, poweroff, reboot, runlevel, and shutdown
-sys-apps/systemd:tpm - Enable TPM support
-sys-apps/systemd:ukify - Enable systemd-ukify
-sys-apps/systemd:vanilla - Disable Gentoo-specific behavior and compatibility quirks
-sys-apps/systemd:xkb - Depend on x11-libs/libxkbcommon to allow logind to control the X11 keymap
 www-client/chromium:bundled-toolchain - Download and use the upstream binary toolchain(s) to build Chromium
 www-client/chromium:debug - Enable DCHECK feature with severity configurable at runtime. Mostly intended for debugging and development, NOT RECOMMENDED for general use.
 www-client/chromium:ffmpeg-chromium - (binpkg only) Use Chromium FFmpeg fork (media-video/ffmpeg-chromium) rather than mainline FFmpeg (media-video/ffmpeg)
