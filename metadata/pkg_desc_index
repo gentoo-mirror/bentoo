@@ -7,6 +7,7 @@ app-editors/kiro 0.2.59_p202509172055: AI IDE that helps you do your best work b
 app-editors/vscodium 1.104.16282: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-editors/windsurf 1.12.6: AI-powered code editor maintaining flow state with instant assistance.
 app-editors/zed 0.204.5: The fast, collaborative code editor
+app-emulation/wine-staging 10.16: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
 app-office/freeoffice 1228: A complete, free Microsoft Office-compatible alternative office suite
 app-office/openoffice-bin 4.1.15: Apache OpenOffice productivity suite
 dev-libs/sentry-native 0.11.0: Sentry SDK for C, C++ and native applications
@@ -32,12 +33,11 @@ media-libs/vulkan-loader 1.4.327.0_p20250919: Vulkan Installable Client Driver (
 media-video/vlc 3.0.22: Media player and framework with support for most multimedia files and streaming
 net-ftp/filezilla-pro 3.69.4: Commercial verison of FileZilla
 net-libs/libqmi 1.38.1_pre20250905: Qualcomm MSM (Mobile Station Modem) Interface (QMI) modem protocol library
-net-libs/nodejs 24.8.0: A JavaScript runtime built on Chrome's V8 JavaScript engine
 net-misc/modemmanager 1.25.1_p20250919: Modem and mobile broadband management libraries
 net-misc/networkmanager 1.55.4_p20250912: A set of co-operative tools that make networking simple and straightforward
 net-misc/nxplayer 9.1.24.6: Client for NoMachine remote servers
 net-misc/openssh 10.0_p2: Port of OpenBSD's free SSH release
-net-misc/postman-bin 11.64.0: API platform for building and using APIs
+net-misc/postman-bin 11.65.4: API platform for building and using APIs
 net-p2p/bisq-bin 1.9.21: The decentralized bitcoin exchange (non-atomic, with arbitration)
 net-p2p/qbittorrent 5.1.2: BitTorrent client in C++ and Qt
 net-p2p/syncthing 2.0.9: Open Source Continuous File Synchronization
@@ -45,7 +45,4 @@ sys-apps/bentoo-utils 0.1.9-r1: Utility for managing Git operations for the Bent
 sys-apps/busybox 1.37.0-r1: Utilities for rescue and embedded systems
 sys-apps/fwupd 2.0.16: Aims to make updating firmware on Linux automatic, safe and reliable
 sys-apps/shadow 4.18.0: Utilities to deal with user accounts
-www-client/brave-bin 1.82.170: Web browser that blocks ads and trackers by default
-www-client/chromium 141.0.7390.30: Open-source version of Google Chrome web browser
-www-client/firefox 143.0.1: Firefox Web Browser
-www-client/librewolf 143.0_p1: LibreWolf Web Browser
+www-client/brave-bin 1.83.109: Web browser that blocks ads and trackers by default
