@@ -11,5 +11,5 @@ RDEPEND=>=app-accessibility/at-spi2-core-2.5.3 app-crypt/libsecret >=dev-libs/ex
 RESTRICT=mirror strip bindist
 SLOT=0
 SRC_URI=https://prod.download.desktop.kiro.dev/releases/202510022241--distro-linux-x64-deb/202510022241-distro-linux-x64.deb -> kiro-0.3.9_p202510022241.deb
-_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	bash-completion-r1	767861f3744f589ee5291c1698b1c082	desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	multiprocessing	1e32df7deee68372153dca65f4a7c21f	unpacker	3b4ee72d1e2e0374fd8cd3eddfa00627	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575
+_eclasses_=toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	bash-completion-r1	767861f3744f589ee5291c1698b1c082	desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	multiprocessing	1e32df7deee68372153dca65f4a7c21f	unpacker	3b4ee72d1e2e0374fd8cd3eddfa00627	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575
 _md5_=c3590ba3465c31694f1608d0f11dbbcd
