@@ -10,7 +10,6 @@ app-editors/cursor:wayland - Run in wayland mode under wayland sessions, xwaylan
 app-editors/kiro:wayland - Enable native Wayland support for better integration with Wayland-based desktop environments
 app-editors/vscodium:egl - Use EGL platform, enables smooth rendering in high refresh rate monitors on X11/Xwayland
 app-editors/vscodium:wayland - Run in wayland mode under wayland sessions, xwayland otherwise. This flag doesn't affect x11 sessions.
-app-editors/zed:gles - Use simplified OpenGLES instead of full-scale OpenGL
 app-emulation/wine-staging:arm64ec - Enable support for running x86_64 applications on arm64 via binary translation
 app-emulation/wine-staging:capi - Enable ISDN support using net-libs/libcapi
 app-emulation/wine-staging:crossdev-mingw - Use sys-devel/crossdev for the toolchain rather than dev-util/mingw64-toolchain (requires manual setting up and is mostly unsupported, try disabling if have issues)

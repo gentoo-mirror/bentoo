@@ -7,7 +7,7 @@ app-editors/cursor 1.7.44: Cursor App - AI-first coding environment
 app-editors/kiro 0.3.9_p202510022241-r1: AI IDE that helps you do your best work by turning ideas into production code
 app-editors/vscodium 1.105.06808: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-editors/windsurf 1.12.6: AI-powered code editor maintaining flow state with instant assistance.
-app-editors/zed 0.204.5 0.207.3: The fast, collaborative code editor
+app-editors/zed 0.207.4: The fast, collaborative code editor
 app-emulation/wine-staging 10.16: Free implementation of Windows(tm) on Unix, with Wine-Staging patchset
 app-office/freeoffice 1228: A complete, free Microsoft Office-compatible alternative office suite
 app-office/openoffice-bin 4.1.15: Apache OpenOffice productivity suite
