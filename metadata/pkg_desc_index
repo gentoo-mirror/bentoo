@@ -4,7 +4,7 @@ app-containers/docker-compose 2.39.4: Multi-container orchestration for Docker
 app-containers/podman-compose 1.4.0: A script to run docker-compose.yml using Podman
 app-containers/pods 2.2.0: Keep track of your podman containers
 app-editors/cursor 1.7.44: Cursor App - AI-first coding environment
-app-editors/kiro 0.3.9_p202510022241-r1: AI IDE that helps you do your best work by turning ideas into production code
+app-editors/kiro 0.3.9_p202510142329: AI IDE that helps you do your best work by turning ideas into production code
 app-editors/vscodium 1.105.06808: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-editors/windsurf 1.12.6: AI-powered code editor maintaining flow state with instant assistance.
 app-editors/zed 0.207.4: The fast, collaborative code editor
