@@ -10,6 +10,6 @@ LICENSE=MIT
 RDEPEND=>=app-accessibility/at-spi2-core-2.5.3 app-crypt/libsecret >=dev-libs/expat-2.1_beta3 >=dev-libs/glib-2.37.3:2 >=dev-libs/nspr-4.9 >=dev-libs/nss-3.26 >=media-libs/alsa-lib-1.0.17 >=media-libs/mesa-17.1.0[gbm(+)] >=net-misc/curl-7.0.0 >=net-print/cups-1.6.0 >=sys-apps/dbus-1.9.14 >=sys-apps/util-linux-2.25 >=x11-libs/cairo-1.6.0 >=x11-libs/gtk+-3.9.10:3[wayland?] >=x11-libs/libdrm-2.4.75 >=x11-libs/libX11-1.4.99.1 >=x11-libs/libxcb-1.9.2 >=x11-libs/libXcomposite-0.4.4 >=x11-libs/libXdamage-1.1 x11-libs/libXext x11-libs/libXfixes >=x11-libs/libxkbcommon-0.5.0 >=x11-libs/libxkbfile-1.1.0 x11-libs/libXrandr >=x11-libs/pango-1.14.0 >=x11-misc/xdg-utils-1.0.2 wayland? ( dev-libs/wayland ) media-libs/vulkan-loader
 RESTRICT=mirror strip bindist
 SLOT=0
-SRC_URI=https://prod.download.desktop.kiro.dev/releases/202510142329--distro-linux-x64-deb/202510142329-distro-linux-x64.deb -> kiro-0.4.0_p202510142329.deb
+SRC_URI=https://prod.download.desktop.kiro.dev/releases/202510301715--distro-linux-x64-deb/202510301715-distro-linux-x64.deb -> kiro-0.4.0_p202510301715.deb
 _eclasses_=toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	bash-completion-r1	767861f3744f589ee5291c1698b1c082	desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	multiprocessing	1e32df7deee68372153dca65f4a7c21f	unpacker	3b4ee72d1e2e0374fd8cd3eddfa00627	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575
-_md5_=aa91a1e483ea63f302a1bc7cc6cfc466
+_md5_=05130c2ab8a468ccab93022357fad5de
